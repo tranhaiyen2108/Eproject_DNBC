@@ -36,26 +36,16 @@ CREATE TABLE DNBC_PostCollection(
 );
 
 
-CREATE TABLE DNBC_Keywords(
-	KeywordID int primary key identity(1,1),
-);
-
-CREATE TABLE DNBC_PostKeywords(
-	KeywordID int not null foreign key references DNBC_Keywords(KeywordID),
-	PostID int not null foreign key references DNBC_Posts(PostID),
-	KeyWord varchar(100) not null unique,
-);
-
 CREATE TABLE DNBC_Ads(
 	AdID int primary key identity(1,1),
 	Link varchar(512) not null,
 	Logo varchar(512),
 	AdContent text,
+	PostID int not null foreign key references DNBC_Posts(PostID)
 );
 
 
-Drop table DNBC_Posts;
-Drop table DNBC_Comments
-drop table DNBC_PostKeywords;
-Drop table DNBC_Collections;
-drop table DNBC_PostCollection;
+INSERT INTO DNBC_Categories(CategoryName,ParentID) values 
+('Business',0),('Automobiles',1),('Energy',1),('Finance',1),
+('Politics',0),('East Asia',5),('Southeast Asia',5),('Reast of the world',5),
+('Sport',0),('Football',9),('Tennis',9),('Others',9);
