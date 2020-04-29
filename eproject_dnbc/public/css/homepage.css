@@ -48,7 +48,11 @@
     transition: transform 0.25s ease;
 }
 #lead-top img{
+    width: auto;
     height: auto;
+    display: block;
+    max-width: 1600px;
+    max-height: 400px;
     padding: 0;
     overflow: hidden;
 }
@@ -184,13 +188,13 @@
     line-height: 80px;
     padding-right: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1095px) {
     .nav-left .open-nav {margin-top: 0}
     .menu_1{visibility: hidden}
 }
-
-
-
+p{
+    margin: 0;
+}
 
 
 /*footer*/
@@ -234,4 +238,4 @@ footer{
         justify-content: center;}
     .footer-right p{text-align: center}
 }
-
+#main-body-wrap{}
