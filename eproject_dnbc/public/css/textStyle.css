@@ -99,6 +99,8 @@
     margin-left: 11.45833%;
     font-size: 21px;
     line-height: 1.52;
+    cursor: text;
+    text-decoration: none;
 }
 @media (max-width: 639px) and (min-width: 0px){
     .ArticleBody_container p {
@@ -106,12 +108,12 @@
         line-height: 1.6;
     }}
 
-.ArticleImage{
+.ArticleMedia{
     position: relative;
     max-width: 1280px;
     margin: 0 auto 60px;
 }
-.ArticleImage_container{
+.ArticleMedia_container{
     position: relative;
     background-image: none;
     width: 100%;
@@ -119,7 +121,7 @@
     padding-bottom: 66.6%;
     z-index: 0;
 }
-.ArticleImage_container .Image{
+.ArticleMedia_container .Image{
     cursor: zoom-in;
     position: absolute;
     top: 0;
@@ -130,8 +132,9 @@
     overflow: hidden;
     background-position: center center;
     background-size: cover;
+    object-fit:contain;
 }
-.ArticleImage_containe figcaption {
+.ArticleMedia_container figcaption {
     font-family: "freight-book", serif;
     position: relative;
     font-size: 14px;
@@ -145,4 +148,18 @@ figcaption .Image_caption{
     text-align: left;
     color: #313132;
     width: 70%;
+    display: none;
+}
+.ArticleMedia_container .Video{
+    cursor: pointer;
+    pointer-events: all;
+    overflow: hidden;
+    position: absolute;
+    object-fit:contain;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: 1px solid black;
 }
