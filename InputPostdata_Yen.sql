@@ -1,68 +1,201 @@
-﻿INSERT INTO DNBC_Posts(PostID,PostTitle,PostSummary,PostWriter,PostDateTime,PostContent,CategoryID) values
-	('y1','<h1 class="ArticleHeader_headline">Toyota extends North American plant shutdown; will stop paying 5,000 temporary workers</h1>',
-	'<p>Toyota Motor Corp said Wednesday it plans to reopen its North American auto plants on May 4, extending its current shutdown by two additional weeks.</p>',
-	'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by David Shepardson; Editing by Chizu Nomiyama</p></div></div>',
-	'<div class="ArticleHeader_date">2020-04-09</div>',
-		'<p>WASHINGTON (Reuters) - Toyota Motor Corp said Wednesday it plans to reopen its North American auto plants on May 4, extending its current shutdown by two additional weeks.</p>
-		<p>The Japanese automaker cited the ongoing COVID-19 pandemic and decline in vehicle demand to extend the halt of production at all of its automobile and components plants in Canada, Mexico and the United States.</p>
-		<p>Toyota will not furlough its direct employees, but has asked its hourly plant employees to take two days out of the 10 day extension as paid time off or they can go without pay if they don’t have accrued leave.</p>
-		<p>For Toyota’s 5,000 workers provided by outside agencies, Toyota is releasing those workers back to their agencies. Toyota will continue to pay the benefits of those workers for the time being, and they may be eligible for unemployment.</p>
-		<p>On Tuesday, Honda Motor Co and Nissan Motor Co on Tuesday said they had furloughed thousands of workers at their U.S. operations as the coronavirus pandemic slashes demand for cars in the country.</p>
-		<p>A spokesman for Honda, which employs about 18,400 workers at plants in Alabama, Indiana and Ohio, said the Japanese automaker would guarantee salaries through Sunday, having suspended operations on March 23. The plants will be closed through May 1.</p>
-		<p>Nissan said it was temporarily laying off about 10,000 U.S. hourly workers effective April 6. It has suspended operations at its U.S. manufacturing facilities through late April due to the impact of the outbreak.</p>
-		<p>Automakers are facing a dramatic drop in sales in the United States, the world’s second-largest car market, after some states barred dealers from selling new cars while “stay-at-home” orders are in place. Fiat Chrysler Automobiles NV on Monday extended its shutdown of U.S. and Canadian plants until May 4.</p>'
-		,2),
-	('y2','<h1 class="ArticleHeader_headline">Coronavirus concerns delay restart of Ford’s North American production</h1>',
-	'<p>Ford Motor Co (F.N) said on Tuesday it was postponing its plan to restart production at its North America plants due to safety concerns for its workers amid the coronavirus pandemic.</p>',
-	'<p>To generate cash, the No. 2 U.S. automaker had said last week it was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>',
-	'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Nick Carey, Sanjana Shivdas</p></div></div>',
-	'<div class="ArticleHeader_date">2020-03-30</div>',
-	'<p>To generate cash, the No. 2 U.S. automaker had said last week it was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>
-		<p>But on Tuesday, Ford said that although it had been aiming to resume production at several key U.S. plants on April 14, it would now do so at dates to be announced later on.</p>
-		<p>But on Tuesday, Ford said that although it had been aiming to resume production at several key U.S. plants on April 14, it would now do so at dates to be announced later on.</p>
-		<p>Still, the automaker will open a plant in Ypsilanti, Michigan, during the week of April 20, that will make ventilators to treat patients afflicted by the coronavirus.</p>
-		<p>Michigan, which is home to a large portion of the U.S. automotive industry, has also become a hot spot in the pandemic. Schools and all but essential businesses have been ordered closed through at least April 13 to slow the spread of the coronavirus.</p>
-		<p>Galhotra said Ford was working closely with the United Auto Workers union to “develop additional health and safety procedures” to help keep hourly workers healthy.</p>
-		<p>“Today’s decision by Ford is the right decision for our members, their families and our nation,” UAW President Rory Gamble said in a statement.</p>
-		<p>A spokeswoman for FCA said the automaker was “continuing to monitor the situation.”</p>
-		<p>General Motors Co (GM.N) has shuttered its plants indefinitely and has not provided a date for vehicle production to restart.</p>
-		<p>“Once it is safe to resume production, we will do so,” a GM spokesman said.</p>',2),
+﻿ 
+ id y1   update DNBC_Posts set PostContent =  '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Toyota extends North American plant shutdown; will stop paying 5,000 temporary workers</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">PUBLISHED APRIL 9, 2020 / 12:07 AM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by David Shepardson</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>To generate cash, the No. 2 U.S. automaker had said last week it was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_01.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>A view shows the Toyota Motor Manufacturing plant in Tijuana, Mexico May 31, 2019</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Jorge Duenes</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>WASHINGTON (Reuters) - Toyota Motor Corp said Wednesday it plans to reopen its North American auto plants on May 4, extending its current shutdown by two additional weeks.</p>
+                <p>The Japanese automaker cited the ongoing COVID-19 pandemic and decline in vehicle demand to extend the halt of production at all of its automobile and components plants in Canada, Mexico and the United States.</p>
+                <p>Toyota will not furlough its direct employees, but has asked its hourly plant employees to take two days out of the 10 day extension as paid time off or they can go without pay if they don’t have accrued leave.</p>
+                <p>For Toyota’s 5,000 workers provided by outside agencies, Toyota is releasing those workers back to their agencies. Toyota will continue to pay the benefits of those workers for the time being, and they may be eligible for unemployment.</p>
+                <p>On Tuesday, Honda Motor Co and Nissan Motor Co on Tuesday said they had furloughed thousands of workers at their U.S. operations as the coronavirus pandemic slashes demand for cars in the country.</p>
+                <p>A spokesman for Honda, which employs about 18,400 workers at plants in Alabama, Indiana and Ohio, said the Japanese automaker would guarantee salaries through Sunday, having suspended operations on March 23. The plants will be closed through May 1.</p>
+                <p>Nissan said it was temporarily laying off about 10,000 U.S. hourly workers effective April 6. It has suspended operations at its U.S. manufacturing facilities through late April due to the impact of the outbreak.</p>
+                <p>Automakers are facing a dramatic drop in sales in the United States, the world’s second-largest car market, after some states barred dealers from selling new cars while “stay-at-home” orders are in place. Fiat Chrysler Automobiles NV on Monday extended its shutdown of U.S. and Canadian plants until May 4.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y1';
+
+id y2 update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Coronavirus concerns delay restart of Ford’s North American production</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">PUBLISHED MARCH 31, 2020  6:22 PM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Nick Carey, Sanjana Shivdas</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>To generate cash, the No. 2 U.S. automaker had said last week it was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_02.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>The front grill logo of a Ford pickup truck is seen in this photo taken in Carlsbad, California November 5, 2014</h4></div>
+                            <div class="Image_caption "><h6>REUTERS| Mike Blake</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>But on Tuesday, Ford said that although it had been aiming to resume production at several key U.S. plants on April 14, it would now do so at dates to be announced later on.</p>
+                <p>But on Tuesday, Ford said that although it had been aiming to resume production at several key U.S. plants on April 14, it would now do so at dates to be announced later on.</p>
+                <p>Still, the automaker will open a plant in Ypsilanti, Michigan, during the week of April 20, that will make ventilators to treat patients afflicted by the coronavirus.</p>
+                <p>Michigan, which is home to a large portion of the U.S. automotive industry, has also become a hot spot in the pandemic. Schools and all but essential businesses have been ordered closed through at least April 13 to slow the spread of the coronavirus.</p>
+                <p>Galhotra said Ford was working closely with the United Auto Workers union to “develop additional health and safety procedures” to help keep hourly workers healthy.</p>
+                <p>“Today’s decision by Ford is the right decision for our members, their families and our nation,” UAW President Rory Gamble said in a statement.</p>
+                <p>A spokeswoman for FCA said the automaker was “continuing to monitor the situation.”</p>
+                <p>General Motors Co (GM.N) has shuttered its plants indefinitely and has not provided a date for vehicle production to restart.</p>
+                <p>“Once it is safe to resume production, we will do so,” a GM spokesman said.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y2';
 	
-	('y3','<h1 class="ArticleHeader_headline">Honda extends Mexican plant shutdown, furloughs more US workers</h1>',
-		'<p>WASHINGTON (Reuters) - Japanese automaker Honda Motor Co (7267.T) said Wednesday it will extend a shutdown of its Mexican plants through April 30 and plans to furlough most U.S. salaried workers for two weeks as a result of the coronavirus pandemic.</p>',
-		'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Nick Carey, Sanjana Shivdas</p></div></div>',
-		'<div class="ArticleHeader_date">2020-04-15</div>',
-		'<p>WASHINGTON (Reuters) - Japanese automaker Honda Motor Co (7267.T) said Wednesday it will extend a shutdown of its Mexican plants through April 30 and plans to furlough most U.S. salaried workers for two weeks as a result of the coronavirus pandemic.</p>
-		<p>Honda began its suspension of operations in North America on March 23 and previously extended its shutdown in Canada and the United States through May 1. The company said the majority of its “salaried and support associates at Honda operations in the U.S. will be furloughed for a two-week period.” Last week, Honda said it would furlough factory workers at its U.S. plants.</p>',2),
+id y3  update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Honda extends Mexican plant shutdown, furloughs more US workers</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">PUBLISHED WED, APR 22 2020</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Tanvir Gill</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>WASHINGTON (Reuters) - Japanese automaker Honda Motor Co (7267.T) said Wednesday it will extend a shutdown of its Mexican plants through April 30 and plans to furlough most U.S. salaried workers for two weeks as a result of the coronavirus pandemic.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_03.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>A production line is seen after the opening of Honda’s new automobile plant in a suburb of Celaya, Guanajuato February 21, 2014</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Henry Romero</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>WASHINGTON (Reuters) - Japanese automaker Honda Motor Co (7267.T) said Wednesday it will extend a shutdown of its Mexican plants through April 30 and plans to furlough most U.S. salaried workers for two weeks as a result of the coronavirus pandemic.</p>
+                <p>Honda began its suspension of operations in North America on March 23 and previously extended its shutdown in Canada and the United States through May 1. The company said the majority of its “salaried and support associates at Honda operations in the U.S. will be furloughed for a two-week period.” Last week, Honda said it would furlough factory workers at its U.S. plants.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y3';
 
-	('y4','<h1 class="ArticleHeader_headline">Detroit automakers, UAW to continue talks over reopening U.S. plants</h1>',
-		'<p>(Reuters) - The United Auto Workers (UAW) said late Wednesday discussions are still underway with Detroit’s Big Three automakers to safely restart U.S. production halted by the coronavirus pandemic.</p>'
-		'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Kanishka Singh in Bengaluru, Editing by Sherry Jacob-Phillips</p></div></div>',
-		'<div class="ArticleHeader_date">2020-01-12</div>',
-		'<p>(Reuters) - The United Auto Workers (UAW) said late Wednesday discussions are still underway with Detroit’s Big Three automakers to safely restart U.S. production halted by the coronavirus pandemic.</p>
-		<p>General Motors Co (GM.N), Ford Motor Co (F.N) and Fiat Chrysler Automobiles NV (FCAU.N) (FCHA.MI) shut their plants last month as the virus rapidly spread through the United States, but aim to restart at least some U.S. assembly plants by early May.</p>
-		<p>“These talks are fluid and ongoing to ensure safe protocols are followed when the companies reopen,” UAW President Rory Gamble said in a statement.</p>
-		<p>Detroit’s automakers and the UAW have been engaged in talks since earlier this month, while local union leaders said on Monday that any worker who feels sick must be allowed to self-quarantine without losing pay.</p>
-		<p>A General Motors spokesman said on Wednesday that the company has developed “screening, cleaning and social strategies” for all facilities in line with input from the UAW and guidance from the U.S. Centers for Disease Control and Prevention (CDC).</p>
-		<p>The safety practices and sick-leave policies the automakers and the UAW agree to would offer a template for auto suppliers and potentially other manufacturing industries.</p>',2),
+id y4  update DNBC_Posts set PostContent =  '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Detroit automakers, UAW to continue talks over reopening U.S. plants</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">APRIL 23, 2020 / 10:11 AM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Kanishka Singh</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>(Reuters) - The United Auto Workers (UAW) said late Wednesday discussions are still underway with Detroit’s Big Three automakers to safely restart U.S. production halted by the coronavirus pandemic.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_04.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>An American flag flies in front of the United Auto Workers union logo on the front of the UAW Solidarity House in Detroit, Michigan, September 8, 2011</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Rebecca Cook</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>General Motors Co (GM.N), Ford Motor Co (F.N) and Fiat Chrysler Automobiles NV (FCAU.N) (FCHA.MI) shut their plants last month as the virus rapidly spread through the United States, but aim to restart at least some U.S. assembly plants by early May.</p>
+                <p>“These talks are fluid and ongoing to ensure safe protocols are followed when the companies reopen,” UAW President Rory Gamble said in a statement.</p>
+                <p>Detroit’s automakers and the UAW have been engaged in talks since earlier this month, while local union leaders said on Monday that any worker who feels sick must be allowed to self-quarantine without losing pay.</p>
+                <p>A General Motors spokesman said on Wednesday that the company has developed “screening, cleaning and social strategies” for all facilities in line with input from the UAW and guidance from the U.S. Centers for Disease Control and Prevention (CDC).</p>
+                <p>The safety practices and sick-leave policies the automakers and the UAW agree to would offer a template for auto suppliers and potentially other manufacturing industries.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y4';
 
-	('y5','<h1 class="ArticleHeader_headline">Coronavirus drives U.S. March auto sales off a cliff</h1>','<p>DETROIT: U.S. new vehicle sales likely drove off a cliff in March as the coronavirus pandemic pounded consumer confidence and shuttered dealerships across much of the country, and sales are likely to take a further beating in April as social distancing guidelines remain in place.</p>',
-		'<p>A rebound for the sector will likely depend on how long the crisis lasts and what level of support the U.S. government provides for consumers in the meantime.</p>',
-		'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Nick Carey</p></div></div>',
-		'<div class="ArticleHeader_date">2020-02-24</div>',
-		'<p>DETROIT: U.S. new vehicle sales likely drove off a cliff in March as the coronavirus pandemic pounded consumer confidence and shuttered dealerships across much of the country, and sales are likely to take a further beating in April as social distancing guidelines remain in place.</p>
-		<p>When you look at March, we basically lost half the month," said Eric Lyman, chief industry analyst at car-shopping website TrueCar.com.</p>
-		<p>TrueCar has forecast a sales drop for March of 37 percent and Lyman said sales in April could also be off between 50 percent to 60 percent.</p>
-		<p>A rebound for the sector will likely depend on how long the crisis lasts and what level of support the U.S. government provides for consumers in the meantime.</p>
-		<p>Most major automakers, including General Motors Co and Toyota Motor Corp, are due to report quarterly U.S. sales on April 1. Ford Motor Co and Fiat Chrysler Automobiles NV will report sales on April 2.</p>
-		<p>Tesla Inc also typically reports first quarter deliveries during the week after the quarter ends. Analysts had expected the company to deliver about 93,000 vehicles during the quarter, according to Refinitiv. Tesla Chief Executive Elon Musk on March 19 suspended production at the company’s Fremont, California, assembly plant under pressure from local authorities.</p>
-		<p>Just how bad March was is an open question. Cox Automotive did not release a monthly forecast, but said its data showed that on March 27, new vehicle sales to consumers fell 55 percent versus the same day in 2019.</p>
-		<p>In U.S. states under "stay-at-home" orders, sales fell as much as 80 percent to 90 percent, Cox estimated. Those include states like California and New York, home to a large portion of the American car-buying population.</p>
-		<p>IHS Markit estimates the coronavirus pandemic will cut full-year 2020 sales by 15.3 percent and globally sales will fall 12 percent - "considerably worse" than the fall in sales during the Great Recession in 2008-2009.</p>
-		<p>More dealers are embracing online sales, which could help mitigate falling sales.</p>
-		<p>But U.S. consumer confidence plunged in March to the lowest level since October 2016 as the coronavirus epidemic upended life for Americans.</p>
-		<p>George Augustaitis, director of automotive industry analytics at CarGurus Inc, an online marketplace for new and used cars, said a rebound in new vehicle sales will depend on government support for workers laid off during the crisis.</p>
-		<p>"If these consumers are taken care of, we should see the market rebound fairly quickly," Augustaitis said.</p>',2),
+id y5 update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Coronavirus drives U.S. March auto sales off a cliff</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">MARCH 31, 2020 / 1:29 AM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Nick Carey</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>DETROIT: U.S. new vehicle sales likely drove off a cliff in March as the coronavirus pandemic pounded consumer confidence and shuttered dealerships across much of the country, and sales are likely to take a further beating in April as social distancing guidelines remain in place.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_05.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>Automobiles are shown for sale at a car dealership in Carlsbad, California, U.S. May 2, 2016</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Mike Blake</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>When you look at March, we basically lost half the month," said Eric Lyman, chief industry analyst at car-shopping website TrueCar.com.</p>
+                <p>TrueCar has forecast a sales drop for March of 37 percent and Lyman said sales in April could also be off between 50 percent to 60 percent.</p>
+                <p>A rebound for the sector will likely depend on how long the crisis lasts and what level of support the U.S. government provides for consumers in the meantime.</p>
+                <p>Most major automakers, including General Motors Co and Toyota Motor Corp, are due to report quarterly U.S. sales on April 1. Ford Motor Co and Fiat Chrysler Automobiles NV will report sales on April 2.</p>
+                <p>Tesla Inc also typically reports first quarter deliveries during the week after the quarter ends. Analysts had expected the company to deliver about 93,000 vehicles during the quarter, according to Refinitiv. Tesla Chief Executive Elon Musk on March 19 suspended production at the company’s Fremont, California, assembly plant under pressure from local authorities.</p>
+                <p>Just how bad March was is an open question. Cox Automotive did not release a monthly forecast, but said its data showed that on March 27, new vehicle sales to consumers fell 55 percent versus the same day in 2019.</p>
+                <p>In U.S. states under "stay-at-home" orders, sales fell as much as 80 percent to 90 percent, Cox estimated. Those include states like California and New York, home to a large portion of the American car-buying population.</p>
+                <p>IHS Markit estimates the coronavirus pandemic will cut full-year 2020 sales by 15.3 percent and globally sales will fall 12 percent - "considerably worse" than the fall in sales during the Great Recession in 2008-2009.</p>
+                <p>More dealers are embracing online sales, which could help mitigate falling sales.</p>
+                <p>But U.S. consumer confidence plunged in March to the lowest level since October 2016 as the coronavirus epidemic upended life for Americans.</p>
+                <p>George Augustaitis, director of automotive industry analytics at CarGurus Inc, an online marketplace for new and used cars, said a rebound in new vehicle sales will depend on government support for workers laid off during the crisis.</p>
+                <p>"If these consumers are taken care of, we should see the market rebound fairly quickly," Augustaitis said.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y5';
+
+	
 
 	('y6','<h1 class="ArticleHeader_headline">Ford to restart US truck plants in April to beat pandemic-linked cash squeeze</h1>',
 				'<p>DETROIT (Reuters) - Ford Motor Co (F.N) announced plans on Thursday to shore up its finances amid the coronavirus pandemic, aiming to generate more cash by resuming production next month of its most profitable vehicles while saving money through further cost cuts.</p>',
@@ -162,7 +295,7 @@
                 <p>Air Deccan founder GR Gopinath, who has been dubbed “the man who got India’s middle class to fly”, managed to retain the airline’s name by registering for it soon after the rebranding, Forbes India reports.</p>
                 <p>Air Deccan made a comeback in December 2017 when it was granted a flying permit from India’s civil aviation regulator to conduct flights under the country’s UDAN regional connectivity scheme, Business Standard reported at the time. The first three routes were from Mumbai to Nashik, Pune and Jalgaon, according to Forbes India.</p>',2),
 
-update DNBC_Posts set PostContent ='<div class="section">
+id y11  update DNBC_Posts set PostContent ='<div class="section">
     <div class="container">
         <div class="ArticlePage_container col-xs-9">
             <div class="ArticleHeader_container">
@@ -230,7 +363,7 @@ update DNBC_Posts set PostContent ='<div class="section">
 </div>
 ' where PostID like 'y11';
 
-id y12 update DNBC_Posts set PostContent = '<body>
+id y12 update DNBC_Posts set PostContent = '
 <div class="section">
     <div class="container">
         <div class="ArticlePage_container col-xs-9">
@@ -246,18 +379,18 @@ id y12 update DNBC_Posts set PostContent = '<body>
                 </div>
             </div>
             <div class="ArticleBody_container">
-            <p>While a plunge in U.S. crude oil prices this week reverberated across global financial markets and fueled renewed worries over the beleaguered shale oil industry, billionaire investor Howard Marks told CNBC that the price action “is completely rational.”</p>
-            <div class="ArticleMedia">
-                <div class="ArticleMedia_container">
-                    <figure class="Image">
-                        <img src="imgs/PostID_12.jpeg" alt="none">
-                    </figure>
-                    <figcaption>
-                        <div class="Image_caption"><h4>An offshore oil platform is seen with a tanker in the distance on April 20, 2020 in Huntington Beach, California.</h4></div>
-                        <div class="Image_caption "><h6>Michael Heiman | Getty Images</h6></div>
-                    </figcaption>
+                <p>While a plunge in U.S. crude oil prices this week reverberated across global financial markets and fueled renewed worries over the beleaguered shale oil industry, billionaire investor Howard Marks told CNBC that the price action “is completely rational.”</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_12.jpeg" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>An offshore oil platform is seen with a tanker in the distance on April 20, 2020 in Huntington Beach, California.</h4></div>
+                            <div class="Image_caption "><h6>Michael Heiman | Getty Images</h6></div>
+                        </figcaption>
+                    </div>
                 </div>
-            </div>
                 <p>A plunge in U.S. crude oil prices this week reverberated across global financial markets and fueled renewed worries over the beleaguered shale oil industry. Yet billionaire investor Howard Marks isn’t panicking.</p>
                 <p>Marks, who co-founded Oaktree Capital Management, told CNBC in an email interview that the weakness in crude oil prices was steeped in fundamentals as energy demand has cratered due to the coronavirus pandemic and buyers are scrambling to stockpile crude oil due to
                     <a href="https://www.cnbc.com/2020/04/22/oil-prices-heres-how-oil-storage-works-and-why-capacity-matters.html">storage space becoming scarce</a>.</p>
@@ -273,9 +406,9 @@ id y12 update DNBC_Posts set PostContent = '<body>
                 <p>The gloominess in the oil market has also put the spotlight on US shale oil producers that are grappling with feeble demand on one hand and a lack of storage on the other, a conundrum that is making desperate oil companies “pay” traders for taking oil off them.</p>
                 <p>However, there are potential signs of relief. Some far-dated contracts this year are showing average oil prices of $20 a barrel and above while contracts expiring in 2021 are reflecting a modest bounce in demand taking prices to near $30 per barrel. Marks spotted a semblance of rationality in those prices.</p>
                 <p>“Oil can be bought for delivery by month. The negative price for oil reflects the excess of supply over demand, plus the cost of storage.  The price for oil in future months (when consumption may have rebounded) is at more normal levels,” he said.</p>
+            </div>
         </div>
     </div>
-</div>
 </div>' where PostID like 'y12';
 
 id y13 update DNBC_Posts set PostContent = '<div class="section">
