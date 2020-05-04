@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.section{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.container{
+    margin: 0 40px;
+}
+.ArticlePage_container {
+    position: relative;
+    z-index: 0;
+    background: white;
+    max-width: 1280px;
+}
+@media (max-width: 639px) and (min-width: 0px){
+    .ArticleHeader_container{
+        margin-top: 30px;
+    }}
+.ArticleHeader_container_top{
+    padding:30px 0 30px;
+    position:relative;
+    overflow: hidden;
+    width: 100%;
+}
+.ArticleHeader_headline {
+    font-family: knowledge-medium, sans-serif;
+    font-size: 40px;
+    line-height: 1.18;
+    margin-top: 30px;
+    color: #3f3f40;
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 639px) and (min-width: 0px){
+    .ArticleHeader_container_bottom {
+        margin: 0 20px;
+    }
+}
+.ArticleHeader_container_bottom{
+    position: relative;;
+    max-width: 1280px;
+}
+
+.ArticleHeader_date_container{
+
+    align-items: center;
+
+    flex-wrap:wrap;
+    border-bottom: 1px solid #717375;
+
+}
+.Attribution_container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.Attribution_container .Attribution_attribution {
+
+    font-family: "freight-book", serif;
+    margin-top: 35px;
+}
+.Attribution_attribution .Attribution_content {
+    font-size: 16px;
+    line-height: 26px;
+    color: #717375;
+}
+.ArticleHeader_date {
+    color: #717375;
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.ArticleBody_container{
+    max-width: 100%;
+    padding-right: 0;
+    float: left;
+    padding-bottom: 60px;
+    min-height: 400px;
+    margin-left: 11.45833%;
+}
+.ArticleBody_container p{
+    color: #313132;
+    margin-top: 30px;
+    font-family: "freight-book", serif;;
+    font-size: 21px;
+    line-height: 1.52;
+    cursor: text;
+    text-decoration: none;
+}
+@media (max-width: 639px) and (min-width: 0px){
+    .ArticleBody_container p {
+        font-size: 18px;
+        line-height: 1.6;
+    }}
+
+.ArticleMedia{
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto 60px;
+}
+.ArticleMedia_container{
+    position: relative;
+    background-image: none;
+    width: 100%;
+    padding-bottom: 5%;
+    z-index: 0;
+    display: block;
+}
+.ArticleMedia_container .Image{
+    cursor: zoom-in;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    object-fit:contain;
+}
+.ArticleMedia_container figcaption {
+    font-family: "freight-book", serif;
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 36px;
+    margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+figcaption .Image_caption{
+
+    color: #313132;
+    width: 70%;
+}
+iframe{
+    cursor: pointer;
+    pointer-events: all;
+    overflow: hidden;
+    position: absolute;
+    object-fit:contain;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+}
