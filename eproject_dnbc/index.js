@@ -25,3 +25,6 @@ app.set("view engine","ejs");
 app.get("/",function (req,res) {
     res.render("homepage");
 });
+app.get("/file-mau",function (req,res) {
+    res.render("file-mau");
+});
