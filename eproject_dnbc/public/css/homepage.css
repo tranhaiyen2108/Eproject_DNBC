@@ -87,7 +87,9 @@
     font-size: 36px;
     margin-left: 50px;
 }
-
+.subnav{
+        display: none;
+}
 
 .topnav {
     background-color: #102039;
@@ -208,11 +210,6 @@ footer{
     align-items: center;
     justify-content: center;
 }
-/*.footer-right ul{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
 .footer-right ul li{
     float: left;
     list-style: none;
