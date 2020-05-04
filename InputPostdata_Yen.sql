@@ -197,13 +197,35 @@ id y5 update DNBC_Posts set PostContent = '<div class="section">
 
 	
 
-	('y6','<h1 class="ArticleHeader_headline">Ford to restart US truck plants in April to beat pandemic-linked cash squeeze</h1>',
-				'<p>DETROIT (Reuters) - Ford Motor Co (F.N) announced plans on Thursday to shore up its finances amid the coronavirus pandemic, aiming to generate more cash by resuming production next month of its most profitable vehicles while saving money through further cost cuts.</p>',
-				'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Ben Klayman</p></div></div>',
-				'<div class="ArticleHeader_date">2020-03-26</div>',
-				'<p>DETROIT (Reuters) - Ford Motor Co (F.N) announced plans on Thursday to shore up its finances amid the coronavirus pandemic, aiming to generate more cash by resuming production next month of its most profitable vehicles while saving money through further cost cuts.</p>
-				<p>To generate cash, the No. 2 U.S. automaker was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>
-				<p>To conserve cash, Ford announced belt-tightening moves, including temporarily cutting top executives’ salaries. This came a day after Standard & Poor’s downgraded the Dearborn, Michigan-based company’s debt to “junk” status and warned more downgrades could be necessary.</p><p>“The actions we’re taking now are wide-ranging and substantial,” Chief Executive Jim Hackett told employees in an email early on Thursday. “We hope they will be enough to give Ford the financial flexibility to ride out the economic and business effects of the coronavirus.”
+id y6	update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Ford to restart US truck plants in April to beat pandemic-linked cash squeeze</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">MARCH 26, 2020 / 3:59 PM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Ben Klayman</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>DETROIT (Reuters) - Ford Motor Co (F.N) announced plans on Thursday to shore up its finances amid the coronavirus pandemic, aiming to generate more cash by resuming production next month of its most profitable vehicles while saving money through further cost cuts.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_06.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>The logo is seen on the bonnet of a new Ford Aspire car during its launch in New Delhi, India, October 4, 2018.</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Anushree Fadnavis</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>To generate cash, the No. 2 U.S. automaker was poised to restart production at some plants in North America as early as April 6, bringing back such profitable vehicles as its top-selling F-150 full-sized pickup, the Transit commercial van and SUVs.</p>
+                <p>To conserve cash, Ford announced belt-tightening moves, including temporarily cutting top executives’ salaries. This came a day after Standard & Poor’s downgraded the Dearborn, Michigan-based company’s debt to “junk” status and warned more downgrades could be necessary.</p><p>“The actions we’re taking now are wide-ranging and substantial,” Chief Executive Jim Hackett told employees in an email early on Thursday. “We hope they will be enough to give Ford the financial flexibility to ride out the economic and business effects of the coronavirus.”
                 <p>The coronavirus pandemic, which has killed more than 21,000 people globally, has forced the shutdown of auto plants around the world.</p>
                 <p>The outbreak has put pressure on companies, including Ford, which previously drew down credit lines to build its cash position and suspended its dividend.</p>
                 <p>The U.S. Senate on Wednesday passed a $2 trillion economic rescue package to help unemployed workers and companies, including the auto industry, hit hard by the outbreak.</p>
@@ -226,14 +248,40 @@ id y5 update DNBC_Posts set PostContent = '<div class="section">
                 <p>Meanwhile, Japan’s Toyota Motor Corp (7203.T) said it would extend a shutdown of its North American plants for two weeks, through April 17.</p>
                 <p>Ford plans to begin production on one shift at its Hermosillo, Mexico, assembly plant, where it builds the Ford Fusion and Lincoln MKZ sedans.</p>
                 <p>It will restart production on April 14 at its Dearborn plant that builds the F-150 and a Kentucky plant that makes the Super Duty version of the pickup as well as the Ford Expedition and Lincoln Navigator SUVs. Other assembly and parts plants will restart then as well.</p>
-                <p>Ford shares closed down 2.4%, while GM rose 4.8%.</p>',2),
+                <p>Ford shares closed down 2.4%, while GM rose 4.8%.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y6';
 
-	('y7','<h1 class="ArticleHeader_headline">Detroit automakers, UAW agree to curb production to contain coronavirus</h1>',
-				'<p>(Reuters) - The Detroit Three automakers and United Auto Workers agreed on Tuesday to curtail production at U.S. factories and limit the number of workers on the job at one time to prevent the spread of the coronavirus among roughly 150,000 factory employees.</p>',
-				'<h1 class="ArticleHeader_headline">Detroit automakers, UAW agree to curb production to contain coronavirus</h1>',
-				'<div class="ArticleHeader_date">2020-03-17</div>',
-				'<p>(Reuters) - The Detroit Three automakers and United Auto Workers agreed on Tuesday to curtail production at U.S. factories and limit the number of workers on the job at one time to prevent the spread of the coronavirus among roughly 150,000 factory employees.</p>
-				<p>The union and the automakers agreed to “rotating partial shutdown of facilities, extensive deep cleaning of facility and between shifts, extended periods between shifts, and extensive plans to avoid member contact,” the union said in a statement.</p>
+id y7   update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Detroit automakers, UAW agree to curb production to contain coronavirus</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">MARCH 17, 2020 / 9:25 PM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Paul Lienert, Joseph White</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>(Reuters) - The Detroit Three automakers and United Auto Workers agreed on Tuesday to curtail production at U.S. factories and limit the number of workers on the job at one time to prevent the spread of the coronavirus among roughly 150,000 factory employees.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_07.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>The GM logo is seen at the General Motors Warren Transmission Operations Plant in Warren, Michigan October 26, 2015.</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Rebecca Cook</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>The union and the automakers agreed to “rotating partial shutdown of facilities, extensive deep cleaning of facility and between shifts, extended periods between shifts, and extensive plans to avoid member contact,” the union said in a statement.</p>
                 <p>The agreement came hours after UAW President Rory Gamble went public with his dissatisfaction with how General Motors Co(GM.N), Ford Motor Co (F.N) and Fiat Chrysler Automobiles NV (FCHA.MI) had responded to his proposal on Sunday that the companies stop production in the face of the coronavirus threat.</p>
                 <p>Gamble warned he would take unilateral action if the automakers did not do more to secure hourly workers on factory floors.</p>
                 <p>The tension between the UAW and the Detroit automakers highlighted a divide in the U.S. labor force that extends well beyond the auto industry.</p>
@@ -248,52 +296,141 @@ id y5 update DNBC_Posts set PostContent = '<div class="section">
                 <p>Separately, GM and Ford disclosed Tuesday that they each have had one employee, both working at U.S. engineering centers, test positive for coronavirus. They marked the first confirmed cases of coronavirus among the automakers’ U.S. employees.</p>
                 <p>While GM said that its affected employee was based at its Michigan technical center, the UAW separately said the GM worker was a member of the union.</p>
                 <p>GM said its medical team was working to speak with co-workers who may have had direct contact with the infected employee, and they will be told to self-quarantine for 14 days.</p>
-                <p>GM officials learned the employee had tested positive for the highly contagious COVID-19 respiratory illness on Monday, after the company had issued an order that salaried employees should work from home. Access to the building where the employee worked was restricted, and the building was cleaned, GM spokesman Jim Cain said Tuesday.</p>',2),
+                <p>GM officials learned the employee had tested positive for the highly contagious COVID-19 respiratory illness on Monday, after the company had issued an order that salaried employees should work from home. Access to the building where the employee worked was restricted, and the building was cleaned, GM spokesman Jim Cain said Tuesday.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y7';
 
-	('y8','<h1 class="ArticleHeader_headline">Fiat Chrysler plant resumes production after 24-hour halt over coronavirus fears</h1>',
-				'<p>(Reuters) - Fiat Chrysler Automobiles NV (FCHA.MI) (FCAU.N) said production at its assembly plant in Windsor, Ontario, which was halted for 24 hours over fears of an employee being possibly exposed to the coronavirus, has resumed on Friday afternoon.</p>',
-				'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Paul Ben Klayman</p></div></div>',
-				'<div class="ArticleHeader_date">2020-03-14</div>',
-				'<p>(Reuters) - Fiat Chrysler Automobiles NV (FCHA.MI) (FCAU.N) said production at its assembly plant in Windsor, Ontario, which was halted for 24 hours over fears of an employee being possibly exposed to the coronavirus, has resumed on Friday afternoon.</p>
-				<p>“There currently is one employee out on self-quarantine as a precaution because of possible secondary contact,” the company said in a statement.</p>
+id y8 update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Fiat Chrysler plant resumes production after 24-hour halt over coronavirus fears</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">MARCH 14, 2020 / 10:00 PM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Paul Paul Ben Klayman</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>(Reuters) - Fiat Chrysler Automobiles NV (FCHA.MI) (FCAU.N) said production at its assembly plant in Windsor, Ontario, which was halted for 24 hours over fears of an employee being possibly exposed to the coronavirus, has resumed on Friday afternoon.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_08.webp" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>Employees of Fiat SpA work on new car "Panda" at the Fiat plant in Pomigliano DArco, near Naples, Italy, December 14, 2011.</h4></div>
+                            <div class="Image_caption "><h6>REUTERS/Alessandro Bianchi</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>(Reuters) - Fiat Chrysler Automobiles NV (FCHA.MI) (FCAU.N) said production at its assembly plant in Windsor, Ontario, which was halted for 24 hours over fears of an employee being possibly exposed to the coronavirus, has resumed on Friday afternoon.</p>
+                <p>“There currently is one employee out on self-quarantine as a precaution because of possible secondary contact,” the company said in a statement.</p>
                 <p>Starting Thursday afternoon, employees at the plant had refused to work. The company said the Ministry of Labour found the environment to be safe after visiting the plant and there are no confirmed cases of coronavirus at the location.</p>
                 <p>Fiat said on Thursday an employee had tested positive for COVID-19 at its Kokomo, Indiana transmission plant, but the location would remain open.</p>
-                <p>The company will delay the reopening of two plants in southern Italy by two days until next Wednesday, having closed them this week to complete actions in response to the coronavirus outbreak.</p>',2),
+                <p>The company will delay the reopening of two plants in southern Italy by two days until next Wednesday, having closed them this week to complete actions in response to the coronavirus outbreak.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y8';
 
-	('y9','<h1 class="ArticleHeader_headline">Coronavirus: Who is still flying?</h1>',
-				'<p>London’s Heathrow airport normally has about 600 flights landing on an average day, but in lockdown Britain, about 60 arrive daily.</p>',
-				'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Tom Burridge</p></div></div>',
-				'<div class="ArticleHeader_date">2020-04-17</div>',
-				'<p>London’s Heathrow airport normally has about 600 flights landing on an average day, but in lockdown Britain, about 60 arrive daily.</p>
-				<p>Other UK airports are receiving a tiny number of flights between them. But the number is still high enough to trouble MPs, who on Friday received a letter from the UK aviation minister explaining why flights were still in the air.</p>
-                <p>It is the airlines, who say nearly all of their passengers on their flights into Heathrow are people heading home, which decide which routes to run.</p>
-                <p>"No-one is on holiday," says Airlines UK chief executive Tim Alderslade, whose group represents British Airways, Virgin Atlantic and other UK-based carriers.</p>
-                <p>That was certainly the picture at a deserted Heathrow Terminal 5 when I visited this week. I watched from a distance as a trickle of mask-sporting passengers appeared after flying in on British Airways from Los Angeles.</p>
-                <p>Some people on social media have questioned why flights are still coming in from countries such as the US, Italy and Spain, where Covid-19 is also prevalent.</p>
-                <p>Alitalia said the four daily flights it is now operating between Rome and London are "quite empty" flying into Heathrow.</p>
-                <p>However, on the return leg to Rome, its aircraft are "almost full" of Italian citizens who want to fly back to Italy. Those people travelling to Italy must fill in a declaration to say that their journey is essential.</p>
-                <p>Madrid and Barcelona are, like Heathrow, hub airports. That means many passengers flying in from there will have started their journey elsewhere, such as airports in Latin America.</p>
-                <p>And many people flying into Heathrow will transit and fly straight back out again to another destination.</p>
-                <p>Many airlines would not disclose exactly how many passengers they have been ferrying into London.</p>',2),
 
-	('y10','<h1 class="ArticleHeader_headline">India’s ​Air Deccan eyes post-crisis relaunch with new aircraft</h1>',
-				'<p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>',
-				'<div class="Attribution_container"><div class="Attribution_attribution"><p class="Attribution_content">Reporting by Cirium</p></div></div>',
-				'<div class="ArticleHeader_date">2020-04-24</div>',
-				'<p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
-				<p>The carrier is in the process of returning its two 18-year-old Beechcraft Beech 1900Ds to their lessor, having already served notice of lease termination, Singh tells Cirium. He declined to name the lessor.</p>
+
+id y9	update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">Coronavirus: Who is still flying?</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">APR 17, 2020 / 10:00 AM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Tom Burridge</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>London’s Heathrow airport normally has about 600 flights landing on an average day, but in lockdown Britain, about 60 arrive daily.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_09.jpeg" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>The coronavirus outbreak has had a severe impact on demand for air travel.</h4></div>
+                            <div class="Image_caption "><h6>Harry Porters</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
+                <p>The carrier is in the process of returning its two 18-year-old Beechcraft Beech 1900Ds to their lessor, having already served notice of lease termination, Singh tells Cirium. He declined to name the lessor.</p>
                 <p>Singh adds the lockdown has made it difficult to return the aircraft.</p>
                 <p>The airline’s Beechcrafts – which, according to Cirium fleets data, formerly flew with a now-defunct subsidiary of Air New Zealand – are described by Singh as “very old and very tired ”.</p>
                 <p>“We have taken this as an opportunity for newer aircraft,” he adds. “We are talking to an OEM, but nothing has been signed yet so I can’t disclose anything.”</p>
                 <p>Pressed on whether he is talking to Airbus or Boeing, Singh says he is not talking with either of them, and that the type he is looking at is a “smaller commuter aircraft”.</p>
                 <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>
                 <p>“We took a very early call in doing that,” he says, referring to management’s decision to shutter the airline.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <iframe width="400" height="500" frameborder="0" src="https://www.bbc.com/news/av/embed/p089st6l/52319575"></iframe>
+                    </div>
+                </div>
                 <p>“I sat down with shareholders and we knew which direction this was going to go. We sat down and took a conscious call and took a very quick decision that coronavirus was going to stay for the next three to six months.</p>
                 <p>“The question we had to ask was could we sustain ourselves with no revenues coming in? If we could somehow subsidise the aviation business from my shareholder’s other businesses – but the problem is all other business have come to a halt. We can’t keep pumping in money when there is no light at the end of the tunnel. Look what happened to Virgin Australia. The situation compared to other Indian carriers is not anyway extra bad for us; it’s just we saw that coming quickly.”</p>
                 <p>The airline got off to a rocky start in 2003, having to abandon its inaugural flight carrying Indian dignitaries due to an engine fire during taxi. Despite that, it managed to grow its fleet and route network, and in 2008 completed a merger with now-defunct Kingfisher Airlines.</p>
                 <p>Under its new owner, Air Deccan was rechristened Kingfisher Red, but its high operating costs and low yields proved to be a drag on Kingfisher. In 2011 Kingfisher Airlines, which not long after went belly-up, decided to phase out Kingfisher Red.</p>
                 <p>Air Deccan founder GR Gopinath, who has been dubbed “the man who got India’s middle class to fly”, managed to retain the airline’s name by registering for it soon after the rebranding, Forbes India reports.</p>
-                <p>Air Deccan made a comeback in December 2017 when it was granted a flying permit from India’s civil aviation regulator to conduct flights under the country’s UDAN regional connectivity scheme, Business Standard reported at the time. The first three routes were from Mumbai to Nashik, Pune and Jalgaon, according to Forbes India.</p>',2),
+                <p>Air Deccan made a comeback in December 2017 when it was granted a flying permit from India’s civil aviation regulator to conduct flights under the country’s UDAN regional connectivity scheme, Business Standard reported at the time. The first three routes were from Mumbai to Nashik, Pune and Jalgaon, according to Forbes India.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y9';
+
+id y10	update DNBC_Posts set PostContent = '<div class="section">
+    <div class="container">
+        <div class="ArticlePage_container col-xs-9">
+            <div class="ArticleHeader_container">
+                <div class="ArticleHeader_container_top">
+                    <h1 class="ArticleHeader_headline">India’s ​Air Deccan eyes post-crisis relaunch with new aircraft</h1>
+                </div>
+                <div class="ArticleHeader_container_bottom">
+                    <div class="ArticleHeader_date_container">
+                        <div class="ArticleHeader_date">APR 24, 2020 / 90:00 AM</div>
+                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Cirium</span></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ArticleBody_container">
+                <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_10.jpeg" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h4>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h4></div>
+                            <div class="Image_caption "><h6>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
+                <p>The carrier is in the process of returning its two 18-year-old Beechcraft Beech 1900Ds to their lessor, having already served notice of lease termination, Singh tells Cirium. He declined to name the lessor.</p>
+                <p>Singh adds the lockdown has made it difficult to return the aircraft.</p>
+                <p>The airline’s Beechcrafts – which, according to Cirium fleets data, formerly flew with a now-defunct subsidiary of Air New Zealand – are described by Singh as “very old and very tired ”.</p>
+                <p>“We have taken this as an opportunity for newer aircraft,” he adds. “We are talking to an OEM, but nothing has been signed yet so I can’t disclose anything.”</p>
+                <p>Pressed on whether he is talking to Airbus or Boeing, Singh says he is not talking with either of them, and that the type he is looking at is a “smaller commuter aircraft”.</p>
+                <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>
+                <p>“We took a very early call in doing that,” he says, referring to management’s decision to shutter the airline.</p>
+            </div>
+        </div>
+    </div>
+</div>' where PostID like 'y10';
 
 id y11  update DNBC_Posts set PostContent ='<div class="section">
     <div class="container">
