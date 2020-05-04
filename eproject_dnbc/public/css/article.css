@@ -22,14 +22,14 @@
     max-width: 1280px;
 }
 @media (max-width: 639px) and (min-width: 0px){
-.ArticleHeader_container{
-    margin-top: 30px;
-}}
+    .ArticleHeader_container{
+        margin-top: 30px;
+    }}
 .ArticleHeader_container_top{
     padding:30px 0 30px;
     position:relative;
     overflow: hidden;
-    width: calc(100% - 300px);
+    width: 100%;
 }
 .ArticleHeader_headline {
     font-family: knowledge-medium, sans-serif;
@@ -39,7 +39,6 @@
     color: #3f3f40;
     width: 100%;
     padding-right: 0;
-    margin-left: 11.45833%;
     margin-bottom: 10px;
 }
 
@@ -54,21 +53,21 @@
 }
 
 .ArticleHeader_date_container{
-    display: flex;
+
     align-items: center;
-    flex:1;
+
     flex-wrap:wrap;
     border-bottom: 1px solid #717375;
 
 }
 .Attribution_container {
-        max-width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-        clear: both;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
 }
 .Attribution_container .Attribution_attribution {
-    margin-left: 11.45833%;
+
     font-family: "freight-book", serif;
     margin-top: 35px;
 }
@@ -91,12 +90,12 @@
     float: left;
     padding-bottom: 60px;
     min-height: 400px;
+    margin-left: 11.45833%;
 }
 .ArticleBody_container p{
     color: #313132;
     margin-top: 30px;
     font-family: "freight-book", serif;;
-    margin-left: 11.45833%;
     font-size: 21px;
     line-height: 1.52;
     cursor: text;
@@ -117,15 +116,13 @@
     position: relative;
     background-image: none;
     width: 100%;
-    height: 0;
-    padding-bottom: 66.6%;
+    padding-bottom: 5%;
     z-index: 0;
+    display: block;
 }
 .ArticleMedia_container .Image{
     cursor: zoom-in;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -136,21 +133,22 @@
 }
 .ArticleMedia_container figcaption {
     font-family: "freight-book", serif;
-    position: relative;
+    position: absolute;
     font-size: 14px;
     line-height: 1.5;
     min-height: 36px;
     margin-top: 20px;
     width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 figcaption .Image_caption{
-    text-align: left;
+
     color: #313132;
     width: 70%;
-    display: none;
 }
-.ArticleMedia_container .Video{
+iframe{
     cursor: pointer;
     pointer-events: all;
     overflow: hidden;
@@ -161,5 +159,4 @@ figcaption .Image_caption{
     bottom: 0;
     right: 0;
     background-color: transparent;
-    border: 1px solid black;
 }
