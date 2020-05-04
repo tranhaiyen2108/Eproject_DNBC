@@ -106,8 +106,9 @@ It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los A
 INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.webp'),('y2','imgs/PostID_02.webp'),('y3','imgs/PostID_03.webp'),('y4','imgs/PostID_04.webp'),('y5','imgs/PostID_05.webp'), 
 	('y6','imgs/PostID_06.webp'),('y7','imgs/PostID_07.webp'),('y8','imgs/PostID_08.webp'),('y9','imgs/PostID_09.jpeg'),('y10','imgs/PostID_10.jpeg'),('y11','imgs/PostID_11.png'),('y12','imgs/PostID_11_2.png'),
 	('y13','imgs/PostID_12.jpeg'),('y14','imgs/PostID_13.jpg'),('y15','imgs/PostID_14.jpeg'),('y16','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277'), 
-	('y17','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000133026'), ('y18','imgs/PostID_16.jng'), ('y19','imgs/PostID_17.jpeg'),
+	('y17','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000133026'), ('y18','imgs/PostID_16.jng'), ('y19','imgs/PostID_17.jpeg');
 
+	INSERT INTO DNBC_Collections (CollectionID,Link) VALUES ('y20','https://www.bbc.com/news/av/embed/p089st6l/52319575'),
 	('p1','imgs/PostID_p01.jpg'),('p2','imgs/PostID_p02.jpg'),('p3','imgs/PostID_p03.jpg'),('p4','imgs/PostID_p04.jpg'),('p5','imgs/PostID_p05.jpg'),('p6','imgs/PostID_p06.jpg');
 
 
@@ -132,7 +133,7 @@ INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
 	('USA Labor Dept','Unemployment by States','y17','y16'),
 	('CNBC','Florida is the slowest at processing unemployment claims','y18','y16'),
 	('Bloomberg/Mark Kauzlarich','A pedestrian wearing a protective mask stands outside a JPMorgan Chase & Co. bank branch in New York, U.S., on Friday, April 10, 2020','y19','y17'),
-
+	('BBC','Inside the almost deserted Heathrow airport','y20','y9'),
 	('PA Sport','Manchester United co-chairman Avram Glazer (right) pictured at a match at Old Trafford','p1','p1'),
 	('Getty Images','Alan Pardew','p2','p2'),
 	('Reuters','Phil Neville in England training','p3','p3'),
@@ -140,3 +141,4 @@ INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
 	('AP Photo/Francisco Seco','Andy Murray has struggled to regain his form since early 2019 when he underwent hip surgery','p5','p5'),
 	('Alex Davidson/Getty Images','The announcement on April 1 that Wimbledon would not be played in 2020, while well communicated and thought out, still came as a shock to many','p6','p6')
 	;
+	select * from DNBC_PostCollection;
