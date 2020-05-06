@@ -1,0 +1,9 @@
+#lead-top-wrap{
+    display: none;
+}
+.topnav{
+    position: fixed;
+}
+#main-body-wrap{
+    padding-top: 100px;
+}
