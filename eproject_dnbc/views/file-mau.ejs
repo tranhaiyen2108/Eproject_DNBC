@@ -75,8 +75,8 @@
                                         </div>
                                         <div class="ArticleBody_container" id="comment-button">
                                             <button class="comment-button-text" onclick="unHide()">
-                                                <i class="fas fa-comment"></i> <span>Click to comment</span></button>
-                                            </a>
+                                                <i class="fas fa-comment"></i> <span>Click to comment</span>
+                                            </button>
                                         </div>
                                         <div id="comment-form-container" class="inactive">
                                             <form action="#" method="post">
@@ -200,9 +200,7 @@
                                     });
                                 });
                                 function unHide() {
-                                    $("button").click(function(){
-                                        $("#comment-form-container").removeClass("inactive");
-                                    });
+                                    $("#comment-form-container").removeClass("inactive");
                                 }
                             </script>
 
