@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/article.css" type="text/css">
     <link rel="stylesheet" href="libs/bootstrap3.337/css/bootstrap.css" type="text/css">
 </head>
 <body>
 <div class="section">
     <div class="container">
-        <div class="ArticlePage_container col-xs-9">
+        <div class="ArticlePage_container col-xs-8">
             <div class="ArticleHeader_container">
                 <div class="article__topic">
                     <a href="#"><span >..........</span></a>
@@ -20,8 +20,25 @@
                 </div>
                 <div class="ArticleHeader_container_bottom">
                     <div class="ArticleHeader_date_container">
-                        <div class="ArticleHeader_date">APR 24, 2020 / 90:00 AM</div>
-                        <div class="Attribution_container"><div class="Attribution_attribution"><span class="Attribution_content">Reporting by Cirium</span></div></div>
+                        <div class="Attribution_container"><span class="Attribution_content">Reporting By <a
+                                href="###">Cirium</a></span>
+                        </div>
+                        <div class="ArticleHeader_date">
+                            <p><b>Published on </b></p><time class="Attribution_content">APR 24, 2020 / 90:00 AM</time></div>
+                    </div>
+                    <div class="ArticleHeader_date_container">
+                        <ul>
+                            <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=example.org', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook">
+                                <li class="icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                            </a>
+                            <a href="#" onclick="window.open('http://twitter.com/share?text=text goes here', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Twitter">
+                                <li class="icon">
+                                    <i class="fab fa-twitter-square"></i>
+                                </li>
+                            </a>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -30,8 +47,8 @@
 </div>
 <div class="section">
     <div class="container">
-        <div class="ArticlePage_container col-xs-9">
-            <div class="ArticleBody_container">
+        <div class="ArticlePage_container col-xs-8">
+            <div class="ArticleBody_container min-height">
                 <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
@@ -39,8 +56,8 @@
                             <img src="imgs/PostID_10.jpeg" alt="none">
                         </figure>
                         <figcaption>
-                            <div class="Image_caption"><h4>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h4></div>
-                            <div class="Image_caption "><h6>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h6></div>
+                            <div class="Image_caption"><h5>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h5></div>
+                            <div class="Image_caption "><h6>Source: </h6></div>
                         </figcaption>
                     </div>
                 </div>
@@ -53,19 +70,132 @@
                 <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>
                 <p>“We took a very early call in doing that,” he says, referring to management’s decision to shutter the airline.</p>
             </div>
+            <div class="ArticleBody_container" id="comment-button">
+                <button class="comment-button-text" onclick="unHide()">
+                <i class="fas fa-comment"></i> <span>Click to comment</span></button>
+            </a>
+            </div>
+            <div id="comment-form-container" class="inactive">
+                <form action="#" method="post">
+                    <div class="comment-form-title">
+                        <h3>Please comment here</h3>
+                        <h6>Require field are marked<span class="required">*</span></h6>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment <span class="required">*</span></label>
+                        <textarea name="comment" id="comment" cols="45" rows="8" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address<span class="required">*</span></label>
+                        <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Full name<span class="required">*</span></label>
+                        <input type="text" class="form-control input" id="name" placeholder="Your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="10" rows="1" maxlength="200" minlength="10" placeholder="Enter your address"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <h6><input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        Do you want to submit your comment</h6>
+                    </div>
+                    <button onclick="submitComment()" type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="left-content">
+                <div class="left-content-container">
+                    <div id="ad">
+                        <div class="ad-content">
+                            <span class="ad-label">ADVERTISEMENT</span>
+                            <a href="#">
+                                <img src="imgs/jacket.png" width="300px" height="250px" alt="removed">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="trending-article">
+                        <div class="trending-article-head">
+                            <div class="trending-title">
+                                <h3 class="zox-widget-side-title">Trending</h3>
+                            </div>
+                        </div>
+                        <div class="trending-article-title">
+                            <section class="trending-article-wrap">
+                                <div class="trending-grid">
+                                    <div class="article-order-number">
+                                        <span class="number">1</span>
+                                    </div>
+                                    <div class="trending-article-link">
+                                        <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                    </div>
+                                </div>
+                                <div class="trending-grid">
+                                    <div class="article-order-number">
+                                        <span class="number">2</span>
+                                    </div>
+                                    <div class="trending-article-link">
+                                        <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                    </div>
+                                </div>
+                                <div class="trending-grid">
+                                    <div class="article-order-number">
+                                        <span class="number">3</span>
+                                    </div>
+                                    <div class="trending-article-link">
+                                        <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                    </div>
+                                </div>
+                                <div class="trending-grid">
+                                    <div class="article-order-number">
+                                        <span class="number">4</span>
+                                    </div>
+                                    <div class="trending-article-link">
+                                        <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                    </div>
+                                </div>
+                                <div class="trending-grid">
+                                    <div class="article-order-number">
+                                        <span class="number">5</span>
+                                    </div>
+                                    <div class="trending-article-link">
+                                        <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-</body>
-</html>
+<script type="text/javascript" src="libs/jQuery/jQuery.js"></script>
 <script type="text/javascript">
-    var figure = $(".Video").hover( hoverVideo, hideVideo );
-
-    function hoverVideo(e) {
-        $('Video', this).get(0).play();
+    function submitComment() {
+        var txt;
+        if (confirm("Are you sure to submit your comment")) {
+            txt = "Your comment was submitted successfully";
+        } else {
+            txt = "Comment submission was canceled";
+        }
     }
-
-    function hideVideo(e) {
-        $('Video', this).get(0).pause();
+    $(document).ready(function(){
+        $("button").hover(function(){
+            $(this).css("background-color", "#888");
+        }, function(){
+            $(this).css("background-color", "#000");
+        });
+    });
+    function unHide() {
+        $("button").click(function(){
+            $("#comment-form-container").removeClass("inactive");
+        });
     }
 </script>
+</body>
+</html>
