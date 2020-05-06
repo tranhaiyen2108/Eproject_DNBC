@@ -1,22 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
 .section{
     position: relative;
     z-index: 0;
     overflow: hidden;
 }
-.container{
-    margin: 0 40px;
-    max-width: calc(1240px + 60px);
-}
-
 .ArticlePage_container {
     position: relative;
     z-index: 0;
@@ -90,11 +76,11 @@
     float: left;
 }
 
-a{
-    color: #3061ff;
-    text-decoration: none;
-    font-weight: bolder;
-}
+/*a{*/
+/*    color: #3061ff;*/
+/*    text-decoration: none;*/
+/*    font-weight: bolder;*/
+/*}*/
 .ArticleHeader_date {
     color: #717375;
     letter-spacing: 0.1rem;
