@@ -40,7 +40,6 @@ CREATE TABLE DNBC_Ads(
 	Link varchar(512) not null,
 	Logo varchar(512),
 	AdContent text,
-	PostID varchar(10) not null foreign key references DNBC_Posts(PostID)
 );
 
 drop table DNBC_Ads;

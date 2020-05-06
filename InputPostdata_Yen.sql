@@ -795,6 +795,10 @@ Hugh Son</span></div></div>
 </div>
 </div>' where PostID like 'y17';
 
+INSERT INTO DNBC_Posts(PostID,PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values ('y18','Zoom rival Pexip launches lockdown listing with video roadshow',
+'Norway’s Pexip announced virtual roadshows on Monday in a step towards becoming the first European company to complete an initial public offering (IPO) remotely, as it looks to build on demand for video-conferencing due to the coronavirus crisis.',
+'Abhinav Ramnarayan','2020-05-4 13:59'
+
 
 
 
