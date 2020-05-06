@@ -3,6 +3,7 @@
 }
 .topnav{
     position: fixed;
+    z-index: 9999;
 }
 #main-body-wrap{
     padding-top: 100px;
