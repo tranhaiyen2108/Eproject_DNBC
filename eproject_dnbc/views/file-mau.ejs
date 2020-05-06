@@ -4,15 +4,209 @@
     <%- include('head') -%>
     <title>File mẫu</title>
     <link rel="stylesheet" href="css/file-mau.css">
+    <link rel="stylesheet" href="css/article.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap337/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="fonts/css/all.css">
 </head>
 <body>
     <%- include('header') -%>
                 <div id="site-grid" style="transform: none;margin-top: 0px">
                     <div id="site-wall-small">
                         <div id="main-body-wrap">
-                            <p>lam o day</p><br><br><br><br><br><br><br>
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            <div class="section">
+                                <div class="container">
+                                    <div class="ArticlePage_container col-xs-8">
+                                        <div class="ArticleHeader_container">
+                                            <div class="article__topic">
+                                                <a href="#"><span >Automobile</span></a>
+                                            </div>
+                                            <div class="ArticleHeader_container_top">
+                                                <h1 class="ArticleHeader_headline">India’s ​Air Deccan eyes post-crisis relaunch with new aircraft</h1>
+                                            </div>
+                                            <div class="ArticleHeader_container_bottom">
+                                                <div class="ArticleHeader_date_container">
+                                                    <div class="Attribution_container"><span class="Attribution_content">Reporting By <a
+                                                                    href="###">Cirium</a></span>
+                                                    </div>
+                                                    <div class="ArticleHeader_date">
+                                                        <p><b>Published on </b></p><time class="Attribution_content">APR 24, 2020 / 90:00 AM</time></div>
+                                                </div>
+                                                <div class="ArticleHeader_date_container">
+                                                    <ul>
+                                                        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=example.org', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook">
+                                                            <li class="icon">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                            </li>
+                                                        </a>
+                                                        <a href="#" onclick="window.open('http://twitter.com/share?text=text goes here', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Twitter">
+                                                            <li class="icon">
+                                                                <i class="fab fa-twitter-square"></i>
+                                                            </li>
+                                                        </a>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <div class="container">
+                                    <div class="ArticlePage_container col-xs-8">
+                                        <div class="ArticleBody_container min-height">
+                                            <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_10.jpg" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>The original incarnation of Air Deccan was India’s largest low-cost carrier.</h5></div>
+                                                        <div class="Image_caption"><h6>Source: REUTERS</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>
+                                            <p>The carrier is in the process of returning its two 18-year-old Beechcraft Beech 1900Ds to their lessor, having already served notice of lease termination, Singh tells Cirium. He declined to name the lessor.</p>
+                                            <p>Singh adds the lockdown has made it difficult to return the aircraft.</p>
+                                            <p>The airline’s Beechcrafts – which, according to Cirium fleets data, formerly flew with a now-defunct subsidiary of Air New Zealand – are described by Singh as “very old and very tired ”.</p>
+                                            <p>“We have taken this as an opportunity for newer aircraft,” he adds. “We are talking to an OEM, but nothing has been signed yet so I can’t disclose anything.”</p>
+                                            <p>Pressed on whether he is talking to Airbus or Boeing, Singh says he is not talking with either of them, and that the type he is looking at is a “smaller commuter aircraft”.</p>
+                                            <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>
+                                            <p>“We took a very early call in doing that,” he says, referring to management’s decision to shutter the airline.</p>
+                                        </div>
+                                        <div class="ArticleBody_container" id="comment-button">
+                                            <button class="comment-button-text" onclick="unHide()">
+                                                <i class="fas fa-comment"></i> <span>Click to comment</span></button>
+                                            </a>
+                                        </div>
+                                        <div id="comment-form-container" class="inactive">
+                                            <form action="#" method="post">
+                                                <div class="comment-form-title">
+                                                    <h3>Please comment here</h3>
+                                                    <h6>Require field are marked<span class="required">*</span></h6>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="comment">Comment <span class="required">*</span></label>
+                                                    <textarea name="comment" id="comment" cols="45" rows="8" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="email">Email address<span class="required">*</span></label>
+                                                    <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="name">Full name<span class="required">*</span></label>
+                                                    <input type="text" class="form-control input" id="name" placeholder="Your full name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="address">Address</label>
+                                                    <textarea name="address" id="address" cols="10" rows="1" maxlength="200" minlength="10" placeholder="Enter your address"></textarea>
+                                                </div>
+                                                <div class="form-check">
+                                                    <h6><input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        Do you want to submit your comment</h6>
+                                                </div>
+                                                <button onclick="submitComment()" type="submit" class="btn">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-3">
+                                        <div class="left-content">
+                                            <div class="left-content-container">
+                                                <div id="ad">
+                                                    <div class="ad-content">
+                                                        <span class="ad-label">ADVERTISEMENT</span>
+                                                        <a href="#">
+                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-entertainment1/wp-content/uploads/sites/3/2020/01/zoxpress300x250.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="trending-article">
+                                                    <div class="trending-article-head">
+                                                        <div class="trending-title">
+                                                            <h3 class="zox-widget-side-title">Trending</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="trending-article-title">
+                                                        <section class="trending-article-wrap">
+                                                            <div class="trending-grid">
+                                                                <div class="article-order-number">
+                                                                    <span class="number">1</span>
+                                                                </div>
+                                                                <div class="trending-article-link">
+                                                                    <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="trending-grid">
+                                                                <div class="article-order-number">
+                                                                    <span class="number">2</span>
+                                                                </div>
+                                                                <div class="trending-article-link">
+                                                                    <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="trending-grid">
+                                                                <div class="article-order-number">
+                                                                    <span class="number">3</span>
+                                                                </div>
+                                                                <div class="trending-article-link">
+                                                                    <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="trending-grid">
+                                                                <div class="article-order-number">
+                                                                    <span class="number">4</span>
+                                                                </div>
+                                                                <div class="trending-article-link">
+                                                                    <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="trending-grid">
+                                                                <div class="article-order-number">
+                                                                    <span class="number">5</span>
+                                                                </div>
+                                                                <div class="trending-article-link">
+                                                                    <a href="#"><span>Day la title trending article Day la title trending article</span></a>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="article-footer">
+                                        <div class="article-footer-head">
+                                            <h4 class="article-footer-head-title">You may also like</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript" src="jQuery/jQuery.js"></script>
+                            <script type="text/javascript">
+                                function submitComment() {
+                                    var txt;
+                                    if (confirm("Are you sure to submit your comment")) {
+                                        txt = "Your comment was submitted successfully";
+                                    } else {
+                                        txt = "Comment submission was canceled";
+                                    }
+                                }
+                                $(document).ready(function(){
+                                    $("button").hover(function(){
+                                        $(this).css("background-color", "#888");
+                                    }, function(){
+                                        $(this).css("background-color", "#000");
+                                    });
+                                });
+                                function unHide() {
+                                    $("button").click(function(){
+                                        $("#comment-form-container").removeClass("inactive");
+                                    });
+                                }
+                            </script>
 
                         </div>
                         <%- include('footer') -%>

@@ -190,19 +190,20 @@ a{
     position: absolute;
     min-height: 36px;
     margin-top: 20px;
-    bottom: 0;
+    bottom: -30px;
     left: 0;
     float: right;
     text-align: right;
     font-size: .75rem;
     line-height: 1;
-    padding: 8px 30px 0;
+    padding: 5px 0 0;
     width: 100%;
 }
 
 figcaption .Image_caption{
     color: #888;
-    width: 70%;
+    justify-items: left;
+    display: flex;
 }
 iframe{
     cursor: pointer;
@@ -402,4 +403,24 @@ form .input{
     font-weight: 700;
     font-size: 2rem;
     color: darkgrey;
+}
+
+.article-footer{
+    width: 100%;
+    position: relative;
+}
+
+.article-footer-head{
+    margin: 0 0 20px;
+    float: left;
+}
+.article-footer-head h4{
+    text-align: left;
+}
+.article-footer-head-title{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
 }
