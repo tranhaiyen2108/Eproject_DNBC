@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') -%>
+    <title>ContactUs</title>
+    <link rel="icon" href="imgs/advertisement1/logo.jpg" type="image/gif" />
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/contactus.css">
+    <style>
+        #map {
+            height: 500px;
+            width:100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<%- include('header') -%>
+<div id="site-content" role="main">
+    <section id="row-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="title-page">
+                        CONTACT US
+                    </div>
+                    <div class="sub-title">
+                        <h1>Take the opportunity and success with us</h1>
+                        <h2>Get started now with DHBC</h2>
+                    </div>
+                    <div class="info">
+                        <span>Hanoi advertising office</span>
+                        <p class="icon-1">FPT Building No. 8 Ton That Thuyet - Hanoi City​</p>
+                        <p class="icon-2">024 7300 9999 (Ext: 4541 – 4566 - 4567) <br>Hotline: 090 293 9644​</p>
+                        <span>HoChiMinh advertising office</span>
+                        <p class="icon-1">6th Floor, Exchange Tower Building - No. 1 Nam Ky Khoi Nghia, P. Nguyen Thai Binh, District 1, Ho Chi Minh City</p>
+                        <p class="icon-2">028 7300 9999 (Ext: 8560 – 8578) <br>Hotline: 090 293 9644​</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-box">
+                        <div class="box">
+                            <form id="contact-form" class="contact-form" method="post" action="" novalidate="novalidate">
+                                <input type="text" name="name" value="" placeholder="Name*"/>
+                                <input type="text" name="company" value="" placeholder="Enterprise"/>
+                                <input type="text" name="type" value="" placeholder="Business type*"/>
+                                <input type="text" name="city" value="" placeholder="Province*"/>
+                                <input type="text" name="email" value="" placeholder="Email*"/>
+                                <input type="text" name="phone" value="" placeholder="Telephone*"/>
+                                <input type="text" name="content" value="" placeholder="Content"/>
+                                <div style="margin-top: 20px;" class="g-recaptcha" data-sitekey="6Ldw6ucUAAAAADWUpDVmkjr7-m-ZJavy4lwaikb9">
+                                    <div style="width: 304px; height: 78px;">
+                                        <div>
+                                            <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ldw6ucUAAAAADWUpDVmkjr7-m-ZJavy4lwaikb9&amp;co=aHR0cHM6Ly9lY2xpY2sudm46NDQz&amp;hl=vi&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;size=normal&amp;cb=bnt5ocrhk4ap" width="304" height="78" role="presentation" name="a-pdanf98uvud9" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" class="lazyloaded" data-was-processed="true" data-origwidth="304" data-origheight="78" style="width: 304px; height: 78px;">
+
+                                            </iframe>
+                                        </div>
+                                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
+
+                                        </textarea>
+                                    </div>
+                                    <iframe style="display: none; width: 490px;" data-origwidth="" data-origheight="">
+
+                                    </iframe>
+                                </div>
+                                <div id="err" class="hide">
+
+                                </div>
+                                <input type="submit" class="btn-submit" name="submit" value="Send"></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content content-map">
+                        <div id="map"></div>
+                        <script>
+                            var map;
+                            function initMap() {
+                                var position = {
+                                    lat: 21.0288289,
+                                    lng: 105.7817819
+                                };
+                                map = new google.maps.Map(document.getElementById('map'), {
+                                    center: position,
+                                    zoom: 16
+                                });
+                                var marker = new google.maps.Marker({
+                                    position:position,
+                                    map: map,
+                                    label: {text:'DNBC',color:"black"}
+                                });
+                            }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap"
+                                async defer></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <%- include('footer') -%>
+</div>
+</body>
+</html>
