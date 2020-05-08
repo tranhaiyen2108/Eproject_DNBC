@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dnbcglobalnews/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews/views/post.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dnbcglobalnews" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1bcoZ6poQeOUT9vaQrW5GX7rgRp" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588940794320</updated>
       <workItem from="1588940797329" duration="1390000" />
-      <workItem from="1588944083806" duration="2769000" />
+      <workItem from="1588944083806" duration="3672000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -52,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588945549104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change structure, keep files the same as before">
+      <created>1588947057102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588947057102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,10 +70,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change structure, keep files the same as before" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1588945541540">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1588947051582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588945541540" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588947051582" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1588945014159">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
