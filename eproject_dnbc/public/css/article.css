@@ -3,6 +3,19 @@
     z-index: 0;
     overflow: hidden;
 }
+.container{
+    width: 1280px;
+}
+#lead-top-wrap{
+    display: none;
+}
+.topnav{
+    position: fixed;
+    z-index: 10;
+}
+#main-body-wrap{
+    padding-top: 80px;
+}
 .ArticlePage_container {
     position: relative;
     z-index: 0;
