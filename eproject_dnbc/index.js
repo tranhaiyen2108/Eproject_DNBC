@@ -37,3 +37,6 @@ app.get("/advertisement",function (req,res) {
 app.get("/contactus",function (req,res) {
     res.render("contactus");
 });
+app.get("/categories",function (req,res) {
+    res.render("categories");
+});
