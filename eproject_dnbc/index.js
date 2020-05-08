@@ -31,4 +31,9 @@ app.get("/about-us",function (req,res) {
 app.get("/file-mau",function (req,res) {
     res.render("file-mau");
 });
-
+app.get("/advertisement",function (req,res) {
+    res.render("advertisement");
+});
+app.get("/contactus",function (req,res) {
+    res.render("contactus");
+});
