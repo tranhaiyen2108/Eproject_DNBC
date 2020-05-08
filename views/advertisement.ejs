@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <%- include('head') -%>
-        <title>Advertisement</title>
-        <link rel="stylesheet" href="css/general.css">
-        <script src="jquery/fullpage.min.js"></script>
+    <title>Advertisement</title>
+    <link rel="stylesheet" href="css/general.css">
+    <script src="jquery/fullpage.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
 </head>
 <body>
 <%- include('header') -%>
-</div>
-</div>
-</div>
 <div id="fullpage" >
     <div class="section sec1 bg-gradient">
         <div class="intro">
@@ -49,9 +47,9 @@
         <div class="info">
             <div class="gr-element clearfix">
                 <div class="container">
-                    <H1><b><marquee width="100%">Welcome to DHBC</marquee></b></H1>
+                    <H1 class="sub-tt"><b><marquee width="100%">Welcome to DHBC</marquee></b></H1>
                     <h3>Registration</h3>
-                    <div id="container1" class="col-md-12 col-sm-9">
+                    <div id="container1" class=" slide-element">
                         <form action="action_page.php" method="GET">
                             <div class="form-group">
                                 <label>Username</label>
@@ -60,14 +58,6 @@
                             <div class="form-group">
                                 <label>Enterprise:</label>
                                 <input class="form-control" type="text" name="Enterprise" placeholder="Enterprise.." required/>
-                            </div>
-                            <div class="form-group">
-                                <label>Business type:</label>
-                                <input class="form-control" type="text" name="Businesse" placeholder="Business.." required/>
-                            </div>
-                            <div class="form-group">
-                                <label>Address:</label>
-                                <input class="form-control" type="text" name="address" placeholder="Address.." required/>
                             </div>
                             <div class="form-group">
                                 <label>Phone</label>
