@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="" />
+    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +35,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588940794320</updated>
-      <workItem from="1588940797329" duration="575000" />
+      <workItem from="1588940797329" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change structure, keep files the same as before" />
+    <option name="LAST_COMMIT_MESSAGE" value="change structure, keep files the same as before" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1588941585445">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588941585445" />
   </component>
 </project>
