@@ -263,7 +263,7 @@
     box-shadow: 0 0 3px 1px rgba(0,0,0,.06);
     background: #fff;
     float: left;
-    padding: 20px 20px 30px;
+    padding: 20px 10px 30px;
     width: 100%;
 }
 .widget-side-head{
@@ -294,16 +294,19 @@
     padding-bottom: 20px;
 }
 .widget-trend span{
-    padding: 0 15px 0 0;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #bbb;
     line-height: 1;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
 }
 .widget-trend a{
     padding: 0;
     color: black;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
 }
 .widget-trend a:hover, .widget-trend a:focus, .widget-trend a:active{
