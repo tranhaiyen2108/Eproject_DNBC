@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8ecbe89-161b-4071-a8c1-52beb37218bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bG5oNT3ogZ2cT4SsybAaLernV0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8ecbe89-161b-4071-a8c1-52beb37218bb" name="Default Changelist" comment="" />
+      <created>1588245763370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588245763370</updated>
+      <workItem from="1588245765943" duration="16104000" />
+      <workItem from="1588493805118" duration="91000" />
+      <workItem from="1588592659419" duration="1326000" />
+      <workItem from="1588597875957" duration="1813000" />
+      <workItem from="1588610738148" duration="24000" />
+      <workItem from="1588610854906" duration="10000" />
+      <workItem from="1588610934136" duration="45000" />
+      <workItem from="1588648697583" duration="9000" />
+      <workItem from="1588762251362" duration="2289000" />
+      <workItem from="1588765723529" duration="253000" />
+      <workItem from="1588766036660" duration="2302000" />
+      <workItem from="1588898748673" duration="10408000" />
+      <workItem from="1588937479963" duration="2234000" />
+    </task>
+    <task id="LOCAL-00001" summary="add key for Map">
+      <created>1588610973001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588610973001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add key for Map">
+      <created>1588764085126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588764085126</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix file-mau.ejs">
+      <created>1588764256657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588764256657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix file-mau.ejs">
+      <created>1588766251752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588766251752</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix file-mau.ejs">
+      <created>1588771244930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588771244930</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix file-mau.ejs">
+      <created>1588905366361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588905366361</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add icon for web header">
+      <created>1588905634171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588905634171</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix trending article">
+      <created>1588907243132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588907243132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix icon in head.ejs">
+      <created>1588907297557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588907297557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix icon in head.ejs">
+      <created>1588908838294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588908838294</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix css">
+      <created>1588910630990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588910630990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix css">
+      <created>1588910982568</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588910982568</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix file-mau.ejs">
+      <created>1588912407590</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588912407590</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix file-mau.ejs">
+      <created>1588914916249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588914916249</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add contactus.ejs">
+      <created>1588937586657</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588937586657</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add contactus.ejs">
+      <created>1588939366152</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588939366152</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix comment">
+      <created>1588939773154</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588939773154</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add key for Map" />
+    <MESSAGE value="add icon for web header" />
+    <MESSAGE value="fix trending article" />
+    <MESSAGE value="fix icon in head.ejs" />
+    <MESSAGE value="fix css" />
+    <MESSAGE value="fix file-mau.ejs" />
+    <MESSAGE value="add contactus.ejs" />
+    <MESSAGE value="fix comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix comment" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="0" key="CommitChangelistDialog2" timestamp="1588939769946">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="448" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588764255614" />
+    <state x="2577" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588914915168" />
+    <state x="438" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588939769946" />
+    <state x="739" y="102" key="FileChooserDialogImpl" timestamp="1588421418442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="739" y="102" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588421418442" />
+  </component>
+</project>
