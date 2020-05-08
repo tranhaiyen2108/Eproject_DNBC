@@ -1,15 +1,17 @@
 #lead-top-wrap{
     display: none;
 }
-
+.topnav{
+    position: fixed;
+    z-index: 10;
+}
 #main-body-wrap{
     padding-top: 80px;
-
 }
 
 .contact-box{
     padding:30px 40px;
-    margin: 20px 0;
+    margin: 90px 0;
     background-color:#fff;
     border-radius:30px}
 
