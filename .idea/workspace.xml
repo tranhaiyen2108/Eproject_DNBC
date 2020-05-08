@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dnbcglobalnews" />
   </component>
   <component name="ProjectId" id="1bcoZ6poQeOUT9vaQrW5GX7rgRp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +22,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dnbcglobalnews" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,7 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588940794320</updated>
       <workItem from="1588940797329" duration="1390000" />
-      <workItem from="1588944083806" duration="519000" />
+      <workItem from="1588944083806" duration="1195000" />
     </task>
     <servers />
   </component>
@@ -52,5 +52,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588942359407" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1588945014159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588945014159" />
   </component>
 </project>
