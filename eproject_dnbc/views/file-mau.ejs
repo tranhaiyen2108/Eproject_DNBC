@@ -83,29 +83,74 @@
                                                 <i class="fas fa-comment"></i> <span>Click to comment</span>
                                             </button>
                                         </div>
-                                        <div id="comment-form-container" class="inactive">
-                                            <form action="#" method="post">
-                                                <div class="comment-form-title">
-                                                    <h3>Please comment here</h3>
-                                                    <h6>Require field are marked<span class="required">*</span></h6>
-                                                </div>
-                                                <div class="form-group col-xs-12">
-                                                    <label for="comment">Comment <span class="required">*</span></label>
-                                                    <textarea name="comment" id="comment" cols="10" rows="2" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
-                                                </div>
-                                                <div class="form-group col-xs-5">
-                                                    <label for="email">Email address<span class="required">*</span></label>
-                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                                    <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                                                </div>
-                                                <div class="form-group col-xs-7">
-                                                    <label for="name">Full name<span class="required">*</span></label>
-                                                    <small id="emailHelp" class="form-text text-muted">You can use your real name or nickname</small>
-                                                    <input type="text" class="form-control input" id="name" placeholder="Your full name">
-                                                </div>
-                                                <button type="submit" class="btn">Submit</button>
-                                            </form>
-                                        </div>
+                                        <section class="comment-wrapper clearfix">
+                                            <div id="comment-form-container" class="inactive">
+                                                <form action="#" method="post">
+                                                    <div class="comment-form-title">
+                                                        <h3>Please comment here</h3>
+                                                        <h6>Require field are marked<span class="required">*</span></h6>
+                                                    </div>
+                                                    <div class="form-group col-xs-12">
+                                                        <label for="comment">Comment <span class="required">*</span></label>
+                                                        <textarea name="comment" id="comment" cols="10" rows="2" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
+                                                    </div>
+                                                    <div class="form-group col-xs-5">
+                                                        <label for="email">Email address<span class="required">*</span></label>
+                                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                        <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                                    </div>
+                                                    <div class="form-group col-xs-7">
+                                                        <label for="name">Full name<span class="required">*</span></label>
+                                                        <small id="emailHelp" class="form-text text-muted">You can use your real name or nickname</small>
+                                                        <input type="text" class="form-control input" id="name" placeholder="Your full name">
+                                                    </div>
+                                                    <button type="submit" class="btn">Submit</button>
+                                                </form>
+                                            </div>
+                                            <div class="comment-list">
+                                                <span class="box-head">Bình luận (Count numbers of comment)</span>
+                                            </div>
+                                            <div class="lst-comment" id="listComment">
+                                                <ul data-view="listcm">
+                                                    <li class="item-comment">
+                                                        <div class="top">
+                                                            <img class="avatar-fb-name img33x33" src="imgs/commentAvar_01.jpg" alt="none">
+                                                            <a href="javascript:;" title="" class="name">Dang Hieu</a>
+                                                            <span class="minimize">Chính phủ phải xiết chặt từ gốc, từ Google và Apple. Yêu cầu dẹp bỏ các app cho vay trên Google play và Apple Store mới được.</span>
+                                                        </div>
+                                                        <div class="comment-datetime">
+                                                            <div class="li-right">
+                                                                <a class="btn-reply timeago" href="javascript:;" rel="nofollow" title="2020-05-08T10:30:39">2 giờ trước</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item-comment">
+                                                        <div class="top">
+                                                            <img class="avatar-fb-name img33x33" src="imgs/commentAvar_02.jpg" alt="none">
+                                                            <a href="javascript:;" title="" class="name">Dang Hieu</a>
+                                                            <span class="minimize">Chính phủ phải xiết chặt từ gốc, từ Google và Apple. Yêu cầu dẹp bỏ các app cho vay trên Google play và Apple Store mới được.</span>
+                                                        </div>
+                                                        <div class="comment-datetime">
+                                                            <div class="li-right">
+                                                                <a class="btn-reply timeago" href="javascript:;" rel="nofollow" title="2020-05-08T10:30:39">2 giờ trước</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item-comment">
+                                                        <div class="top">
+                                                            <img class="avatar-fb-name img33x33" src="imgs/commentAvar_03.jpg" alt="none">
+                                                            <a href="javascript:;" title="" class="name">Dang Hieu</a>
+                                                            <span class="minimize">Chính phủ phải xiết chặt từ gốc, từ Google và Apple. Yêu cầu dẹp bỏ các app cho vay trên Google play và Apple Store mới được.</span>
+                                                        </div>
+                                                        <div class="comment-datetime">
+                                                            <div class="li-right">
+                                                                <a class="btn-reply timeago" href="javascript:;" rel="nofollow" title="2020-05-08T10:30:39">2 giờ trước</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </section>
                                         <div class="article-footer" style="display: none">
                                             <div class="article-footer-head">
                                                 <h4 class="article-footer-head-title">You may also like</h4>

@@ -404,3 +404,83 @@ form .input{
     font-weight: 800;
     text-transform: capitalize;
 }
+.comment-list{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.comment-list .box-head {
+    box-sizing: border-box;
+    font: bold 16px Roboto;
+    color: #222;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.lst-comment {
+    width: 100%;
+    color: #6f6f6f;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    line-height: 18px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.lst-comment ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lst-comment ul li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.lst-comment ul li .avatar-fb-name {
+    float: left;
+    margin-right: 10px;
+}
+.img33x33 {
+    width: 35px;
+    height: 35px;
+}
+img {
+    max-width: 100%;
+    color: transparent;
+}
+.lst-comment ul li .name {
+    font: bold 14px Roboto;
+    color: #e32;
+    margin-bottom: 3px;
+}
+.minimize {
+    font: normal 14px/1.43 Roboto;
+    color: #222;
+    display: block;
+    white-space: pre-line;
+}
+.comment-datetime{
+    margin-top: 6px;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.comment-datetime .li-right {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.comment-datetime .li-right .timeago {
+    float: left;
+    font: normal 12px Roboto;
+    color: #727b88;
+    width: auto !important;
+    position: relative;
+}
+
+.comment-wrapper{
+    padding-top: 15px;
+}
