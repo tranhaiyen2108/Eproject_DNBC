@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("sideNavigation").style.width = "400px";
+    document.getElementById("sideNavigation").style.width = "265px";
     document.getElementById("sideNavigation").style.opacity = "1";
     document.getElementById("close-nav").style.display = "block";
 }
