@@ -231,11 +231,12 @@ footer{
     padding-left: 13px;
     font-size: 12px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     .footer-right ul{display: flex;
         align-items: center;
         justify-content: center;}
     .footer-right p{text-align: center}
+    .menu_1 {display: none}
 }
 .back-to-top {
     width: 50px;
