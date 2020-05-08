@@ -43,7 +43,7 @@
     text-decoration: none;
 }
 .hot-new .first-new{
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
     font-weight: 700;
@@ -52,7 +52,7 @@
     padding-top: 10px;
 }
 .hot-new .second-new{
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     font-weight: 700;
@@ -192,7 +192,7 @@
 .bot-site-text a{
     font-size: 22px;
     font-weight: 700;
-    color: black;
+    color: black!important;
     letter-spacing: -.02em;
     line-height: 1.125;
 }
@@ -294,19 +294,19 @@
     padding-bottom: 20px;
 }
 .widget-trend span{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: #bbb;
     line-height: 1;
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 .widget-trend a{
     padding: 0;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 .widget-trend a:hover, .widget-trend a:focus, .widget-trend a:active{
