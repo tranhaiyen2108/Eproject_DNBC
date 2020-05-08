@@ -30,18 +30,6 @@
                                                         <p><b>Published on </b></p><time class="Attribution_content">APR 24, 2020 / 90:00 AM</time></div>
                                                 </div>
                                                 <div class="ArticleHeader_date_container">
-<!--                                                    <ul>-->
-<!--                                                        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=example.org', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook">-->
-<!--                                                            <li class="icon">-->
-<!--                                                                <i class="fab fa-facebook-f"></i>-->
-<!--                                                            </li>-->
-<!--                                                        </a>-->
-<!--                                                        <a href="#" onclick="window.open('http://twitter.com/share?text=text goes here', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Twitter">-->
-<!--                                                            <li class="icon">-->
-<!--                                                                <i class="fab fa-twitter-square"></i>-->
-<!--                                                            </li>-->
-<!--                                                        </a>-->
-<!--                                                    </ul>-->
                                                     <div id="fb-root"></div>
                                                     <script>(function(d, s, id) {
                                                             var js, fjs = d.getElementsByTagName(s)[0];
@@ -101,28 +89,21 @@
                                                     <h3>Please comment here</h3>
                                                     <h6>Require field are marked<span class="required">*</span></h6>
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group col-xs-12">
                                                     <label for="comment">Comment <span class="required">*</span></label>
-                                                    <textarea name="comment" id="comment" cols="45" rows="8" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
+                                                    <textarea name="comment" id="comment" cols="10" rows="2" required="required" maxlength="10000" minlength="50" placeholder="Enter comment"></textarea>
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group col-xs-5">
                                                     <label for="email">Email address<span class="required">*</span></label>
-                                                    <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                    <input type="email" class="form-control input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group col-xs-7">
                                                     <label for="name">Full name<span class="required">*</span></label>
+                                                    <small id="emailHelp" class="form-text text-muted">You can use your real name or nickname</small>
                                                     <input type="text" class="form-control input" id="name" placeholder="Your full name">
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="address">Address</label>
-                                                    <textarea name="address" id="address" cols="10" rows="1" maxlength="200" minlength="10" placeholder="Enter your address"></textarea>
-                                                </div>
-                                                <div class="form-check">
-                                                    <h6><input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                        Do you want to submit your comment</h6>
-                                                </div>
-                                                <button onclick="submitComment()" type="submit" class="btn">Submit</button>
+                                                <button type="submit" class="btn">Submit</button>
                                             </form>
                                         </div>
                                         <div class="article-footer" style="display: none">
@@ -175,14 +156,6 @@
                             </div>
                             <script type="text/javascript" src="jQuery/jQuery.js"></script>
                             <script type="text/javascript">
-                                function submitComment() {
-                                    var txt;
-                                    if (confirm("Are you sure to submit your comment")) {
-                                        txt = "Your comment was submitted successfully";
-                                    } else {
-                                        txt = "Comment submission was canceled";
-                                    }
-                                }
                                 $(document).ready(function(){
                                     $("button").hover(function(){
                                         $(this).css("background-color", "#888");

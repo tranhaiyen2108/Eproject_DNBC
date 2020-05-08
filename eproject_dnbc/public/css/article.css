@@ -384,19 +384,6 @@ form .input{
 .trending-article-link span:hover{
     color: #2b669a;
 }
-.article-order-number{
-    position: relative;
-}
-
-.article-order-number .number{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 5px;
-    font-weight: 700;
-    font-size: 2rem;
-    color: darkgrey;
-}
 
 .article-footer{
     width: 100%;
