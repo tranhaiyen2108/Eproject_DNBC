@@ -294,16 +294,19 @@
     padding-bottom: 20px;
 }
 .widget-trend span{
-    padding: 0 15px 0 0;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #bbb;
     line-height: 1;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
 }
 .widget-trend a{
     padding: 0;
     color: black;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
 }
 .widget-trend a:hover, .widget-trend a:focus, .widget-trend a:active{

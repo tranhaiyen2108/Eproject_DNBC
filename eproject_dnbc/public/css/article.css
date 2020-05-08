@@ -105,23 +105,16 @@
     list-style: none;
 }
 .icon {
-    border: 1px solid #ddd;
-    color: #000;
-    display: grid;
     float: left;
     font-size: 16px;
     align-content: center;
     justify-content: center;
     line-height: 1;
-    position: relative;
-    text-align: center;
-    width: 36px;
     height: 36px;
+    position: relative;
+    margin: auto 10px auto 10px;
+}
 
-}
-.icon i{
-    font-size: 20px;
-}
 .ArticleBody_container{
     max-width: 100%;
     padding-right: 0;
