@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/advertisement.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/advertisement.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/nodejs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -44,7 +48,7 @@
       <workItem from="1588944083806" duration="1478000" />
       <workItem from="1588946384156" duration="696000" />
       <workItem from="1589005497232" duration="1000" />
-      <workItem from="1589071105437" duration="16000" />
+      <workItem from="1589071105437" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -60,6 +64,10 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Eproject_DNBC" />
+      <path value="$PROJECT_DIR$/dnbcglobalnews" />
+    </ignored-roots>
     <MESSAGE value="change structure, keep files the same as before" />
     <option name="LAST_COMMIT_MESSAGE" value="change structure, keep files the same as before" />
   </component>
@@ -68,11 +76,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588945541540" />
-    <state x="173" y="0" key="SettingsEditor" timestamp="1589071120792">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589071165968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589071165968" />
+    <state x="173" y="0" key="SettingsEditor" timestamp="1589071358799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588945014159" />
-    <state x="173" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589071120792" />
+    <state x="173" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589071358799" />
     <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588945566075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
