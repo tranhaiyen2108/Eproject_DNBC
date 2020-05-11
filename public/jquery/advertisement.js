@@ -5,7 +5,7 @@ $(document).ready(function(){
             verticalCentered: true,
             anchors: ['sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6', 'sec7', 'sec8', 'sec9', 'sec10', 'sec11', 'sec12', 'sec13'],
             menu: '#menu',
-            scrollingSpeed: 600,
+            scrollingSpeed: 1000 ,
             sectionsColor: ['#fff', '#11d0f8', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff'],
             onLeave: function(origin, destination, direction){
                 var leavingSection = this;
@@ -51,19 +51,7 @@ $(document).ready(function(){
             }
         });
     }
-    $( window ).resize(function() {
-        if($(window).width() > 992){
-            var myFullpage = new fullpage('#fullpage', {
-                verticalCentered: true,
-                anchors: ['sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6', 'sec7', 'sec8', 'sec9', 'sec10'],
-                menu: '#menu',
-                scrollingSpeed: 200,
-                sectionsColor: ['#fff', '#11d0f8', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff']
-            });
-        }
-    });
-
-    //Add ID section 2
+     //Add ID section 2
     if($(window).width() <= 992){
         $('.sec1').attr('id','sec1');
         $('.sec2').attr('id','sec2');
@@ -308,13 +296,13 @@ $(document).ready(function(){
 
     // Type it
     new TypeIt('#sub_text_1', {
-        speed: 50,
-        strings: ['Thông tin phong phú, nhanh chóng, chính xác.'],
+        speed: 25,
+        strings: [''],
         cursor: false
     });
     new TypeIt('#sub_text_2', {
-        speed: 50,
-        strings: ['Various, quickly and exactly information'],
+        speed: 75,
+        strings: [''],
         cursor: false
     });
 
