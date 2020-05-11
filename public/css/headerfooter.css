@@ -267,17 +267,20 @@ p{
     padding: 0;
 }
 .menu-item-submenu .menu-link{
-    background-color: #1e1e2d;
+    background-color: #1b1b2b;
+}
+.menu-item-submenu .menu-link:hover{
+    background-color: #02111d;
 }
 .menu-item-submenu .menu-icon{
-    color: #494b74;
+    color: #6993ff;
 }
 .menu-item-submenu .menu-text{
-    color: #a2a3b7;
+    color: white;
 }
 .menu-link{
     padding: 9px 25px;
-    background-color: #1b1b28;
+    background-color: #1b1b2b;
     cursor: pointer;
     min-height: 44px;
     display: -webkit-box!important;
@@ -329,7 +332,7 @@ p{
     line-height: 2;
 }
 .menu-arrow{
-    color: #5c5e81;
+    color: white;
     font-size: 13px;
     position: absolute;
     bottom: 35%;
@@ -363,6 +366,10 @@ p{
 .menu-submenu{
     display: none;
     overflow: hidden;
+}
+.menu-toggle:hover{
+    color: white!important;
+    background-color: #1b1b2b;
 }
 /*footer*/
 footer{
