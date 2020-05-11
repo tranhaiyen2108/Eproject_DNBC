@@ -11,32 +11,241 @@
         </div>
         <div id="site-main">
             <div id="header" class="left relative">
-                <div id="sideNavigation" class="sidenav">
-                    <a href="/"><img src="imgs/dnbc.png" width="150" height="50"></a>
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <ul>
-                        <li>
-                            <a href="/categories">Today in world</a>
-                        </li>
-                        <li>
-                            <a href="/categories">Business</a>
-                        </li>
-                        <li>
-                            <a href="/categories">Politics</a>
-                        </li>
-                        <li>
-                            <a href="/categories">Sports</a>
-                        </li>
-                        <li>
-                            <a href="/about-us">About Us</a>
-                        </li>
-                        <li>
-                            <a href="/contactus">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="/advertisement">Aversiting Registrantion</a>
-                        </li>
-                    </ul>
+                <div id="sideNavigation" class="sidenav sidenav-left">
+                    <div class="brand" id="brand">
+                        <a href="/" class="brand-logo">
+                            <img src="imgs/dnbc.png" width="92" height="20" alt="logo">
+                        </a>
+                        <button class="brand-toggle btn btn-sm" id="aside-toggle" onclick="closeNav()">
+                            <i class="fas fa-angle-double-left fa-2x"></i>
+                        </button>
+                    </div>
+                    <div class="aside-menu-wrapper" id="aside-menu-wrapper">
+                        <div id="aside-menu" class="aside-menu">
+                            <ul class="menu-nav">
+                                <li class="menu-item1 menu-item1-active" style="padding-bottom: 30px">
+                                    <a href="javascript:;" class="menu-link" style="cursor: default">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-layer-group"></i></span>
+                                        <span class="menu-text">Menu</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover1">
+                                        <span class="menu-icon menu-icon1" id="menu-icon1"><i class="fas fa-globe"></i></span>
+                                        <span class="menu-text" id="menu-text1">Today in world</span>
+                                        <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal1" onclick="openSubmenu1()"></i>
+                                        <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open1" onclick="closeSubmenu1()"></i>
+                                    </a>
+                                    <div class="menu-submenu" id="menu-submenu1">
+                                        <ul class="menu-subnav">
+                                            <li class="menu-item1 menu-item-parent">
+                                                <span class="menu-link">
+                                                    <span class="menu-text">
+                                                        Today in world
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="menu-item1 xmenu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        World 1
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        World 2
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        World 3
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover2">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-business-time"></i></span>
+                                        <span class="menu-text">Business</span>
+                                        <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal2" onclick="openSubmenu2()"></i>
+                                        <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open2" onclick="closeSubmenu2()"></i>
+                                    </a>
+                                    <div class="menu-submenu" id="menu-submenu2">
+                                        <ul class="menu-subnav">
+                                            <li class="menu-item1 menu-item-parent">
+                                                <span class="menu-link">
+                                                    <span class="menu-text">
+                                                        Business
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="menu-item1 xmenu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Business 1
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Business 2
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Business 3
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover3">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-handshake"></i></span>
+                                        <span class="menu-text">Politics</span>
+                                        <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal3" onclick="openSubmenu3()"></i>
+                                        <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open3" onclick="closeSubmenu3()"></i>
+                                    </a>
+                                    <div class="menu-submenu" id="menu-submenu3">
+                                        <ul class="menu-subnav">
+                                            <li class="menu-item1 menu-item-parent">
+                                                <span class="menu-link">
+                                                    <span class="menu-text">
+                                                        Politics
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="menu-item1 xmenu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Politic 1
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Politic 2
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Politic 3
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover4">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-futbol"></i></span>
+                                        <span class="menu-text">Sports</span>
+                                        <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal4" onclick="openSubmenu4()"></i>
+                                        <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open4" onclick="closeSubmenu4()"></i>
+                                    </a>
+                                    <div class="menu-submenu" id="menu-submenu4">
+                                        <ul class="menu-subnav">
+                                            <li class="menu-item1 menu-item-parent">
+                                                <span class="menu-link">
+                                                    <span class="menu-text">
+                                                        Sports
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="menu-item1 xmenu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Sport 1
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Sport 2
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item1 menu-item-submenu">
+                                                <a href="#" class="menu-link menu-toggle">
+                                                    <span class="menu-bullet">
+                                                        -
+                                                    </span>
+                                                    <span class="menu-text">
+                                                        Sport 3
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover5">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-address-card"></i></span>
+                                        <span class="menu-text">About us</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover6">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-id-card-alt"></i></span>
+                                        <span class="menu-text">Contact us</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item1 menu-item-submenu">
+                                    <a href="javascript:;" class="menu-link menu-hover7">
+                                        <span class="menu-icon menu-icon1"><i class="fas fa-ad"></i></span>
+                                        <span class="menu-text">Advertising registrantion</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <nav class="topnav col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="row">

@@ -70,17 +70,6 @@
     padding-top: 60px;
     transition: 0.5s;
 }
-.sidenav a{
-    padding: 8px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-.sidenav img{
-    padding: 0;
-}
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
@@ -200,6 +189,191 @@
 }
 p{
     margin: 0;
+}
+.sidenav{
+    background-color: #1e1e2d;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    padding: 0;
+}
+.brand{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0 25px;
+    height: 65px;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    background-color: #1a1a27;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.brand-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: flex-begin;
+    -ms-flex-pack: flex-begin;
+    justify-content: flex-begin;
+}
+.brand-toggle{
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.brand-toggle:hover,.brand-toggle:focus,.brand-toggle:link,.brand-toggle:active{
+    color:#6993ff ;
+    border: none;
+}
+.aside-menu-wrapper{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.aside-menu{
+    background-color: #1e1e2d!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu-nav{
+    margin: 0;
+    list-style: none;
+    padding: 15px 0;
+}
+.menu-item1{
+    position: relative;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    float: none;
+    padding: 0;
+}
+.menu-item-submenu .menu-link{
+    background-color: #1e1e2d;
+}
+.menu-item-submenu .menu-icon{
+    color: #494b74;
+}
+.menu-item-submenu .menu-text{
+    color: #a2a3b7;
+}
+.menu-link{
+    padding: 9px 25px;
+    background-color: #1b1b28;
+    cursor: pointer;
+    min-height: 44px;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-flex: 1!important;
+    -ms-flex-positive: 1!important;
+    flex-grow: 1!important;
+    -webkit-box-align: stretch!important;
+    -ms-flex-align: stretch!important;
+    align-items: stretch!important;
+    margin: 0!important;
+    text-decoration: none!important;
+    position: relative!important;
+    outline: 0!important;
+}
+.menu-icon1{
+    position: relative;
+}
+.menu-icon1 i{
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+}
+.menu-icon{
+    color: #6993ff;
+    font-size: 13px;
+    -webkit-box-flex: 0!important;
+    -ms-flex: 0 0 35px!important;
+    flex: 0 0 35px!important;
+    line-height: 0.5;
+}
+.menu-text{
+    font-family: Poppin,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: initial;
+    display: -webkit-box!;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0;
+    line-height: 2;
+}
+.menu-arrow{
+    color: #5c5e81;
+    font-size: 13px;
+    position: absolute;
+    bottom: 35%;
+    right: 10%;
+}
+.menu-arrow-open{
+    display: none;
+}
+.menu-link.menu-toggle{
+    padding: 0 25px 0 40px!important;
+    min-height: 40px;
+}
+.menu-item-parent{
+    display: none;
+}
+.menu-bullet{
+    vertical-align: middle;
+    text-align: left;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 15px;
+    flex: 0 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 0;
+    color: #b5b5c3;
+}
+.menu-submenu{
+    display: none;
+    overflow: hidden;
 }
 /*footer*/
 footer{
