@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baitapnhom/FPT-baitap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +57,7 @@
       <workItem from="1588940797329" duration="1390000" />
       <workItem from="1588944083806" duration="3815000" />
       <workItem from="1588959689259" duration="173000" />
-      <workItem from="1588960048850" duration="947000" />
+      <workItem from="1588960048850" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
