@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(window).scroll(function(event) {
         var pos_body = $('html,body').scrollTop();
-        if(pos_body>1000){
+        if(pos_body>500){
             $('.back-to-top').addClass('hien-ra');
         }
         else{
