@@ -456,7 +456,8 @@ footer{
 .social-network,.social-network:hover,.social-network:active,.social-network:link,.social-network:focus{
     float:left;
     color: white;
+    font-size: 20px;
 }
 .ftat{
-    padding-right: 13px;
+    padding-right: 10px;
 }
