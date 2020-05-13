@@ -23,7 +23,7 @@
     font-size: 60px;
     font-weight: 800;
     margin: 0 auto;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Jost', sans-serif;
 }
 .mid-site{
     padding: 200px;
@@ -38,7 +38,7 @@
 }
 .str-title{
     font-family: 'Dancing Script', cursive;
-    font-size: 60px;
+    font-size: 40px;
     color: #000;
     line-height: 1.5em;
     font-weight: 100;
@@ -48,7 +48,7 @@
 }
 .str-content .str {
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     letter-spacing: .025em;
     line-height: 1.5em;
