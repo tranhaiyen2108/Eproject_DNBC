@@ -1037,8 +1037,64 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                 <p>The two men also met in October last year in Chennai in southern India.</p>
                                                 <p>China still claims about 90,000 square kilometres (35,000 square miles) of territory under New Delhi’s control.</p>
                                             </div>');
+select * from DNBC_Posts
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('Pakistan says it has shot down Indian jets after Kashmir cross-border attack','Indian confirms one pilot missing and claims it shot down one Pakistani jet on day of skirmishes','Azhar Farooq','2020-02-27',7,
+'<p><b>Indian confirms one pilot missing and claims it shot down one Pakistani jet on day of skirmishes</b></p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_28.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Imran Khan addresses Pakistan after the shooting down of an Indian fighter jet</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Anadolu Agency/Getty Images</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Pakistan has conducted airstrikes over the ceasefire line in disputed Kashmir and claims to have shot down two Indian jets that responded by entering Pakistani airspace, capturing both of the pilots.</p>
+                                                <p>India confirmed that one of its pilots is missing in action and said it shot down one of the Pakistani jets as it escaped over the heavily militarised border separating the two.</p>
+                                                <p>The skirmishes, a day after India flew sorties into Pakistan for the first time in nearly 50 years, are steep escalations in the most serious military crisis in south Asia since the pair fought a brief war in the Himalayas in 1999.</p>
+                                                <p>Imran Khan, the Pakistani prime minister, used a televised address to call for dialogue to prevent more reprisals, making reference to both countries’ nuclear arsenals.</p>
+                                                <p>“With the weapons you have and the weapons we have, can we afford miscalculation?” Khan said. “Shouldn’t we think that, if this escalates, what will it lead to?”</p>
+                                                <p>Pakistan has released footage purportedly showing one of the captured Indian pilots, a wing commander who gave his name as Abhinandan. His uniform was bloody and a rag was tied around his head. He gave his name, service number, rank and religion, but when asked for more, replied: “I’m sorry sir, that’s all I’m supposed to tell you.”</p>
+                                                <p>The country’s armed forces spokesman Major-General Asif Ghafoor said one pilot was being interrogated and the second was injured and being treated in hospital.</p>
+                                                <p>India said it was aware that Pakistan had claimed to have one pilot in its custody. “We are ascertaining the facts,” the spokesman for India’s foreign ministry, Raveesh Kumar, told journalists in Delhi</p>
+                                                <p>The dogfights on Wednesday morning – the first publicly acknowledged between the two countries since 1971 – have shut down commercial flights across Pakistan and north India. Flight radar images showed deserted airspace over both countries. All commercial airports in Pakistan have been shut along with eight major Indian airports including those in Jammu city, Srinagar and Amritsar.</p>
+                                            </div>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_28_1.png" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Map</h5></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>In Srinagar, the capital of disputed Kashmir, a work crew could be seen painting a large red cross on the top of Shri Maharaja Hari Singh hospital, marking it out as a medical facility from above.</p>
+                                                <p>Pakistan’s foreign ministry said in a statement on Wednesday morning that it had struck “non-military target[s]” across the ceasefire line in Kashmir without entering Indian airspace to demonstrate its “right, will and capability for self defence”.</p>
+                                                <p>“We have no intention of escalation, but are fully prepared to do so if forced into that paradigm,” said Mohammad Faisal, the foreign affairs ministry’s spokesman.</p>
+                                                <p>Ghafoor told a media briefing on Wednesday afternoon Pakistan struck six targets on the Indian side of the ceasefire line, ensuring they kept a safe distance away from civilian, administrative or military sites.</p>
+                                                <p>“When PAF [Pakistan Air Force] took targets, IAF’s [Indian Air Force] two planes violated the line of control and entered Pakistan,” he said. “PAF was ready, there was an engagement and as a result both Indian planes were shot down. One wreckage fell on our side and another wreckage fell on their side.”</p>
+                                                <p>He told the Guardian after the briefing that Pakistan had not entered Indian airspace. “We want to send the message that we have the ability to strike, the capability for self defence, but in the way of a responsible nation,” he said.</p>
+                                                <p>But India rejected his account. “[Pakistan] used its air force to target military installation on the Indian side,” Kumar said. “Due to a high state of readiness and alertness Pakistan’s attempt were foiled successfully. The Pakistan air force was a detected and the Indian air force responded instantly.</p>
+                                                <p>“In that aerial engagement one Pakistan fighter airplane was shot down by a MiG 21 Bison of the Indian air force. The Pakistan airplane was seen by ground forces falling from the sky on the Pakistan side.”</p>
+                                                <p>Pakistan has denied losing an aircraft in the morning’s engagements.</p>
+                                                <p>In a national address on Wednesday afternoon, Khan called for talks between Delhi and Islamabad. “I will tell you again that better sense should prevail,” he said. “We should sit down and resolve our problems through dialogue.”</p>
+                                                <p>Another Indian aircraft crashed about 150km away in Budgam district on Wednesday, killing at least one person aboard, but it was unrelated to the fighting.</p>
+                                                <p>India has been on high alert since Tuesday’s strikes, an operation Islamabad had promised to repay with its own “surprise” attack.</p>
+                                                <p>Fighter jets patrolled the skies above Srinagar, the capital of disputed Kashmir, throughout Tuesday night as India and Pakistan traded mortar fire a few hundred miles away at the ceasefire border.</p>
+                                                <p>The US secretary of state, Mike Pompeo, issued a statement largely supportive of India, characterising its incursion five miles into neighbouring territory a “counter terrorism action” and calling on Pakistan to take “meaningful action against terrorist groups operating on its soil”.</p>
+                                                <p>There are still significant questions over what, if anything, was struck by India’s fighter jets in the early hours of Tuesday morning. Both countries agree that Indian jets made it to within at least a few miles of Balakot, a small city about five miles inside Pakistani territory. But accounts diverge from there.</p>
+                                                <p>India claims it hit a militant training camp and killed “a very large number” of fighters from the Jaish-e-Mohammed (JeM) group, which took responsibility for a 14 February suicide bombing in Indian-controlled Kashmir that killed 40 paramilitaries.</p>
+                                                <p>Pakistan says the Indian fighters were confronted before they could reach Balakot and dropped four to five bombs in an open field as they fled back across the border.</p>
+                                                <p>Both countries mounted media blitzes to push their particular narrative but had appeared to leave room to de-escalate the conflict. On Wednesday morning, India’s external affairs minister, Sushma Swaraj, emphasised that Pakistan’s military was not the target of the sorties.</p>
+                                                <p>“No military installations were targeted,” Swaraj said. “The limited objective of the pre-emptive strike was to act decisively against the terrorist infrastructure of the JeM in order to pre-empt another terrorist attack in India.”</p>');
 
-select * from DNBC_Posts;
+
 INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.webp'),('y2','imgs/PostID_02.webp'),('y3','imgs/PostID_03.webp'),('y4','imgs/PostID_04.webp'),('y5','imgs/PostID_05.webp'), 
 	('y6','imgs/PostID_06.webp'),('y7','imgs/PostID_07.webp'),('y8','imgs/PostID_08.webp'),('y9','imgs/PostID_09.jpeg'),('y10','imgs/PostID_10.jpeg'),('y11','imgs/PostID_11.png'),('y12','imgs/PostID_11_2.png'),
 	('y13','imgs/PostID_12.jpeg'),('y14','imgs/PostID_13.jpg'),('y15','imgs/PostID_14.jpeg'),('y16','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277'), 
