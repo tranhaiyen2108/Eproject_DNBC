@@ -225,14 +225,14 @@ p{
     justify-content: flex-begin;
 }
 .brand-toggle{
-    padding-left: 0;
-    padding-right: 0;
-    border: none;
-    background-color: transparent;
-    color: white;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    border: none!important;
+    background-color: transparent!important;
+    color: white!important;
 }
 .brand-toggle:hover,.brand-toggle:focus,.brand-toggle:link,.brand-toggle:active{
-    color:#6993ff ;
+    color:#6993ff!important;
     border: none;
 }
 .aside-menu-wrapper{
@@ -438,7 +438,6 @@ footer{
     opacity: 1;
 }
 .footer-right1{
-    margin-top: 15px;
 }
 .dl-text{
     color: #777;
@@ -451,7 +450,6 @@ footer{
 }
 .footer-right2{
     padding: 0;
-    margin-top: 15px;
 }
 .social-network,.social-network:hover,.social-network:active,.social-network:link,.social-network:focus{
     float:left;
