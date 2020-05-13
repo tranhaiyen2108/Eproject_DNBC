@@ -411,11 +411,11 @@ id y10	update DNBC_Posts set PostContent = '<div class="section">
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
                         <figure class="Image">
-                            <img src="imgs/PostID_10.jpeg" alt="none">
+                            <img src="imgs/PostID_10.jpg" alt="none">
                         </figure>
                         <figcaption>
-                            <div class="Image_caption"><h4>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h4></div>
-                            <div class="Image_caption "><h6>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h6></div>
+                            <div class="Image_caption"><h5>An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.</h5></div>
+                            <div class="Image_caption "><h6>SOURCE: Wikimedia Commons</h6></div>
                         </figcaption>
                     </div>
                 </div>
@@ -481,7 +481,7 @@ id y11  update DNBC_Posts set PostContent ='<div class="section">
             <p>The heavy selling on Monday, rather than Tuesday when the contract was set to expire, was also notable, he said.</p>
             <div class="ArticleMedia">
                 <div class="ArticleMedia_container">
-                   <iframe class="Video col-xs-10" loop preload="none" width=560 height=349 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
+                   <iframe class="Video col-xs-10" loop preload="none" width=700 height=400 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
                 </div>
             </div>
             <p>By Tuesday’s opening bell the May contract was back in positive territory, and steadily climbed higher to settle at $10.01. But it was the lowest settle on record — apart from Monday’s plunge — since the contract’s inception in 1983. For context, the previous “lowest ever” title was held by the $10.42 settle on March 31, 1986.</p>
@@ -668,9 +668,10 @@ Anmar Frangoul</span></div></div>
                 <p>For many, the hamburger’s combination of bun, meat and salad is the perfect marriage of simplicity, flavor and familiarity. Whether it’s a gourmet patty with shavings of truffle, or a cheap and cheerful offering from a fast food outlet, today’s diners are spoilt for choice.  </p>
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
-                        <iframe width=560 height=349 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
+                        <iframe width=700 height=400 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
                     </div>
                 </div>
+			<div class = col-xs-12>
             <p>The Food and Agriculture Organization of the United Nations (FAO) has previously said that emissions from global livestock amount to an estimated 7.1 gigatons of carbon dioxide equivalent each year.</p>
             <p>Breaking things down, cattle — reared for beef, milk and manure, among other things — represent roughly 65% of emissions from the livestock sector.  </p>
              <p>Olivier De Schutter, co-chair of the Brussels-based International Panel of Experts on Sustainable Food Systems (IPES-Food), said meat production has a major impact on climate change through three channels.</p>
@@ -695,6 +696,7 @@ Anmar Frangoul</span></div></div>
                 <p>It is unclear whether our diets will eventually exclude meat altogether, and be heavily reliant on plant-based produce; the answer may lie somewhere in the middle. For his part, De Schutter offered a note of caution when it came to alternative options.</p>
                 <p>“Because of the impacts of livestock production and the amount of land required to produce feedstock for animals, many people promote the idea of artificial meat,” he said.</p>
                 <p>“I believe we should be aware that these are extremely energy intensive processes, especially if they are developed on (a) large scale.”</p>
+			</div>
         </div>
     </div>
 </div>
@@ -727,6 +729,7 @@ Greg Iacurci</span></div></div>
                         </figure>
                     </div>
                 </div>
+				<div class= col-xs-12>
                 <p>The same happened to Dexter Eng, 45, a full-time Uber driver from Campbell, California, in the San Francisco Bay Area. His award statement from the state said he was entitled to $0 in benefits.</p>
                 <p>Perez, for his part, was baffled by his letter. “I thought, ‘Is this actually accurate?’” he said.</p>
                 <p>The short answer, in many circumstances, is yes.   </p>
@@ -739,17 +742,20 @@ Greg Iacurci</span></div></div>
                 <p>California’s $0 award notices are a way of denying traditional unemployment benefits to workers, according to Bill Sokol, a Bay Area-based labor attorney for Weinberg Roger & Rosenfeld.</p>
                 <p>It means the workers didn’t have wages from traditional W-2 employment, which is typically what states use to determine benefits eligibility and size.</p>
                 <p>These workers will be eligible to apply for Pandemic Unemployment Assistance on April 28 when applications open online in California, Sokol said.</p>
-                <div class="ArticleMedia">
+                </div>
+				<div class="ArticleMedia">
                     <div class="ArticleMedia_container">
-                        <iframe width=560 height=349 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000133026 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
+                        <iframe width=700 height=400 src=https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000133026 frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
                     </div>
                 </div>
+				<div class= col-xs-12>
                 <p>In California, these workers will be eligible for a minimum $167 a week (for up to 39 weeks) plus an additional $600 a week through July 25.</p>
                 <p>In a sign of how many workers are expected to flood the new program, California’s unemployment office said it “will likely rival the size of the regular UI program the EDD already administers.”</p>
                 <p>Roughly 26 million Americans filed for <a href="https://www.cnbc.com/2020/04/23/an-unemployment-rate-of-23percent-the-real-jobless-picture-is-coming-together.html">unemployment benefits</a> in the five weeks through April 18, erasing all the jobs created in the decade since the Great Recession.</p>
                 <p>Of course, receiving an award letter for $0 doesn’t mean workers will necessarily be eligible to collect unemployment through the new PUA framework.</p>
                 <p>Such a letter could apply to workers in different circumstances, according to California’s Employment Development Department.</p>
                 <p>It may mean the state needs to verify your identity for the wages reported. If so, the state will mail a request to verify your identity.</p>
+				</div>
         </div>
     </div>
 </div>

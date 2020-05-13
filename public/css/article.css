@@ -155,16 +155,16 @@
 .ArticleMedia{
     position: relative;
     max-width: 1280px;
-    margin: 20px auto 60px;
+    margin: 20px auto 10px;
 }
 .ArticleMedia_container{
     position: relative;
     background-image: none;
     width: 100%;
-    padding-bottom: 5%;
     z-index: 0;
     display: block;
     text-align: center;
+    overflow: hidden;
 }
 .ArticleMedia_container .Image{
     cursor: zoom-in;
@@ -179,17 +179,14 @@
 }
 .ArticleMedia_container figcaption {
     font-family: "freight-book", serif;
-    position: absolute;
     min-height: 36px;
-    margin-top: 20px;
-    bottom: -30px;
-    left: 0;
     float: right;
     text-align: right;
     font-size: .75rem;
     line-height: 1;
-    padding: 5px 0 0;
+    padding: 5px 0 5px;
     width: 100%;
+    background-color: #F8F8F9;
 }
 
 figcaption .Image_caption{
@@ -197,16 +194,10 @@ figcaption .Image_caption{
     justify-items: left;
     display: flex;
 }
-iframe{
+.ArticleMedia_container iframe{
     cursor: pointer;
     pointer-events: all;
     overflow: hidden;
-    position: absolute;
-    object-fit:contain;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     background-color: transparent;
 }
 #comment-button{
