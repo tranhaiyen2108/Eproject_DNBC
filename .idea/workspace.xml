@@ -63,9 +63,7 @@
       <workItem from="1589124120377" duration="1607000" />
       <workItem from="1589177823790" duration="16924000" />
       <workItem from="1589358584884" duration="53000" />
-      <workItem from="1589367363943" duration="5055000" />
-      <workItem from="1589372646294" duration="9130000" />
-      <workItem from="1589448697812" duration="804000" />
+      <workItem from="1589367363943" duration="10075000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -78,7 +76,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
