@@ -4,6 +4,8 @@
     <%- include('head') -%>
     <title>Advertisement</title>
     <link rel="stylesheet" href="css/general.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/dialog.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <script type="text/javascript" charset="utf-8">
         function hasClassName(inElement, inClassName)
@@ -91,32 +93,24 @@
     <div class="section sec1 bg-gradient">
         <div class="intro">
             <div class="main-text">
-                <h2 class="color-2">REGISTER ADVERTISEMENTS</h2>
-                <h2 class="color-2">AND ARTICLES</h2>
-                <h6 id="sub_text_2">Accurate rich information</h6>
-                <a href="#login-box" class="login-window btn btn-primary">Click here to registers</a>
-                <div id="login-box" class="login">
-                    <p class="login_title">CONTACT NOW</p>
-                    <a href="#" class="close"><img src="/imgs/close.png" class="img-close" title="Close Window" alt="Close" /></a>
-                    <form method="post" class="login-content" action="#">
-                        <label class="Name">
-                            <span>Name</span>
-                            <input id="name" name="name" value="" type="text" autocomplete="on" placeholder="Name" required/>
-                        </label>
-                        <label class="email">
-                            <span>Email</span>
-                            <input id="email" name="email" value="" type="email" placeholder="email" required/>
-                        </label>
-                        <label class="Telephone">
-                            <span>Telephone</span>
-                            <input id="Telephone" name="Telephone" value="" type="Telephone" placeholder="Telephone" required/>
-                        </label>
-                        <label class="question">
-                            <span>Make a question</span>
-                            <textarea name="comment" id="comment" cols="50" rows="5" required="required" maxlength="10000" minlength="2" placeholder="Question"></textarea>
-                        </label>
-                        <button class="btn btn-warning" type="submit">Send</button>
-                    </form>
+                <h6 class="text2" >Please input your information here, we will contact to you!</h6>
+                <div class="header">
+                    <div class="header-main">
+                        <div class="header-bottom">
+                            <div class="header-right w3agile">
+                                <div class="header-left-bottom agileinfo">
+                                    <form action="#" method="post">
+                                        <input type="text"  value="" placeholder="Name" required/>
+                                        <input type="email"  value="" placeholder="Email" required/>
+                                        <input type="number"  value="" placeholder="Phone Number" required/>
+                                        <button class="btn btn-warning" type="submit">Send</button>
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             <ul class="gr-btn">
@@ -221,8 +215,8 @@
         <div class="info">
             <div class="clearfix sec-tt">
                 <h2 class="tt-03">
-                    <span class="sub-tt">Online newspaper</span>
-                    <span class="main-tt">POLITICS - WORLD</span>
+                    <span class="sub-tt text1">Online newspaper</span>
+                    <span class="main-tt text1">POLITICS - WORLD</span>
                 </h2>
                 <div class="gr-btn">
                     <button class="btn btn-White btn-popup"><a href="#sec2">50$/1POST</a></button>

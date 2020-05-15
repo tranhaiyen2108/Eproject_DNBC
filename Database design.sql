@@ -621,7 +621,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                     <p>It is not simple, and there are other transfers needed and problems to negotiate, but the Glazers are now stuck with United whether they like it or not. Thanks to the horrors of coronavirus, they now have a chance to turn the situation to their advantage.</p>
                 </div>');
 
----run leenhj tu day
+
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('Pardew rubbishes ADO Den Haag bonus payment claims','ADO Den Haag manager Alan Pardew has denied reports stating he will receive a bonus for avoiding relegation after the Dutch season was terminated this week because of the COVID-19 pandemic.','Martyn Herman','2020-04-26',10,
 	'<p>(Reuters) - ADO Den Haag manager Alan Pardew has denied reports stating he will receive a bonus for avoiding relegation after the Dutch season was terminated this week because of the COVID-19 pandemic.</p>
@@ -664,7 +664,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                             </div>
                                             <div class="col-xs-12">
                                                 <p>Outgoing Lionesses manager Phil Neville has 15 months in which to help select his replacement. Carrie Dunn says that the last two years have ended in real disappointment - and whoever takes over needs to deliver success.</p>
-                                                <p>Hands were basically forced all round - his contract was initially due to expire in the summer of 2021, after the 2020 Olympic Games and after a home European Championships. The coronavirus pandemic now means that both competitions will be held a year later and so Neville will not lead his England side in another major tournament - and it's possible if not probable he won't be coaching Team GB through the Olympics either, although there has been no decision on that one way or the other as yet.</p>
+                                                <p>Hands were basically forced all round - his contract was initially due to expire in the summer of 2021, after the 2020 Olympic Games and after a home European Championships. The coronavirus pandemic now means that both competitions will be held a year later and so Neville will not lead his England side in another major tournament - and its possible if not probable he wont be coaching Team GB through the Olympics either, although there has been no decision on that one way or the other as yet.</p>
                                                 <p>So for the next 15 months, England essentially have a lame duck coach. He might be dealing with the same admin as usual, and working with his staff to put together training packages for the squad during the footballing hiatus; but by the time England kick a ball in anger again it will be a matter of a handful of weeks until he leaves the job. Whatever philosophy and game plans he might have will be rendered irrelevant when a new manager takes over.</p>
                                                 <p>Or perhaps not. The FA have been clear that part of the reason for the early announcement of his departure is so that he can be part of the selection committee for his replacement. This is a fairly decent and common principle in many HR departments; the person actually doing the job obviously has an insight into who will be best suited to fill their shoes.</p></div>
                                                 <div class="ArticleMedia col-xs-12">
@@ -673,7 +673,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                     </div>
                                                 </div>
                                             <div class="col-xs-12">
-                                                <p>Except - and whisper this, for it goes against much of the perceived wisdom - Nevilles time as England boss has been something of a disappointment. With all the financial and staff support anyone could wish for, the Lionesses still only made the semi-finals of the Women's World Cup last year - finishing fourth, as opposed to the third place they'd achieved in 2015. (Cynics and those with long memories might wonder what Hope Powell - England manager from 1998 to 2013 - might have done given similar resources.) Since the summer of 2019, England have lost seven of their last 11 matches, and failed to defend their SheBelieves Cup title in March. When he took over, the Lionesses were the top-ranked side in Europe; now they are third.</p>
+                                                <p>Except - and whisper this, for it goes against much of the perceived wisdom - Nevilles time as England boss has been something of a disappointment. With all the financial and staff support anyone could wish for, the Lionesses still only made the semi-finals of the Womens World Cup last year - finishing fourth, as opposed to the third place theyd achieved in 2015. (Cynics and those with long memories might wonder what Hope Powell - England manager from 1998 to 2013 - might have done given similar resources.) Since the summer of 2019, England have lost seven of their last 11 matches, and failed to defend their SheBelieves Cup title in March. When he took over, the Lionesses were the top-ranked side in Europe; now they are third.</p>
                                                 <div class="ArticleMedia">
                                                     <div class="ArticleMedia_container">
                                                         <figure class="Image">
@@ -701,7 +701,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
 
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('"Just wondering": Roger Federers comments add fuel to ATP-WTA merger debate','"Just wondering ... am I the only one thinking that now is the time for mens and womens tennis to be united and come together as one?"','Peter Bodo ESPN.com Staff Writer','2020-04-23',
-	11,'<p>"Just wondering ... am I the only one thinking that now is the time for men's and women's tennis to be united and come together as one?"</p>
+	11,'<p>"Just wondering ... am I the only one thinking that now is the time for mens and womens tennis to be united and come together as one?"</p>
                                             <p>It would be a seemingly innocuous statement had it been written by any tennis player or fan with time to contemplate the state of the sport.</p>
                                             <div class="ArticleMedia">
                                                 <div class="ArticleMedia_container">
@@ -709,7 +709,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                         <img src="imgs/PostID_p04.jpg" width="803" alt="none">
                                                     </figure>
                                                     <figcaption>
-                                                        <div class="Image_caption"><h5>Roger Federer raised the prospect of merging the ATP and WTA, the governing bodies that oversee the men's and women's tennis tours.</h5></div>
+                                                        <div class="Image_caption"><h5>Roger Federer raised the prospect of merging the ATP and WTA, the governing bodies that oversee the mens and womens tennis tours.</h5></div>
                                                             <div class="Image_caption"><h6>SOURCE: Cameron Spencer/Getty Images</h6></div>
                                                     </figcaption>
                                                 </div>
@@ -754,14 +754,346 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                             </div>');
 
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-	('A big ask for Murray to win a Grand Slam - Rusedski','The extended lockdown of tennis will help Andy Murrays return from injury but it will be "a big ask" for him to add to his three Grand Slam titles, according to former British number one Greg Rusedski.','Reuters','2020-04-27','The extended lockdown of tennis will help Andy Murrays return from injury but it will be "a big ask" for him to add to his three Grand Slam titles, according to former British number one Greg Rusedski. Murray underwent hip re-surfacing surgery at the start of 2019 and resumed playing doubles in June before returning to singles action in August. He did not compete at the U.S. Open but won the title in Antwerp in October -- his first on the ATP Tour for two years. Murray, 32, has not played a competitive match this year because of bone bruising near the site of his surgery. With tennis unlikely to return until at least late July because of the coronavirus pandemic, the Scot has plenty of time to get himself 100% fit for when play resumes. Yet Rusedski says it will be tough for twice Wimbledon champion Murray to regain his former place in the so-called big four of mens tennis alongside Roger Federer, Rafa Nadal and Novak Djokovic. "The good news for him is that hes had more of a rest at this point," Rusedski told Sky Sports on Sunday. "Hopefully his body comes back, but to challenge week in week out with Nadal, Federer, Djokovic, [Stefanos] Tsitsipas is going to be hard. "Can he win matches? Can he possibly win a Tour event? Yes, he can do so. But to win Slams, thats three out of five sets, seven matches, thats a little bit difficult. Its possible he can get to a quarterfinal, fourth round, but to go all the way with the surgeries hes had, thats a big ask. "But I hope he proves me wrong, like hes done on several occasions." Former world number one Murray is now ranked at 129. Next week he will swap his racked for a controller as he plays in the virtual Madrid Open, featuring 32 of the worlds best players including Nadal and Dominic Thiem.',11),
-	('p6','How the coronavirus pandemic forced sudden shutdown, then uncertainty for ATP, WTA tours','It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles','Simon Cambers','2020-04-22','Twitter
-Facebook Messenger
-Pinterest
-Email
-print
-It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles. The two-time Wimbledon champion collected her bags and headed to a car, bound for Indian Wells and the first big North American hard-court event of 2020, the BNP Paribas Open in Indian Wells. Kvitova was about an hour into the three-hour journey to Palm Springs, California, when she received a message from her agent, Marijn Bal, and her press agent, Katie Spellman, telling her that Indian Wells had been canceled because of COVID-19. "It was very weird," Kvitova told ESPN.com via email. Spellman, who also manages Simona Halep, had arrived a few hours earlier and, soon after, the rumors started to fly."There were already rumblings around site about it potentially being canceled, mainly because someone had tested positive for COVID-19 in the Coachella Valley that day," Spellman told ESPN.com. "Suddenly it became much more real for everyone on site; the whole tournament site was set up, everybody was arriving, lots of players were there. This news was kind of breaking all around us. "There was a huge meeting of everybody on site, including players, happening downstairs. We saw everybody come out of that meeting and then the news spread very quickly that it had been canceled. It felt like a huge shock at that point, because it was the first tournament to be canceled and the players were all on site and, yes, everybody was a little bit miffed that wed gone all that way to be there, not realizing at the time how serious the situation was very quickly going to become." The speed of the decision took many by surprise. A few days before, the tournament had announced that it would be taking a number of special measures in light of the developing pandemic. Ball boys and girls would wear gloves and not handle players towels, while the players were advised not to take pens from fans for autographs. Many players found out on social media and though they understood the decision, they were not too impressed by the manner in which they were told. "It would be nice if [the] ATP Tour communicates a bit better to the players about a suspension of such a tournament when we are all here," Argentinian Diego Schwartzman said via Twitter. "Finding out about it on social networks or WhatsApp is quite loose." Halep had pulled out of the event with a foot injury, so she was home in Romania. But Kvitova and many others were left to wait to find out whether the Miami Open, the next stop on tour, would go ahead or suffer the same fate. The Indian Wells Tennis Garden quickly went into lockdown, with journalists and photographers not allowed through the gates, and players and coaches were left in limbo, wondering whether to stay or go home immediately. "Even if there was no tournament, we still had a lot of marketing shoots and everything to do, plus we had to wait and see what would happen with Miami," Kvitova said. For a while, it seemed that Miami might sneak in before the cull. Discussions continued behind the scenes over the next few days, but on March 11 the decision by the World Health Organization that COVID-19 was a pandemic sped things along. On March 12, even while The Players Championship golf event was beginning at nearby Sawgrass the same day, the ATP announced that it was suspending its tour for six weeks. Miami, Houston, Marrakech, Monte Carlo, Barcelona and Budapest were all canceled. Kvitova had been doing promotional shoots for the WTA, Wilson and Nike, among others, in Indian Wells, but as soon as she heard the Miami news, she arranged to fly home. "In those few short days there, everything changed and the world locked down pretty quickly," she said. "We had to rush to get home and had to drive home from Vienna as our connection into Prague got canceled." As players scrambled for flights home, officials were holding talks behind the scenes. "(Indian Wells) was a huge decision and we did realize the magnitude of it and how it would likely lead to other decisions," WTA CEO Steve Simon told ESPN via email. "The tournament did everything they could and had all the conversations to see if the event could happen, but in the end it was deemed the best decision was for it to not be held. It turned out to clearly be the right decision. "A focused and concerted effort around communication and education then followed, with all of our members. The world changed overnight with respect to the decision that was made and we had to communicate as effectively and quickly as we could to our players, tournaments, partners, staff and fans." The new ATP chief, Andrea Gaudenzi, said players and administrators had mulled over the idea of playing the event."It was something we discussed in Indian Wells because the players were already on site (but) we couldnt guarantee the safety of people on site, not only players but ball boys, linesmen, physios, everyone who was there," Gaudenzi told ATP Tennis Radio. While the ATP and WTA discussed their plans, events moved forward with pace, most notably with the shocking announcement from Roland Garros that the French Open was moving this years event from the traditional May-June dates to Sept. 20 to Oct. 4.That meant it would start just a week after the US Open finished, and the manner of the announcement did not go over well with the other Grand Slam events, as well as the ATP and WTA.',11)
-;
+	('A big ask for Murray to win a Grand Slam - Rusedski',
+	'The extended lockdown of tennis will help Andy Murrays return from injury but it will be "a big ask" for him to add to his three Grand Slam titles, according to former British number one Greg Rusedski.','Reuters','2020-04-27',11,
+	'<p>The extended lockdown of tennis will help <a href="https://www.espn.com/sports/tennis/players/profile?playerId=235">Andy Murray</a> return from injury but it will be "a big ask" for him to add to his three Grand Slam titles, according to former British number one
+                                                <a href="https://www.espn.com/sports/tennis/players/profile?playerId=691">Greg Rusedski</a>.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_p05.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Andy Murray has struggled to regain his form since early 2019 when he underwent hip surgery</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: AP Photo/Francisco Seco</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Murray underwent hip re-surfacing surgery at the start of 2019 and resumed playing doubles in June before returning to singles action in August.</p>
+                                                <p>He did not compete at the U.S. Open but won the title in Antwerp in October -- his first on the ATP Tour for two years.</p>
+                                                <p>Murray, 32, has not played a competitive match this year because of bone bruising near the site of his surgery.</p>
+                                                <p>With tennis unlikely to return until at least late July because of the coronavirus pandemic, the Scot has plenty of time to get himself 100% fit for when play resumes.</p>
+                                                <p>Yet Rusedski says it will be tough for twice Wimbledon champion Murray to regain his former place in the so-called big four of mens tennis alongside
+                                                    <a href="https://www.espn.com/sports/tennis/players/profile?playerId=425"></a>Roger Federer, Rafa Nadal and
+                                                    <a href="http://www.espn.com/tennis/player/_/id/296/novak-djokovic">Novak Djokovic</a>.</p>
+                                                <p>"The good news for him is that hehad more of a rest at this point," Rusedski told Sky Sports on Sunday. "Hopefully his body comes back, but to challenge week in week out with Nadal, Federer, Djokovic, [Stefanos] Tsitsipas is going to be hard.</p>
+                                                <p>"Can he win matches? Can he possibly win a Tour event? Yes, he can do so. But to win Slams, that is three out of five sets, seven matches, that is a little bit difficult. It is possible he can get to a quarterfinal, fourth round, but to go all the way with the surgeries he is had, that is a big ask.</p>
+                                                <p>"But I hope he proves me wrong, like he is done on several occasions."
+
+                                                    Former world number one Murray is now ranked at 129. Next week he will swap his racked for a controller as he plays in the virtual Madrid Open, featuring 32 of the world best players including Nadal and
+                                                    <a href="http://www.espn.com/tennis/player/_/id/1852/dominic-thiem">Dominic Thiem</a>.</p>
+                                            </div>');
+											
+	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+	('How the coronavirus pandemic forced sudden shutdown, then uncertainty for ATP, WTA tours',
+	'It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles',
+	'Simon Cambers','2020-05-12',11,'<p>It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles. The two-time Wimbledon champion collected her bags and headed to a car, bound for
+                                                <a href="https://www.espn.com/sports/tennis/players/profile?playerId=928">Indian Wells</a> and the first big North American hard-court event of 2020, the BNP Paribas Open in Indian Wells.</p>
+                                                <a href="https://www.espn.com/sports/tennis/players/profile?playerId=691">Greg Rusedski</a>.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_23.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>The announcement on April 1 that Wimbledon would not be played in 2020, while well communicated and thought out, still came as a shock to many.</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: Alex Davidson/Getty Images</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Kvitova was about an hour into the three-hour journey to Palm Springs, California, when she received a message from her agent, Marijn Bal, and her press agent, Katie Spellman, telling her that Indian Wells had been canceled because of COVID-19.</p>
+                                                <p>"It was very weird," Kvitova told ESPN.com via email.</p>
+                                                <p>Spellman, who also manages <a href="http://www.espn.com/tennis/player/_/id/936/simona-halep">Simona Halep</a>, had arrived a few hours earlier and, soon after, the rumors started to fly.</p>
+                                                <p>"There were already rumblings around site about it potentially being canceled, mainly because someone had tested positive for COVID-19 in the Coachella Valley that day," Spellman told ESPN.com. "Suddenly it became much more real for everyone on site; the whole tournament site was set up, everybody was arriving, lots of players were there. This news was kind of breaking all around us.</p>
+                                                <p>"There was a huge meeting of everybody on site, including players, happening downstairs. We saw everybody come out of that meeting and then the news spread very quickly that it had been canceled. It felt like a huge shock at that point, because it was the first tournament to be canceled and the players were all on site and, yes, everybody was a little bit miffed that we would gone all that way to be there, not realizing at the time how serious the situation was very quickly going to become."</p>
+                                                <p>The speed of the decision took many by surprise. A few days before, the tournament had announced that it would be taking a number of special measures in light of the developing pandemic. Ball boys and girls would wear gloves and not handle players towels, while the players were advised not to take pens from fans for autographs.</p>
+                                                <p>Many players found out on social media and though they understood the decision, they were not too impressed by the manner in which they were told.</p>
+                                                <p>"It would be nice if [the] ATP Tour communicates a bit better to the players about a suspension of such a tournament when we are all here," Argentinian Diego Schwartzman said via Twitter. "Finding out about it on social networks or WhatsApp is quite loose."</p>
+                                                <p>Halep had pulled out of the event with a foot injury, so she was home in Romania. But Kvitova and many others were left to wait to find out whether the Miami Open, the next stop on tour, would go ahead or suffer the same fate. The Indian Wells Tennis Garden quickly went into lockdown, with journalists and photographers not allowed through the gates, and players and coaches were left in limbo, wondering whether to stay or go home immediately.</p>
+                                                <p>"Even if there was no tournament, we still had a lot of marketing shoots and everything to do, plus we had to wait and see what would happen with Miami," Kvitova said.</p>
+                                                <p>For a while, it seemed that Miami might sneak in before the cull. Discussions continued behind the scenes over the next few days, but on March 11 the decision by the World Health Organization that COVID-19 was a pandemic sped things along.</p>
+                                                <p>On March 12, even while The Players Championship golf event was beginning at nearby Sawgrass the same day, the ATP announced that it was suspending its tour for six weeks. Miami, Houston, Marrakech, Monte Carlo, Barcelona and Budapest were all canceled.</p>
+                                            </div>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_23_1.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Petra Kvitova was on her way to Indian Wells when the tournament was canceled on March 8. </h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: KARIM JAAFAR/AFP via Getty Images</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <p>Kvitova had been doing promotional shoots for the WTA, Wilson and Nike, among others, in Indian Wells, but as soon as she heard the Miami news, she arranged to fly home.</p>
+                                            <p>"In those few short days there, everything changed and the world locked down pretty quickly," she said. "We had to rush to get home and had to drive home from Vienna as our connection into Prague got canceled."</p>
+                                            <p>As players scrambled for flights home, officials were holding talks behind the scenes.</p>
+                                            <p>"(Indian Wells) was a huge decision and we did realize the magnitude of it and how it would likely lead to other decisions," WTA CEO Steve Simon told ESPN via email. "The tournament did everything they could and had all the conversations to see if the event could happen, but in the end it was deemed the best decision was for it to not be held. It turned out to clearly be the right decision.</p>
+                                            <p>"A focused and concerted effort around communication and education then followed, with all of our members. The world changed overnight with respect to the decision that was made and we had to communicate as effectively and quickly as we could to our players, tournaments, partners, staff and fans."</p>
+                                            <p>The new ATP chief, Andrea Gaudenzi, said players and administrators had mulled over the idea of playing the event.</p>
+                                            <p>"It was something we discussed in Indian Wells because the players were already on site (but) we couldn not guarantee the safety of people on site, not only players but ball boys, linesmen, physios, everyone who was there," Gaudenzi told ATP Tennis Radio.</p>
+                                            <p>While the ATP and WTA discussed their plans, events moved forward with pace, most notably with the shocking announcement from Roland Garros that the French Open was moving this years event from the traditional May-June dates to Sept. 20 to Oct. 4.</p>
+                                            <p>"We agree that it was great coordination and compliments to the team at Wimbledon, the ATP, ITF and other Grand Slams on working together as we should. I believe we all saw the positive results that came from this well-coordinated announcement."</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_23_2.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: WILL OLIVER/EPA-EFE/Shutterstock</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <p>Others were also given a heads-up. "We had a bit more warning that the Wimbledon announcement was coming," Halep, the defending champion, said. "The club wrote me a nice email afterwards and explained the reason behind the decision."</p>
+                                            <p>The All England Club took pains to let all of its stakeholders know what was coming before the announcement was made, at 4 p.m. that day.</p>
+                                            <p>Canceling Wimbledon also meant canceling the entire grass-court season. On April 11, Tennis Canada announced that the Rogers Cup men and women events, which should have been held in August, would be held over to 2021.</p>
+                                            <p>The US Open is still scheduled to begin on Aug. 24 and the French Open soon after, but with so much uncertainty about the extent of the pandemic, nothing is certain.</p>
+                                            <p>Kvitova, locked down in the Czech Republic, is not thinking too far ahead.</p>
+                                            <p>"(When Wimbledon canceled), that was a sad day for sure," she said. "Everyone knows Wimbledon is very special to me. It was the tournament that motivated me to come back to tennis a few years ago, and it is always a highlight of the year for me. So for sure it was disappointing to have it confirmed. After that, with the whole grass court season going, I have found it easier just to not think about when we might be back playing tournaments and take it day by day instead."</p>
+                                            <p>Though US Open officials said this week that playing with no fans is "unlikely," talk of resuming the tours continues. Players, including Kvitova and Halep and most on the men tour, would rather not play without fans, but, according to Gaudenzi, nothing is ruled out.</p>
+                                            <p>"I think it is extremely difficult for tennis because these people travel from all over the globe, they are not locals, and it will be extremely challenging," he said. "We are exploring our options, including closed gates. But safety and health is the priority. If we can play with closed gates, guaranteeing everyone health and safety, then we will do it. If not, I think it is best to probably wait."</p>');
+
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('Five surfers die in the Netherlands after huge layer of sea foam hampers rescue','Five surfers who knew the sea "like the back of their hand" have died after a huge layer of foam in the water hampered efforts to rescue them.The group ran into difficulties at the northern harbor head of the Scheveningen district of The Hague in the Netherlands on Monday evening.',
+'Lianne Kolirin','2020-05-13',6,'<div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_24.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Emergency workers searched through the foam for the missing surfers.</h5></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Five surfers who knew the sea "like the back of their hand" have died after a huge layer of foam in the water hampered efforts to rescue them.
+                                                    The group ran into difficulties at the northern harbor head of the Scheveningen district of The Hague in the Netherlands on Monday evening.</p>
+                                                <p>Despite a large-scale rescue operation, only one member of the group could be saved, according to KNRM, the Royal Netherlands Sea Rescue Organization.</p>
+                                                <div class="ArticleMedia">
+                                                    <div class="ArticleMedia_container">
+                                                        <figure class="Image">
+                                                            <img src="imgs/PostID_24_1.jpg" width="803" alt="none">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <div class="Image_caption"><h5>Relatives, friends and the surf community gather on The Hague Beach to mourn the loss of five surfers.</h5></div>
+                                                        </figcaption>
+                                                    </div>
+                                                </div>
+                                                <p>A statement issued online by the rescue service said its efforts were "complicated by the man-sized foam layer at sea and on the beach," while "strong winds and high waves also made it very difficult to provide relief from the harbor pier."</p>
+                                                <p>Police, firefighters, the coastguard, units from KNRM and other emergency workers were all involved in the rescue operation, in which a helicopter was used to try to blow away the foam and improve visibility.</p>
+                                                <p>Two of the bodies were recovered on Monday and another two the following morning, according to the KNRM post. A fifth body has yet to be recovered. The victims identities have not yet been released.</p>
+                                                <p>Investigators are now looking into what caused the sea foam and its possible role in the tragedy.</p>
+                                                <p>Johan Remkes, mayor of The Hague, described the events as a "terrible tragedy" involving "young, physically fit, sporty people, who know the sea like the back of their hand."</p>
+                                                <p>n a statement published on the citys website, Remkes offered his condolences and said: "The heavy grief among people in the Scheveningen community is unfathomable. People here understand better than anybody else that "The sea gives and the sea takes", but the way in which so many young lives ended abruptly and so many families and groups of friends have been affected is incredibly brutal."</p>
+                                                <p>The mayor, who witnessed the incident as it happened, said: "How is it possible that such experienced surfers were completely taken by surprise at a spot they knew so well? But also: how is it possible that a drama unfolded at one harbour inlet while at the other harbour inlet, not even 100 metres away, people were still surfing until late in the evening?"</p>
+                                                <p>Pledging to investigate the incident, he said: "Today we remember the victims. Tomorrow we will start trying to understand what happened."</p>
+                                                <p>The surfers were all "very experienced watermen", according to the Holland Surfing Association, which posted its condolences on Facebook.</p>
+                                                <p>"They were robbed due to the exceptional circumstances and fate has struck: 5 of them tragically died," the post said. "We express our sympathy to the relatives and everyone involved. In the surf community in Scheveningen and far beyond there is great defeat, we are in deep mourning for this loss."</p>');
+
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('The Singapore Model: Advocacy in an Authoritarian State','Singapore has a class of activists who have found ways to advocate within boundaries and avoid punishments.','Low Minmin','2020-02-20',6,
+'<p>On November 26 2016, Singaporean activist Jolovan Wham organized an event called “Civil Disobedience and Social Movements” and invited Hong Kong student activist Joshua Wong to participate via a video call.</p>
+                                            <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_25.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>A man covers his mouth with a fifty dollar bill at the Speakers Corner in Singapore</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: AP Photo/Wong Maye-E</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Wham started out as a social worker with an organization that advocates for the rights of migrant workers.</p>
+                                                <p>While Wham was contesting his charges in 2017, another youth activist, Yinzhou Cai, has been championing for the welfare of migrant workers in a different way.</p>
+                                                <p>Cai grew up in Geylang, a neighborhood known for its red light district.* Growing up, Cai had sex workers and migrant workers for neighbors and befriended them, often through badminton games. Then he realized he could no longer ignore the immense gulf between their disparate social classes.</p>
+                                                <p>“For playing badminton in the back alleys, we were raided by the police,” Cai wrote.</p>
+                                                <p>Cai watched as his neighborhood became increasingly regulated, such as being designated a liquor control zone, after a riot involving migrant workers some years ago in another part of Singapore resulted in fatalities.</p>
+                                                <p>Cai wanted to redefine Singaporeans’ relationships with migrant workers. So he started Geylang Adventures, an initiative that offers tours through the back alleys of his neighborhood, to shine a light on a different side of Geylang and thereby restore humanity to the migrant communities living there. He also founded BackAlley Barbers, which provides free haircuts to migrant workers.</p>
+                                                <p>Both Cai and Wham are champions for migrant workers, but their fates could not have been more different. In 2017, while Wham was on trial for his charges, Cai was honored on the national stage with the Singapore Youth Award, for how he has brought “distinction to the nation” through his “resilience, courage, leadership, service and ambition.”</p>
+                                                <p>What separates Cai from Wham? And where exactly is the line between acceptable activism and unlawful social movements? In a country where it is illegal to hold public demonstrations without a police permit – except at the designated Speakers Corner in Hong Lim Park – how can bottom-up movements play a part in shaping public opinion and public policy?</p>
+                                                <p>Think Singapore and one might bring to mind a developed city-state that is efficient but somewhat authoritarian. Globally, it is often known for its strict legislation. For instance, selling gum is illegal, littering can lead to hefty SG$2,000 fines, and vandals may be caned – as in the oft-cited case of American citizen Michael Fay.</p>
+                                                <p>Indeed, Singapore consistently finds itself on the bottom rungs of the Press Freedom Index – last year, it took the 151th spot out of 180 countries – and the authorities are infamous for wielding legal threats against journalists and publications.</p>
+                                                <p>Yet, despite its harsh laws, the country is far from a politically stagnant society. Its people have shown a willingness to organize quickly when they feel the pinch, and have managed to prompt the government to respond in their favor. Singapore has its class of activists who have found ways to advocate within boundaries and avoid sanctions.</p>
+                                                <p>In September, Singaporean resident Zachary Tan started an online petition to ban electric scooters on pedestrian footpaths after a spate of injuries and fatal accidents. Tan, who had amassed 69,000 signatures in one month, shared his petition with the Land Transport Authority</p>
+                                                <p>The next day scores of food delivery riders who use e-scooters to go about their work, showed up at meeting halls across the island objecting to the ban, lamenting the threat to their livelihoods. Their distinctive green uniforms drew widespread media attention.</p>
+                                                <div class="ArticleMedia">
+                                                    <div class="ArticleMedia_container">
+                                                        <figure class="Image">
+                                                            <img src="imgs/PostID_25_1.jpg" width="803" alt="none">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <div class="Image_caption"><h5>Supporters of the ruling People’s Action Party celebrate in Singapore, Sept. 12, 2015.</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: AP Photo/Ng Han Guan</h6></div>
+                                                        </figcaption>
+                                                    </div>
+                                                </div>
+                                                <p>In the latter, one complaint prompted action from the authority, while in the former, thousands of signatories on a petition barely moved the needle. On what basis does the government decide when to act according to public pressure? According to Tan, the government has a general policy of not governing by petitions.</p>
+                                                <p>“Where societal values and norms are involved where people do not change their views overnight, the government tends to act more cautiously,” he said.</p>
+                                                <p>“They recognize that even with big names canvassing for repeal, there is even more resistance to a dramatic change in the status quo. Most religions, especially Christianity and Islam, have relatively clear positions on homosexuality. The thinking is that the majority do not want the law repealed.”</p>
+                                                <p>Indeed, the Ready4Repeal movement had sparked a counterpetition that gathered more than twice the number of signatures on the petition for repeal. </p>
+                                                <p>Tan believes the government commissions secret polls to gauge public sentiment on certain issues when weighing policy decisions.</p>
+                                                <p>“When society remains deeply divided, the government will adopt a wait-and-see approach, preferring a clear majority on the way forward before it does anything,” he said. “It boils down to a basic thing about politics. Political parties seek to win elections; they have to be popular. They have to be able to carry the ground.”</p>
+                                                <p>Singapore’s draconian laws around public assembly may seem excessive. Yet its distinctive model appears to work for the country. The state is peaceful despite its diverse racial makeup. Strong rule of law ensures that the workforce never goes on strike and the country runs like clockwork to prevent any disruption to the economy. This trade-off is broadly accepted by the public in exchange for reliable public services, high levels of public safety, continued stability and prosperity, and significantly
+                                                    <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2019-02/2019_Edelman_Trust_Barometer_Global_Report_2.pdf">greater trust</a> in institutions than in many other countries, according to the 2019 Edelman Trust Barometer Rankings.</p>
+                                                <p>And while Singapore restricts public assembly and the free press, it does have mechanisms that allow public opinion to influence government. For instance, residents can write to the newspapers or directly to ministers and Members of Parliament (MPs), whose email addresses are a matter of public information.</p>
+                                                <p>The government also maintains weekly “Meet-the-People” sessions across all constituencies in Singapore, where MPs meet face-to-face with their constituencies to address any concerns they want to raise.</p>');
+
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('Coronavirus: China’s new army of tough-talking diplomats','"Beijing diplomacy was so subtle and indirect that it largely went over our heads in Washington".','James Landale','2020-05-10',6,
+'<p><b>Once upon a time Chinese statecraft was discreet and enigmatic.</b></p>
+                                            <p>Henry Kissinger, the former US secretary of state, wrote in his seminal study Diplomacy that "Beijings diplomacy was so subtle and indirect that it largely went over our heads in Washington".</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_26.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Foreign Ministry Spokesman Lijian Zhao suggested the US had brought coronavirus to China</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: BBC</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Governments in the West employed sinologists to interpret the opaque signals emanating from Chinas politburo.</p>
+                                                <p>Under its former leader, Deng Xiaoping, the country declared strategy was to "hide its ability and bide its time". Well, not any more.</p>
+                                                <p>China has dispatched an increasingly vocal cadre of diplomats out into the world of social media to take on all comers with, at times, an eye-blinking frankness. Their aim is to defend Chinas handling of the coronavirus pandemic and challenge those who question Beijings version of events.</p>
+                                                <div class="ArticleMedia">
+                                                    <div class="ArticleMedia_container">
+                                                        <figure class="Image">
+                                                            <img src="imgs/PostID_26_1.jpg" width="803" alt="none">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <div class="Image_caption"><h5>Diplomats are defending China handling of the coronavirus outbreak</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: BBC</h6></div>
+                                                        </figcaption>
+                                                    </div>
+                                                </div>
+                                                <p>So they launch salvos of persistent tweets and posts from their embassies around the world. And they hold little back, deploying sarcasm and aggression in equal measure.</p>
+                                                <p>Such is the novelty of their techniques that they have been dubbed "wolf warrior" diplomats after the eponymous action films.</p>
+                                                <p>Wolf Warrior and Wolf Warrior 2 are hugely popular movies in which elite Chinese special forces take on American-led mercenaries and other ner-do-wells. They are violent and extremely nationalistic in tone. One critic dubbed them "Rambo with Chinese characteristics".</p>
+                                                <p>One critic dubbed them "Rambo with Chinese characteristics". A promotional poster showed a picture of the central character raising his middle finger with the slogan: "Anyone who offends China, no matter how remote, must be exterminated."</p>
+                                                <p>In a recent editorial, the Chinese Communist Party newspaper, Global Times, declared the people were "no longer satisfied with a flaccid diplomatic tone" and said the West feels challenged by Chinas new "Wolf Warrior" diplomacy.</p>
+                                                <h4><b>A new kind of language</b></h4>
+                                                <p>Perhaps the quintessential "wolf warrior" is Lijian Zhao, China young foreign affairs spokesman. He is the official who made the unsubstantiated suggestion that the United States might have brought coronavirus to Wuhan.</p>
+                                                <p>He has more than 600,000 followers on Twitter and he exploits that audience almost by the hour, relentlessly tweeting, retweeting and liking anything that promotes and defends China.</p>
+                                                <div class="ArticleMedia col-xs-12">
+                                                    <div class="ArticleMedia_container col-xs-12">
+                                                        <iframe width="720" height="394" frameborder="0" src="https://www.bbc.com/news/av/embed/p08brx2c/52562549"></iframe>
+                                                    </div>
+                                                </div>
+                                                <p>This is of course what diplomats anywhere in the world must do: it is their job to promote their country national interest. But few diplomats use language that is, well, so undiplomatic.</p>
+                                                <p>Take the Chinese embassy in India which described calls for China to pay compensation for spreading the virus as "ridiculous and eyeball-catching nonsense".</p>
+                                                <p>Chinas ambassador in the Netherlands accused President Donald Trump of being "full of racism".</p>
+                                                <div class="ArticleMedia col-xs-12">
+                                                    <div class="col-xs-2"></div>
+                                                    <div class="col-xs-10">
+                                                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What Trump said is groundless and full of racism, totally ignored the great effort and sacrifice made by Chinese people! This is political virus to international solidarity and cooperation in fighting # COVID19. <a href="https://t.co/MbfemcuuLu">pic.twitter.com/MbfemcuuLu</a></p>&mdash; Ambassador Xu Hong (@PRCAmbNL) <a href="https://twitter.com/PRCAmbNL/status/1239904460949917698?ref_src=twsrc%5Etfw">March 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                    </div>
+                                                </div>
+                                                <p>In response to Mr Trump much mocked speculation about the best ways of tackling the virus, the chief spokesman for the Chinese Communist Party in Beijing tweeted: "Mr President is right. Some people do need to be injected with #disinfectant, or at least gargle with it. That way they will not spread the virus, lies and hatred when talking."</p>
+                                            </div>');
+
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('Indian and Chinese soldiers injured in cross-border fistfight, says Delhi','Troops also threw stones in face-off involving 150 soldiers at remote crossing point near Tibet, says Indian army','','2020-05-11',7,
+'<p><b>Troops also threw stones in face-off involving 150 soldiers at remote crossing point near Tibet, says Indian army</b></p>
+                                            <p>Several Indian and Chinese soldiers have been injured in a cross-border clash involving fistfights and stone-throwing at a remote but strategically important mountain pass near Tibet, the Indian army said on Sunday.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_27.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Chinese army officers stand on China’s side of the border with India at Nathu La Pass, in northeastern Indian state of Sikkim.</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Gurinder Osan/AP</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>There have been long-running border tensions between the nuclear-armed neighbours, with a bitter war fought over the Indian north-eastern state of Arunachal Pradesh in 1962.</p>
+                                                <p>“Aggressive behaviour by the two sides resulted in minor injuries to troops. It was stone-throwing and arguments that ended in a fistfight,” Indian army eastern command spokesman Mandeep Hooda said.</p>
+                                                <p>The “stand-off” on Saturday – at Naku La sector near the 15,000-feet (4,572-metre) Nathu La crossing in the northeastern state of Sikkim – was later resolved after “dialogue and interaction” at a local level, Hooda said.</p>
+                                                <p>“Temporary and short-duration face-offs between border-guarding troops do occur as boundaries are not resolved,” he said.</p>
+                                                <p>One hundred and fifty soldiers were involved in the face-off, the Press Trust of India reported.</p>
+                                                <div class="ArticleMedia">
+                                                    <div class="ArticleMedia_container">
+                                                        <figure class="Image">
+                                                            <img src="imgs/PostID_27_1.jpg" width="803" alt="none">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <div class="Image_caption"><h5>This 2008 image shows a Chinese soldier and an Indian soldier at the Nathu La border crossing</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: Diptendu Dutta/AFP/Getty Images</h6></div>
+                                                        </figcaption>
+                                                    </div>
+                                                </div>
+                                                <p>There have been numerous face-offs and brawls between Chinese and Indian soldiers, including one near the north-west Indian region of Ladakh, that was captured on video in 2017, where troops were seen throwing punches and stones.</p>
+                                                <p>In 2017, there was a high-altitude standoff in Bhutan’s Doklam region for two months after the Indian army sent troops to stop China constructing a road there.</p>
+                                                <p>Relations since the Doklam dispute between the two Asian giants appeared to improve following talks between Chinese president Xi Jinping and Prime Minister Narendra Modi in Wuhan, China, in 2018.</p>
+                                                <p>The two men also met in October last year in Chennai in southern India.</p>
+                                                <p>China still claims about 90,000 square kilometres (35,000 square miles) of territory under New Delhi’s control.</p>
+                                            </div>');
+select * from DNBC_Posts
+INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
+('Pakistan says it has shot down Indian jets after Kashmir cross-border attack','Indian confirms one pilot missing and claims it shot down one Pakistani jet on day of skirmishes','Azhar Farooq','2020-02-27',7,
+'<p><b>Indian confirms one pilot missing and claims it shot down one Pakistani jet on day of skirmishes</b></p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_28.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Imran Khan addresses Pakistan after the shooting down of an Indian fighter jet</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Anadolu Agency/Getty Images</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Pakistan has conducted airstrikes over the ceasefire line in disputed Kashmir and claims to have shot down two Indian jets that responded by entering Pakistani airspace, capturing both of the pilots.</p>
+                                                <p>India confirmed that one of its pilots is missing in action and said it shot down one of the Pakistani jets as it escaped over the heavily militarised border separating the two.</p>
+                                                <p>The skirmishes, a day after India flew sorties into Pakistan for the first time in nearly 50 years, are steep escalations in the most serious military crisis in south Asia since the pair fought a brief war in the Himalayas in 1999.</p>
+                                                <p>Imran Khan, the Pakistani prime minister, used a televised address to call for dialogue to prevent more reprisals, making reference to both countries’ nuclear arsenals.</p>
+                                                <p>“With the weapons you have and the weapons we have, can we afford miscalculation?” Khan said. “Shouldn’t we think that, if this escalates, what will it lead to?”</p>
+                                                <p>Pakistan has released footage purportedly showing one of the captured Indian pilots, a wing commander who gave his name as Abhinandan. His uniform was bloody and a rag was tied around his head. He gave his name, service number, rank and religion, but when asked for more, replied: “I’m sorry sir, that’s all I’m supposed to tell you.”</p>
+                                                <p>The country’s armed forces spokesman Major-General Asif Ghafoor said one pilot was being interrogated and the second was injured and being treated in hospital.</p>
+                                                <p>India said it was aware that Pakistan had claimed to have one pilot in its custody. “We are ascertaining the facts,” the spokesman for India’s foreign ministry, Raveesh Kumar, told journalists in Delhi</p>
+                                                <p>The dogfights on Wednesday morning – the first publicly acknowledged between the two countries since 1971 – have shut down commercial flights across Pakistan and north India. Flight radar images showed deserted airspace over both countries. All commercial airports in Pakistan have been shut along with eight major Indian airports including those in Jammu city, Srinagar and Amritsar.</p>
+                                            </div>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="imgs/PostID_28_1.png" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>Map</h5></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>In Srinagar, the capital of disputed Kashmir, a work crew could be seen painting a large red cross on the top of Shri Maharaja Hari Singh hospital, marking it out as a medical facility from above.</p>
+                                                <p>Pakistan’s foreign ministry said in a statement on Wednesday morning that it had struck “non-military target[s]” across the ceasefire line in Kashmir without entering Indian airspace to demonstrate its “right, will and capability for self defence”.</p>
+                                                <p>“We have no intention of escalation, but are fully prepared to do so if forced into that paradigm,” said Mohammad Faisal, the foreign affairs ministry’s spokesman.</p>
+                                                <p>Ghafoor told a media briefing on Wednesday afternoon Pakistan struck six targets on the Indian side of the ceasefire line, ensuring they kept a safe distance away from civilian, administrative or military sites.</p>
+                                                <p>“When PAF [Pakistan Air Force] took targets, IAF’s [Indian Air Force] two planes violated the line of control and entered Pakistan,” he said. “PAF was ready, there was an engagement and as a result both Indian planes were shot down. One wreckage fell on our side and another wreckage fell on their side.”</p>
+                                                <p>He told the Guardian after the briefing that Pakistan had not entered Indian airspace. “We want to send the message that we have the ability to strike, the capability for self defence, but in the way of a responsible nation,” he said.</p>
+                                                <p>But India rejected his account. “[Pakistan] used its air force to target military installation on the Indian side,” Kumar said. “Due to a high state of readiness and alertness Pakistan’s attempt were foiled successfully. The Pakistan air force was a detected and the Indian air force responded instantly.</p>
+                                                <p>“In that aerial engagement one Pakistan fighter airplane was shot down by a MiG 21 Bison of the Indian air force. The Pakistan airplane was seen by ground forces falling from the sky on the Pakistan side.”</p>
+                                                <p>Pakistan has denied losing an aircraft in the morning’s engagements.</p>
+                                                <p>In a national address on Wednesday afternoon, Khan called for talks between Delhi and Islamabad. “I will tell you again that better sense should prevail,” he said. “We should sit down and resolve our problems through dialogue.”</p>
+                                                <p>Another Indian aircraft crashed about 150km away in Budgam district on Wednesday, killing at least one person aboard, but it was unrelated to the fighting.</p>
+                                                <p>India has been on high alert since Tuesday’s strikes, an operation Islamabad had promised to repay with its own “surprise” attack.</p>
+                                                <p>Fighter jets patrolled the skies above Srinagar, the capital of disputed Kashmir, throughout Tuesday night as India and Pakistan traded mortar fire a few hundred miles away at the ceasefire border.</p>
+                                                <p>The US secretary of state, Mike Pompeo, issued a statement largely supportive of India, characterising its incursion five miles into neighbouring territory a “counter terrorism action” and calling on Pakistan to take “meaningful action against terrorist groups operating on its soil”.</p>
+                                                <p>There are still significant questions over what, if anything, was struck by India’s fighter jets in the early hours of Tuesday morning. Both countries agree that Indian jets made it to within at least a few miles of Balakot, a small city about five miles inside Pakistani territory. But accounts diverge from there.</p>
+                                                <p>India claims it hit a militant training camp and killed “a very large number” of fighters from the Jaish-e-Mohammed (JeM) group, which took responsibility for a 14 February suicide bombing in Indian-controlled Kashmir that killed 40 paramilitaries.</p>
+                                                <p>Pakistan says the Indian fighters were confronted before they could reach Balakot and dropped four to five bombs in an open field as they fled back across the border.</p>
+                                                <p>Both countries mounted media blitzes to push their particular narrative but had appeared to leave room to de-escalate the conflict. On Wednesday morning, India’s external affairs minister, Sushma Swaraj, emphasised that Pakistan’s military was not the target of the sorties.</p>
+                                                <p>“No military installations were targeted,” Swaraj said. “The limited objective of the pre-emptive strike was to act decisively against the terrorist infrastructure of the JeM in order to pre-empt another terrorist attack in India.”</p>');
+
 
 INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.webp'),('y2','imgs/PostID_02.webp'),('y3','imgs/PostID_03.webp'),('y4','imgs/PostID_04.webp'),('y5','imgs/PostID_05.webp'), 
 	('y6','imgs/PostID_06.webp'),('y7','imgs/PostID_07.webp'),('y8','imgs/PostID_08.webp'),('y9','imgs/PostID_09.jpeg'),('y10','imgs/PostID_10.jpeg'),('y11','imgs/PostID_11.png'),('y12','imgs/PostID_11_2.png'),
@@ -771,8 +1103,7 @@ INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.web
 	INSERT INTO DNBC_Collections (CollectionID,Link) VALUES ('y20','https://www.bbc.com/news/av/embed/p089st6l/52319575'),
 	('20','imgs/PostID_p01.jpg'),('p2','imgs/PostID_p02.jpg'),('p3','imgs/PostID_p03.jpg'),('imgs/PostID_p03_1.jpg'),('imgs/PostID_p04_1.jpg'),('p4','imgs/PostID_p04.jpg'),('p5','imgs/PostID_p05.jpg'),('p6','imgs/PostID_p06.jpg');
 
-
-
+	
 INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
 	('REUTERS/Jorge Duenes','A view shows the Toyota Motor Manufacturing plant in Tijuana, Mexico May 31, 2019. Picture taken May 31, 2019.','y1','y1'),
 	('REUTERS/Mike Blake','The front grill logo of a Ford pickup truck is seen in this photo taken in Carlsbad, California November 5, 2014','y2','y2'),
