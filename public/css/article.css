@@ -387,11 +387,12 @@ form .input{
     width: 100%;
     position: relative;
 }
-
+.main-title .col-xs-6 h4{
+    text-align: right;
+}
 .article-footer-head{
     margin: 0 0 20px;
     float: left;
-
 }
 .article-footer-head h4{
     text-align: left;
