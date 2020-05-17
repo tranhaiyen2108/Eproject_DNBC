@@ -316,9 +316,9 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>“We have taken this as an opportunity for newer aircraft,” he adds. “We are talking to an OEM, but nothing has been signed yet so I can’t disclose anything.”</p>
                 <p>Pressed on whether he is talking to Airbus or Boeing, Singh says he is not talking with either of them, and that the type he is looking at is a “smaller commuter aircraft”.</p>
                 <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>');
-	
+	select * from DNBC_Posts;
 	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values	
-	('‘Scary,’ ‘visceral,’ ‘unprecedented’: Traders describe oil’s wild week and fall to negative prices','“Scary,” “unbelievable,” “so dramatic,” “unprecedented,” “very visceral”: These are among the choice words Wall Street veterans used to describe what was, for the oil market, a week for the history books.','Pippa Stevens','2020-04-25',
+	('UK energy firms using debt collectors despite coronavirus agreement','Britain’s energy suppliers are continuing to use debt collectors to chase unpaid bills after promising to help households during the coronavirus pandemic by offering payment plans to struggling customers.','Pippa Stevens','2020-04-25',
 	3,	'<p>Oil prices have tumbled as the coronavirus pandemic saps worldwide demand for crude, and storage is quickly filling. Monday’s drop was exacerbated by a futures contract that was expiring.</p>
             <div class="ArticleMedia">
                 <div class="ArticleMedia_container">
@@ -331,7 +331,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                     </figcaption>
                 </div>
             </div>
-            <p>“Scary,” “unbelievable,” “so dramatic,” “unprecedented,” “very visceral”: These are among the choice words Wall Street veterans used to describe what was, for the oil market, a week for the history books</p>
+            <p>Britain’s energy suppliers are continuing to use debt collectors to chase unpaid bills after promising to help households during the coronavirus pandemic by offering payment plans to struggling customers.</p>
             <p>On Monday, for the first time on record, West Texas Intermediate (WTI), the U.S. oil benchmark, plunged below zero and into negative territory. Before Monday, many thought this was impossible. Maybe, just maybe, it could drop to zero, effectively erasing all value. But negative territory seemed unimaginable, not least because it’s hard even to wrap one’s mind around it. Pay someone to take your oil?</p>
             <p>Yet that’s exactly what happened. “It was a take-your-breath-away kind of scary moment,” said Rebecca Babin, managing director at CIBC Private Wealth Management. “It truly was like watching … a full speed train wreck. But you couldn’t stop watching.”</p>
             <p>The coronavirus pandemic has sapped as much as a third of worldwide demand for oil, according to some estimates. Producers have continued to pump, but with air travel halted and people staying home there’s simply nowhere for this oil to go. Refiners certainly don’t want it. And worldwide storage — both onshore and offshore — is quickly filling up. Analysts warn that we could reach tank tops, or maximum capacity, in a matter of weeks.</p>
@@ -463,10 +463,10 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>“Unfortunately, the pandemic continues to spread and with no clear prognosis on when key wind markets such as the USA, Brazil and India will recover, we are suspending our guidance due to the poor visibility for the remainder of the year.”</p>');
 
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-	('No more hamburgers? How ‘clean meat’ could transform our diets',
-	'Some consumers are now trying to move away from meat, choosing plant-based alternatives instead.',
-	'Anmar Frangoul','2020-03-27',3,
-	'<p>For many, the hamburger’s combination of bun, meat and salad is the perfect marriage of simplicity, flavor and familiarity. Whether it’s a gourmet patty with shavings of truffle, or a cheap and cheerful offering from a fast food outlet, today’s diners are spoilt for choice.  </p>
+	('Scottish Power accused of ‘cruel’ harassment of householders over debts they don’t owe',
+	'Its ‘chaotic’ accounting system is sending out bills and bailiff threats to non-customers',
+	'Anna Tims','2020-01-30',3,
+	'<p>The ordeal began with a text informing Gerald Slater that he owed Scottish Power £300 and urged him to get in touch. Slater is not, and never has been, a Scottish Power customer and assumed it was a scam. Then the calls started. They repeated he owed £300 in unpaid fuel charges, although no bill had ever been sent to his home. The calls pursued him to his wife’s hospital bedside where she was being treated for cancer.</p>
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
                         <iframe width=700 height=400 src="https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277" frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
@@ -498,18 +498,24 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>“Because of the impacts of livestock production and the amount of land required to produce feedstock for animals, many people promote the idea of artificial meat,” he said.</p>
                 <p>“I believe we should be aware that these are extremely energy intensive processes, especially if they are developed on (a) large scale.”</p>
 			</div>' );
+			select * from DNBC_Posts;
 
 	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-	('Some gig workers are getting $0 in unemployment benefits','Independent contractors and other self-employed workers have been confused and frustrated by a challenging and confusing process of applying for unemployment benefits.','Greg Iacurci','2020-04-24',4,
-	'<p>Some gig workers may be scratching their heads at what, for many, has become a roundabout process to get unemployment benefits.</p>
+	('China says opposed to latest US rules against Huawei',
+	'China commerce ministry said on Sunday it is firmly opposed to the latest rules by the United States against Huawei and will take all necessary measures to safeguard Chinese firms rights and interests.','Anny Linda','2020-03-16',6,
+	'<p>BEIJING: Chins commerce ministry said on Sunday it is firmly opposed to the latest rules by the United States against Huawei and will take all necessary measures to safeguard Chinese firms rights and interests.</p>
                 <p>In yet another wrinkle, California is issuing letters to gig workers who applied for unemployment benefits indicating that they are entitled to $0.</p>
-                <p>For some, like Ismael Perez, who made about $60,000 last year as a full-time Uber and Lyft driver, the letter was confusing.</p>
-                <p>“When I got the [unemployment] award letter, all it said was ‘zero’ everywhere,” said Perez, 42, who lives in La Habra Heights, California, a city in Los Angeles County.</p>
+                <p>This could mean that Dr Mahathir Mohamad’s proposed vote of no-confidence against Prime Minister Muhyiddin Yassin will not see the light of the day in this sitting. </p>
+                <p>Safety has become a hot topic on social media groups among the 11 million residents of Wuhan, people told Reuters as they converged on open-air test sites at clinics and other facilities. Many said, though, that they support the voluntary campaign.</p>
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
                         <figure class="Image">
-                            <img src="imgs/PostID_16.jng" alt="none">
+                            <img src="imgs/PostID_1038webp" alt="none">
                         </figure>
+						<figcaption>
+                        <div class="Image_caption"><h4>Taiwan Health Minister Chen Shih-chung holds a news conference about Taiwan efforts to get into the World Health Organization (WHO)</h4></div>
+                        <div class="Image_caption "><h6>SOURCE: REUTERS/Ann Wang</h6></div>
+                    </figcaption> 
                     </div>
                 </div>
 				<div class= col-xs-12>
@@ -519,7 +525,18 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>“Receiving a $0 award notice doesn’t necessarily mean someone is ineligible for regular [unemployment insurance] benefits,” California’s Employment Development Department, or EDD, said in an e-mail.</p>
                 <p>The situation seems to apply to a broad swath of workers in the state, encompassing full-time gig workers, self-employed individuals, independent contractors and others.</p>
                 <p>Such workers living in other states may be experiencing similar confusion, based on their state’s administration of unemployment benefits.</p>
-                <p>Self-employed workers, independent contractors and others are <a href="https://www.cnbc.com/2020/04/23/independent-contractors-may-find-less-money-in-unemployment-checks.html">newly eligible to collect unemployment benefits</a> as a result of the $2.2 trillion federal coronavirus relief law enacted last month.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="imgs/PostID_1036_1.webp" alt="none">
+                        </figure>
+						<figcaption>
+                        <div class="Image_caption"><h4>A child reacts while undergoing nucleic acid testing in Wuhan, the Chinese city hit hardest by the COVID-19 outbreak</h4></div>
+                        <div class="Image_caption "><h6>SOURCE: Reuters/Aly Song</h6></div>
+                    </figcaption> 
+                    </div>
+                </div>
+				<p>Self-employed workers, independent contractors and others are <a href="https://www.cnbc.com/2020/04/23/independent-contractors-may-find-less-money-in-unemployment-checks.html">newly eligible to collect unemployment benefits</a> as a result of the $2.2 trillion federal coronavirus relief law enacted last month.</p>
                 <p>The federal government is funding unemployment benefits for these newly eligible Americans as part of a new program — called Pandemic Unemployment Assistance — that’s separate from states’ traditional unemployment insurance framework.</p>
                 <p>Perhaps counterintuitively, gig workers and other self-employed individuals in many states must apply for a state’s traditional unemployment insurance benefits and be denied in order to be eligible to receive Pandemic Unemployment Assistance, according to employment experts.</p>
                 <p>California’s $0 award notices are a way of denying traditional unemployment benefits to workers, according to Bill Sokol, a Bay Area-based labor attorney for Weinberg Roger & Rosenfeld.</p>
@@ -539,6 +556,8 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>Such a letter could apply to workers in different circumstances, according to California’s Employment Development Department.</p>
                 <p>It may mean the state needs to verify your identity for the wages reported. If so, the state will mail a request to verify your identity.</p>
 				</div>');
+
+
 	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('PMorgan tells small business customers to apply with other banks on fear that funds will run out',
 	'JPMorgan Chase is warning some customers that even if fresh funds for the federal small business relief program are approved, the money won’t last and they might be better off applying elsewhere. JPMorgan on late Wednesday e','Hugh Son','2020-04-23',4,
@@ -562,19 +581,22 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 <p>Still, business owners may face long odds if they apply at other banks, because many lenders have prioritized their own customers and new applicants would be at the end of the line. There is no guarantee that lawmakers will approve more money for the program after the second round.</p>
                 <p>Last week, JPMorgan said that it had $26 billion worth of loans from hundreds of thousands of customers that needed to be funded. </p>');
 
-
+select * from DNBC_Posts
 	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-	('Coronavirus offers Manchester Uniteds Glazer family a huge opportunity','The coronavirus pandemic has ravaged football’s finances brutally, and the worldwide implications on other economies could cause upset amongst the Glazers, or offer them a huge opportunity.','Alexander Netherton','2020-04-26',10,
-	'<p>The coronavirus pandemic has ravaged football’s finances brutally, and the worldwide implications on other economies could cause upset amongst the Glazers, or offer them a huge opportunity.</p>
-                <p>United’s current owners, before the spread of the virus, were believed to have been split 50-50 between wanting to sell the club if an appropriate offer came in, while Joel and Avi - at least - wanted to maintain control of the club.</p>
+	('After weeks of COVID-19 lockdown, overjoyed Greeks return to church',
+	'Thousands of Greeks returned to church on Sunday (May 17) after weeks of staying away as a ban on mass gatherings to curb the spread of the COVID-19 was eased.',
+	'Elizabeth E.','2020-05-11',8,
+	'<p><b>Survey reveals extent to which ‘stay at home’ advice has benefitted Netflix and others</b></p>
+	<p>ATHENS: Thousands of Greeks returned to church on Sunday (May 17) after weeks of staying away as a ban on mass gatherings to curb the spread of the COVID-19 was eased.</p>
+                <p>"The path that we are taking is the only one possible," Sanchez told a news conference, saying he would ask parliament for an extension of about a month until the end of June when most of the nation should be returning to normality.</p>
                 <div class="ArticleMedia">
                     <div class="ArticleMedia_container">
                         <figure class="Image">
-                            <img src="imgs/PostID_p01.jpg" alt="none">
+                            <img src="imgs/PostID_1043.webp" alt="none">
                         </figure>
                         <figcaption>
-                            <div class="Image_caption"><h5>Manchester United co-chairman Avram Glazer (right) pictured at a match at Old Trafford</h5></div>
-                            <div class="Image_caption "><h6>Source: PA Sport</h6></div>
+                            <div class="Image_caption"><h5>Orthodox faithful respect social distancing as they attend the first service following the easing of measures against the spread of COVID-19</h5></div>
+                            <div class="Image_caption "><h6>Source: Reuters/Costas Baltas</h6></div>
                         </figcaption>
                     </div>
                 </div>
@@ -586,37 +608,25 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                 </div>
                 <div class="ArticleMedia col-xs-12">
                     <div class="ArticleMedia_container col-xs-12">
-                        <iframe src="https://www.eurosport.co.uk/football/football-transfer-news-juventus-prepared-to-offer-several-players-for-arthur-euro-papers_vid1311516/embed-video.shtml" width="701.79" height="394" allowfullscreen frameborder=0></iframe>
+                        <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="701" height="288" src="https://video-api.wsj.com/api-video/player/v3/iframe.html?guid=E53ED65D-BABC-454B-8E3D-6003866DDF4A"></iframe>
                     </div>
                 </div>
                 <div class="col-xs-12">
-                    <p>Saudi Arabian state owners would of course have been a miserable experience due to their wretched human rights abuses, but they presumably would have been more ambitious regarding on-the-pitch achievements.</p>
-                    <p>That no longer looks like a concern for either the fans, or a get-out plan for reluctant owners. Newcastle United appear to be selling to Saudi Arabia and Amanda Staveley, and unless the Glazers are willing to sell at a distressed price - which they don’t need to - there are few suitors liquid or brave enough to swoop in to buy the club now. However, coronavirus has given the family a rare chance to take advantage of their competition, should they wish to take the lead.</p>
+                    <h3><b>Streaming in the UK</b></h3>
                     <div class="ArticleMedia">
                         <div class="ArticleMedia_container">
                             <figure class="Image">
-                                <img src="imgs/PostID_18.jpg" alt="none">
+                                <img src="imgs/PostID_1043_1.webp" alt="none">
                             </figure>
                             <figcaption>
-                                <div class="Image_caption"><h5>Matt Richie</h5></div>
-                                <div class="Image_caption "><h6>Source: Getty Images</h6></div>
+                                <div class="Image_caption"><h5>Orthodox faithful respect social distancing as they attend the first service following the easing of measures against the spread of COVID-19</h5></div>
+                                <div class="Image_caption "><h6>Source: Reuters/Costas Baltas</h6></div>
                             </figcaption>
                         </div>
                     </div>
                     <p>United have around $200 million in a revolver facility - a business overdraft, essentially - that holds just a 2% interest rate. Their next debt maturity is in 2027, at which point if United cannot roll that over or repay it, it will mean the rest of the world has dropped into a cocked hat of ruin, so is largely not a concern for now. What it means is that other clubs will struggle for credit, while United already have it.</p>
                     <p>Given Manchester City’s troubles with UEFA and an upcoming European ban, it means that United look increasingly likely to salvage a Champions League spot next season. That broadcast money is handy, but perhaps more importantly it means that United’s sponsorship deals avoid an obligatory cut for their lack of European involvement. The club have always been relatively financially strong, but it now looks as if their competition are going to be hit far harder, beyond just local rivals City.</p>
                     <p>Liverpool are well run, of course, but John Henry runs a tight ship, as proven by their initial uptake of the government furlough scheme. Stan Kroenke’s pursuit of pay cuts at Arsenal suggests they too will hunker down as best they can. Chelsea are organised and disciplined now, without the largesse of Roman Abramovich to help them dominate. Across the continent, Barcelona are in potentially dire straits. This means that the Glazers can strike out to their advantage.</p>
-                    <div class="ArticleMedia">
-                        <div class="ArticleMedia_container">
-                            <figure class="Image">
-                                <img src="imgs/PostID_18_1.jpg" alt="none">
-                            </figure>
-                            <figcaption>
-                                <div class="Image_caption"><h5>Jadon Sancho with Borussia Dortmund</h5></div>
-                                <div class="Image_caption "><h6>Source: Getty Images</h6></div>
-                            </figcaption>
-                        </div>
-                    </div>
                     <p>While others might withdraw from signing Jadon Sancho, Jack Grealish or James Maddison, perhaps only Real Madrid have the confidence in their transfer strategy for the next one or two transfer windows. United will need more than just another attacking midfielder, but tying Paul Pogba down to a new contract, with Juventus unlikely to splash out during Italy’s desperate time, he could even be re-energised by a successful team around him.</p>
                     <p>It is not simple, and there are other transfers needed and problems to negotiate, but the Glazers are now stuck with United whether they like it or not. Thanks to the horrors of coronavirus, they now have a chance to turn the situation to their advantage.</p>
                 </div>');
@@ -893,18 +903,21 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                 <p>The surfers were all "very experienced watermen", according to the Holland Surfing Association, which posted its condolences on Facebook.</p>
                                                 <p>"They were robbed due to the exceptional circumstances and fate has struck: 5 of them tragically died," the post said. "We express our sympathy to the relatives and everyone involved. In the surf community in Scheveningen and far beyond there is great defeat, we are in deep mourning for this loss."</p>');
 
+												select * from DNBC_Posts;
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-('The Singapore Model: Advocacy in an Authoritarian State','Singapore has a class of activists who have found ways to advocate within boundaries and avoid punishments.','Low Minmin','2020-02-20',6,
-'<p>On November 26 2016, Singaporean activist Jolovan Wham organized an event called “Civil Disobedience and Social Movements” and invited Hong Kong student activist Joshua Wong to participate via a video call.</p>
+('China coronavirus health code apps raise concerns over privacy',
+'Apps, which allow people to move around after lockdown, have become an integral part of Chinese authorities’ management of citizens','Helen Davidson','2020-05-12',6,
+'<p><b>Apps, which allow people to move around after lockdown, have become an integral part of Chinese authorities’ management of citizens</b></p>
+<p>As millions of people in China emerge from weeks of lockdown, their freedom of movement is largely dependent on phone apps.</p>
                                             <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
                                             <div class="ArticleMedia">
                                                 <div class="ArticleMedia_container">
                                                     <figure class="Image">
-                                                        <img src="imgs/PostID_25.jpg" width="803" alt="none">
+                                                        <img src="imgs/PostID_1033.jpg" width="803" alt="none">
                                                     </figure>
                                                     <figcaption>
-                                                        <div class="Image_caption"><h5>A man covers his mouth with a fifty dollar bill at the Speakers Corner in Singapore</h5></div>
-                                                        <div class="Image_caption"><h6>SOURCE: AP Photo/Wong Maye-E</h6></div>
+                                                        <div class="Image_caption"><h5>A worker in a protective outfit checks health QR codes of a man at the entrance of a shopping mall in Wuhan</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Roman Pilipey/EPA</h6></div>
                                                     </figcaption>
                                                 </div>
                                             </div>
@@ -913,7 +926,14 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                 <p>While Wham was contesting his charges in 2017, another youth activist, Yinzhou Cai, has been championing for the welfare of migrant workers in a different way.</p>
                                                 <p>Cai grew up in Geylang, a neighborhood known for its red light district.* Growing up, Cai had sex workers and migrant workers for neighbors and befriended them, often through badminton games. Then he realized he could no longer ignore the immense gulf between their disparate social classes.</p>
                                                 <p>“For playing badminton in the back alleys, we were raided by the police,” Cai wrote.</p>
-                                                <p>Cai watched as his neighborhood became increasingly regulated, such as being designated a liquor control zone, after a riot involving migrant workers some years ago in another part of Singapore resulted in fatalities.</p>
+											</div>
+												<div class="ArticleMedia col-xs-12">
+                                                    <div class="ArticleMedia_container col-xs-12">
+                                                        <iframe width="701" height="315" src="https://www.youtube.com/embed/kRNt8LQRWl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12">
+                                                <p>Moon had successfully portrayed the outbreak as an “opportunity for South Korea to restructure its economy – capitalising on industries like AI and biopharma”, she said, adding that voters had been impressed by international recognition of the administration’s coronavirus response.</p>
                                                 <p>Cai wanted to redefine Singaporeans’ relationships with migrant workers. So he started Geylang Adventures, an initiative that offers tours through the back alleys of his neighborhood, to shine a light on a different side of Geylang and thereby restore humanity to the migrant communities living there. He also founded BackAlley Barbers, which provides free haircuts to migrant workers.</p>
                                                 <p>Both Cai and Wham are champions for migrant workers, but their fates could not have been more different. In 2017, while Wham was on trial for his charges, Cai was honored on the national stage with the Singapore Youth Award, for how he has brought “distinction to the nation” through his “resilience, courage, leadership, service and ambition.”</p>
                                                 <p>What separates Cai from Wham? And where exactly is the line between acceptable activism and unlawful social movements? In a country where it is illegal to hold public demonstrations without a police permit – except at the designated Speakers Corner in Hong Lim Park – how can bottom-up movements play a part in shaping public opinion and public policy?</p>
@@ -1094,7 +1114,8 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                 <p>Both countries mounted media blitzes to push their particular narrative but had appeared to leave room to de-escalate the conflict. On Wednesday morning, India’s external affairs minister, Sushma Swaraj, emphasised that Pakistan’s military was not the target of the sorties.</p>
                                                 <p>“No military installations were targeted,” Swaraj said. “The limited objective of the pre-emptive strike was to act decisively against the terrorist infrastructure of the JeM in order to pre-empt another terrorist attack in India.”</p>');
 
-
+select * from DNBC_Posts
+Update DNBC_Posts set PostWriter = 'Harry Porter' where PostID like 1014
 INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.webp'),('y2','imgs/PostID_02.webp'),('y3','imgs/PostID_03.webp'),('y4','imgs/PostID_04.webp'),('y5','imgs/PostID_05.webp'), 
 	('y6','imgs/PostID_06.webp'),('y7','imgs/PostID_07.webp'),('y8','imgs/PostID_08.webp'),('y9','imgs/PostID_09.jpeg'),('y10','imgs/PostID_10.jpeg'),('y11','imgs/PostID_11.png'),('y12','imgs/PostID_11_2.png'),
 	('y13','imgs/PostID_12.jpeg'),('y14','imgs/PostID_13.jpg'),('y15','imgs/PostID_14.jpeg'),('y16','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277'), 
