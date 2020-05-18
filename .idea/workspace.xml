@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
+    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="add .idea/workspace.xml to gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnbcglobalnews" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,7 @@
       <workItem from="1589367363943" duration="10075000" />
       <workItem from="1589545278562" duration="383000" />
       <workItem from="1589545986925" duration="7728000" />
+      <workItem from="1589702893980" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588945549104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add .idea/workspace.xml to gitignore">
+      <created>1589702953119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589702953119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,13 +96,14 @@
       <path value="$PROJECT_DIR$/dnbcglobalnews" />
     </ignored-roots>
     <MESSAGE value="change structure, keep files the same as before" />
-    <option name="LAST_COMMIT_MESSAGE" value="change structure, keep files the same as before" />
+    <MESSAGE value="add .idea/workspace.xml to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea/workspace.xml to gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1588945541540">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1589702989071">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588945541540" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589702989071" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589071165968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

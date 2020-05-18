@@ -28,10 +28,10 @@ CREATE TABLE DNBC_Collections(
 )
 
 CREATE TABLE DNBC_PostCollection(
-	Source Nvarchar(1000),
-	Title text not null,
-	CollectionID varchar(10) foreign key references DNBC_Collections(CollectionID),
-	PostID varchar(10) foreign key references DNBC_Posts(PostID)
+	Source Nvarchar(1000) default ' ',
+	Title text default ' ',
+	CollectionID int foreign key references DNBC_Collections(CollectionID),
+	PostID int foreign key references DNBC_Posts(PostID)
 );
 
 
@@ -49,9 +49,9 @@ drop table DNBC_Collections;
 INSERT INTO DNBC_Categories(CategoryName,ParentID) values 
 	('Business',0),('Automobiles',1),('Energy',1),('Finance',1),
 	('Politics',0),('East Asia',5),('Southeast Asia',5),('Reast of the world',5),
-	('Sport',0),('Football',9),('Tennis',9),('Others',9),('About Us',0),('Contact Us',0);
+	('Sport',0),('Football',9),('Tennis',9),('About Us',0),('Contact Us',0);
 
-
+	
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('Toyota extends North American plant shutdown; will stop paying 5,000 temporary workers',
 	'Toyota Motor Corp said Wednesday it plans to reopen its North American auto plants on May 4, extending its current shutdown by two additional weeks','David Shepardson',
@@ -794,21 +794,21 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                     Former world number one Murray is now ranked at 129. Next week he will swap his racked for a controller as he plays in the virtual Madrid Open, featuring 32 of the world best players including Nadal and
                                                     <a href="http://www.espn.com/tennis/player/_/id/1852/dominic-thiem">Dominic Thiem</a>.</p>
                                             </div>');
-											
+									select * from 	DNBC_Posts	
 	INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
-	('How the coronavirus pandemic forced sudden shutdown, then uncertainty for ATP, WTA tours',
-	'It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles',
-	'Simon Cambers','2020-05-12',11,'<p>It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles. The two-time Wimbledon champion collected her bags and headed to a car, bound for
+	('Kyrgios tells Murray you are better than Djokovic',
+	'Celta Vigo attacker Pione Sisto was fined a club record 60,000 euros (US$65,000) for driving 3,000km home to Denmark by breaking strict coronavirus measures, local media reported on Sunday (May 17).',
+	'Ruth Lz.','2020-05-1',10,'<p>It was around 4:30 p.m. local time on March 8 when Petra Kvitova landed in Los Angeles. The two-time Wimbledon champion collected her bags and headed to a car, bound for
                                                 <a href="https://www.espn.com/sports/tennis/players/profile?playerId=928">Indian Wells</a> and the first big North American hard-court event of 2020, the BNP Paribas Open in Indian Wells.</p>
                                                 <a href="https://www.espn.com/sports/tennis/players/profile?playerId=691">Greg Rusedski</a>.</p>
                                             <div class="ArticleMedia">
                                                 <div class="ArticleMedia_container">
                                                     <figure class="Image">
-                                                        <img src="imgs/PostID_23.jpg" width="803" alt="none">
+                                                        <img src="imgs/PostID_1048.webp" width="803" alt="none">
                                                     </figure>
                                                     <figcaption>
-                                                        <div class="Image_caption"><h5>The announcement on April 1 that Wimbledon would not be played in 2020, while well communicated and thought out, still came as a shock to many.</h5></div>
-                                                            <div class="Image_caption"><h6>SOURCE: Alex Davidson/Getty Images</h6></div>
+                                                        <div class="Image_caption"><h5>Andy Murrays last Grand Slam win was his 2016 Wimbledon victory</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: AFP/GABRIEL BOUYS</h6></div>
                                                     </figcaption>
                                                 </div>
                                             </div>
@@ -1115,7 +1115,7 @@ INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,
                                                 <p>“No military installations were targeted,” Swaraj said. “The limited objective of the pre-emptive strike was to act decisively against the terrorist infrastructure of the JeM in order to pre-empt another terrorist attack in India.”</p>');
 
 select * from DNBC_Posts
-Update DNBC_Posts set PostWriter = 'Harry Porter' where PostID like 1014
+
 INSERT INTO DNBC_Collections(CollectionID,Link) values ('y1','imgs/PostID_01.webp'),('y2','imgs/PostID_02.webp'),('y3','imgs/PostID_03.webp'),('y4','imgs/PostID_04.webp'),('y5','imgs/PostID_05.webp'), 
 	('y6','imgs/PostID_06.webp'),('y7','imgs/PostID_07.webp'),('y8','imgs/PostID_08.webp'),('y9','imgs/PostID_09.jpeg'),('y10','imgs/PostID_10.jpeg'),('y11','imgs/PostID_11.png'),('y12','imgs/PostID_11_2.png'),
 	('y13','imgs/PostID_12.jpeg'),('y14','imgs/PostID_13.jpg'),('y15','imgs/PostID_14.jpeg'),('y16','https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277'), 
