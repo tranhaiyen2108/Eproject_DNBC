@@ -52,7 +52,7 @@ INSERT INTO DNBC_Categories(CategoryName,ParentID) values
 	('Politics',0),('East Asia',5),('Southeast Asia',5),('Today in world',5),
 	('Sport',0),('Football',9),('Tennis',9),('About Us',0),('Contact Us',0);
 	
-	select * from DNBC_Posts
+	select * from DNBC_Categories
 
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('Toyota extends North American plant shutdown; will stop paying 5,000 temporary workers',
