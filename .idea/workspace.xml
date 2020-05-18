@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="add .idea/workspace.xml to gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dnbcglobalnews" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +67,7 @@
       <workItem from="1589545278562" duration="383000" />
       <workItem from="1589545986925" duration="7728000" />
       <workItem from="1589702893980" duration="142000" />
+      <workItem from="1589778175747" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
