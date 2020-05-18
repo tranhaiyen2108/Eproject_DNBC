@@ -219,8 +219,11 @@ p{
     top: 3px;
 }
 .sec1 .main-text{
+
     position: absolute;
-    bottom: 12%;
+    width: 30%;
+    height: 60%;
+    bottom: 18%;
     left: 25%;
 }
 .sec1 h2{
@@ -1055,8 +1058,9 @@ a:hover{
 }
 .header-main {
     padding: 10px 0px 50px;
-    width: 50%;
+    width: 100%;
     margin: 0;
+    border-radius: 5px;
 }
 .header-left {
     background: #fff;
