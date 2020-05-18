@@ -772,7 +772,7 @@ a, a:visited, a:active{
         font-size: 3.125em;
     }
     .sec1 h6 {
-        font-size: 1em;
+        font-size: 2em;
         margin: 25px 10px;
     }
     .sec1 .gr-btn li {
@@ -799,7 +799,7 @@ a, a:visited, a:active{
         font-size: 2.875em;
     }
     .sec1 h6 {
-        font-size: 0.875em;
+        font-size: 1em;
     }
     .sec1 .main-text {
         bottom: 10%;
