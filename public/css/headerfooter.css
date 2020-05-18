@@ -443,23 +443,22 @@ footer{
     opacity: 1;
 }
 .footer-right1{
-}
-.dl-text{
-    color: #777;
-    font-weight: 600;
-    font-size: 12px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 .download{
     padding-right: 20px;
 }
 .footer-right2{
     padding: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social-network,.social-network:hover,.social-network:active,.social-network:link,.social-network:focus{
     float:left;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 .ftat{
     padding-right: 10px;

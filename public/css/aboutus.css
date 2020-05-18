@@ -46,9 +46,9 @@
     text-align: center;
     text-shadow: 5px 2px 10px grey;
 }
-.str-content .str {
-    margin-bottom: 50px;
-    font-size: 17px;
+.str {
+    margin-bottom: 30px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: .025em;
     line-height: 1.5em;
@@ -71,65 +71,20 @@
     position: relative;
     list-style: none;
 }
-.mid-site .story1{
-    height: 127px;
+.story{
+    position: relative;
+    height: 130px;
 }
-.mid-site .story2{
-    height: 152px;
+.story a{
+    color: black;
 }
-.mid-site .story3{
-    height: 150px;
-}
-.mid-site .story4{
-    height: 100px;
-}
-.dot1:before{
+.bf:before{
     content: " ";
     position: absolute;
-    left: 35%;
-    top: -29%;
-    height: 127px;
+    left: 16%;
+    top: 19%;
+    height: 117px;
     border-right: 3px solid #ccc;
     border-right-color: rgba(0,0,0,.2);
     margin-top: 13px;
-}
-.dot2:before{
-    content: " ";
-    position: absolute;
-    left: 35%;
-    top: -29%;
-    height: 152px;
-    border-right: 3px solid #ccc;
-    border-right-color: rgba(0,0,0,.2);
-    margin-top: 13px;
-}
-.dot3:before{
-    content: " ";
-    position: absolute;
-    left: 35%;
-    top: -29%;
-    height: 150px;
-    border-right: 3px solid #ccc;
-    border-right-color: rgba(0,0,0,.2);
-    margin-top: 13px;
-}
-.dot4:before{
-    content: " ";
-    position: absolute;
-    left: 35%;
-    top: -29%;
-    height: 152px;
-    border-right: 3px solid #ccc;
-    border-right-color: rgba(0,0,0,.2);
-    margin-top: 13px;
-}
-.dot{
-    position: absolute;
-    left: 25%;
-    color: #fff;
-    background: #000;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -3px;
 }
