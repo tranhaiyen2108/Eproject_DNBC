@@ -16,10 +16,11 @@ CREATE TABLE DNBC_Posts(
 
 CREATE TABLE DNBC_Comments(
 	CommentID int primary key identity(1,1),
+	Avatar text,
 	UserName Nvarchar(255) not null,
 	UserEmail varchar(200) not null,
 	CommentContent text not null,
-	PostID varchar(10) not null foreign key references DNBC_Posts(PostID),
+	PostID int not null foreign key references DNBC_Posts(PostID),
 );
 
 CREATE TABLE DNBC_Collections(

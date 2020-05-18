@@ -17,8 +17,4 @@ INSERT INTO DNBC_Collections(Link) values
 	('imgs/PostID_1045.webp'),('imgs/PostID_1046.webp'),('imgs/PostID_1047.webp'),('imgs/PostID_1048.webp'),('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534'),
 	('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534'),('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277');
 	
-	select * from DNBC_Collections;
-
-
-select PostID from DNBC_Posts where PostContent like '%imgs/PostID_1030.jpg%'
-select PostContent from DNBC_Posts where PostID like 1029
+	
