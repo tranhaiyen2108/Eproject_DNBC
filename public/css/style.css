@@ -10,6 +10,7 @@ body {
 
 
     #container {
+      opacity: 0.2      ;
       width: 100%;
 	  height: 708px;
       -webkit-perspective: 1000;
