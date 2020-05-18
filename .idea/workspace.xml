@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="add .idea/workspace.xml to gitignore">
+    <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dnbcglobalnews" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <workItem from="1589545278562" duration="383000" />
       <workItem from="1589545986925" duration="7728000" />
       <workItem from="1589702893980" duration="142000" />
-      <workItem from="1589778175747" duration="245000" />
+      <workItem from="1589778175747" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589702953119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add more imgs">
+      <created>1589778438567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589778438567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,12 +104,14 @@
     </ignored-roots>
     <MESSAGE value="change structure, keep files the same as before" />
     <MESSAGE value="add .idea/workspace.xml to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea/workspace.xml to gitignore" />
+    <MESSAGE value="add more imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more imgs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1589702989071">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1589778437273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1589778437273" />
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589702989071" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589071165968">
       <screen x="0" y="0" width="1536" height="824" />

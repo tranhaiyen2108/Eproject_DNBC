@@ -49,10 +49,11 @@ drop table DNBC_Collections;
 
 INSERT INTO DNBC_Categories(CategoryName,ParentID) values 
 	('Business',0),('Automobiles',1),('Energy',1),('Finance',1),
-	('Politics',0),('East Asia',5),('Southeast Asia',5),('Reast of the world',5),
+	('Politics',0),('East Asia',5),('Southeast Asia',5),('Today in world',5),
 	('Sport',0),('Football',9),('Tennis',9),('About Us',0),('Contact Us',0);
-
 	
+	select * from DNBC_Posts
+
 INSERT INTO DNBC_Posts(PostTitle,PostSummary,PostWriter,PostDateTime,CategoryID,PostContent) values
 	('Toyota extends North American plant shutdown; will stop paying 5,000 temporary workers',
 	'Toyota Motor Corp said Wednesday it plans to reopen its North American auto plants on May 4, extending its current shutdown by two additional weeks','David Shepardson',
