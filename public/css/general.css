@@ -219,8 +219,11 @@ p{
     top: 3px;
 }
 .sec1 .main-text{
+
     position: absolute;
-    bottom: 12%;
+    width: 30%;
+    height: 60%;
+    bottom: 18%;
     left: 25%;
 }
 .sec1 h2{
@@ -769,7 +772,7 @@ a, a:visited, a:active{
         font-size: 3.125em;
     }
     .sec1 h6 {
-        font-size: 1em;
+        font-size: 2em;
         margin: 25px 10px;
     }
     .sec1 .gr-btn li {
@@ -796,7 +799,7 @@ a, a:visited, a:active{
         font-size: 2.875em;
     }
     .sec1 h6 {
-        font-size: 0.875em;
+        font-size: 1em;
     }
     .sec1 .main-text {
         bottom: 10%;
@@ -1055,8 +1058,9 @@ a:hover{
 }
 .header-main {
     padding: 10px 0px 50px;
-    width: 50%;
+    width: 100%;
     margin: 0;
+    border-radius: 5px;
 }
 .header-left {
     background: #fff;
