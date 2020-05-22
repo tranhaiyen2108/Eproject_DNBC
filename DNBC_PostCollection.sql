@@ -79,9 +79,12 @@
 	('REUTERS/Daniele Mascolo','AC Milan Rafael Leao in action with Inter Milan Nicolo Barella during a Serie A match on Sep 21, 2019.',125,1045),
 	('REUTERS/Daniele Mascolo','Pione Sisto joined Celta Vigo in 2016.',126,1046),
 	('ARIM JAAFAR/AFP via Getty Images','Petra Kvitova was on her way to Indian Wells when the tournament was canceled on March 8.',127,1047),
-	('AFP/GABRIEL BOUYS','Andy Murrays last Grand Slam win was his 2016 Wimbledon victory',128,1048);
-	
+	('AFP/GABRIEL BOUYS','Andy Murrays last Grand Slam win was his 2016 Wimbledon victory',128,1048),
+	('Fact Set CNBC data','Oil future Crash',132,1018),
 
+	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
+	('V. M., Dyfed','British Gas sent in the debt collectors to bully a former customer over a small electricity payment.',136,1017)
 
+	delete DNBC_PostCollection where CollectionID like 12 and PostID like 1017
 
-	
+	select * from DNBC_PostCollection
