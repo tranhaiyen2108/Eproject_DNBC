@@ -117,7 +117,7 @@ app.get("/post/:PostID",function (req,res) {
     //body
     var id = req.params.PostID;
     sql_text += "SELECT * FROM postclt WHERE PostID = "+id+";";
-
+    sql_text += "SELECT TOP 5 * FROM DNBC_Posts ORDER BY PostDateTime DESC;";
     db.query(sql_text,function (err,rows) {
         if(err) res.send(err);
         else {
@@ -134,6 +134,7 @@ app.get("/post/:PostID",function (req,res) {
                 ad: rows.recordsets[9],
 
                 post: rows.recordsets[10],
+                trending: rows.recordsets[11]
             })
         }
     });

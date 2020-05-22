@@ -57,7 +57,7 @@
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
-                                    <a href="javascript:;" class="menu-link">
+                                    <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-link">
                                         <span class="menu-icon menu-icon1" id="menu-icon1"><i class="fas fa-globe"></i></span>
 
                                         <span class="menu-text" id="menu-text1"><%-tdiw[0].CategoryName %></span>
@@ -74,7 +74,7 @@
                                     <div class="menu-submenu" id="menu-submenu2">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-business1[0].CategoryID%>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -84,7 +84,7 @@
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-business1[1].CategoryID%>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -94,7 +94,7 @@
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- business1[2].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -116,7 +116,7 @@
                                     <div class="menu-submenu" id="menu-submenu3">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-politics1[0].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -126,7 +126,7 @@
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-politics1[1].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -148,7 +148,7 @@
                                     <div class="menu-submenu" id="menu-submenu4">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-sport1[0].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -158,7 +158,7 @@
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories" class="menu-link menu-toggle">
+                                                <a href="/categories/<%-sport1[1].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
@@ -177,7 +177,7 @@
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
-                                    <a href="/contactus" class="menu-link">
+                                    <a href="/contact-us" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-id-card-alt"></i></span>
                                         <span class="menu-text"><%-ctu[0].CategoryName %></span>
                                     </a>
@@ -210,29 +210,29 @@
                         </div>
                         <ul class="menu_1 col-lg-9">
                             <li class="dropdown parent-menu">
-                                <a href="#" class="menu-item"><%-tdiw[0].CategoryName %></a>
+                                <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-item"><%-tdiw[0].CategoryName %></a>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="#"  data-toggle="dropdown" class="menu-item"><%-business[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-business[0].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories"><%-business1[0].CategoryName %></a></li>
-                                    <li><a href="/categories"><%-business1[1].CategoryName %></a></li>
-                                    <li><a href="/categories"><%-business1[2].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-business1[0].CategoryID%>"><%-business1[0].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-business1[1].CategoryID%>"><%-business1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-business1[2].CategoryID%>"><%-business1[2].CategoryName %></a></li>
                                 </ul>
 
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="#"  data-toggle="dropdown" class="menu-item"><%-politics[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-politics[0].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories"><%-politics1[0].CategoryName %></a></li>
-                                    <li><a href="/categories"><%-politics1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-politics1[0].CategoryID %>"><%-politics1[0].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-politics1[1].CategoryID %>"><%-politics1[1].CategoryName %></a></li>
                                 </ul>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="#"  data-toggle="dropdown" class="menu-item"><%-sport[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-sport[0].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories"><%-sport1[0].CategoryName %></a></li>
-                                    <li><a href="/categories"><%-sport1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-sport1[0].CategoryID %>"><%-sport1[0].CategoryName %></a></li>
+                                    <li><a href="/categories/<%-sport1[1].CategoryID %>"><%-sport1[1].CategoryName %></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -290,47 +290,6 @@
                                     <div class="ArticlePage_container col-xs-8">
                                         <div class="ArticleBody_container min-height">
                                             <%- post[0].PostContent%>
-<!--                                            <p>London’s Heathrow airport normally has about 600 flights landing on an average day, but in lockdown Britain, about 60 arrive daily.</p>-->
-<!--                                            <div class="ArticleMedia">-->
-<!--                                                <div class="ArticleMedia_container">-->
-<!--                                                    <figure class="Image">-->
-<!--                                                        <img src="imgs/PostID_09.jpg" width="803" alt="none">-->
-<!--                                                    </figure>-->
-<!--                                                    <figcaption>-->
-<!--                                                        <div class="Image_caption"><h5>The coronavirus outbreak has had a severe impact on demand for air travel.</h5></div>-->
-<!--                                                            <div class="Image_caption"><h6>SOURCE: Taken by Harry Porters</h6></div>-->
-<!--                                                    </figcaption>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                            <div class="col-xs-12">-->
-<!--                                                <p>Air Deccan is in talks with an aircraft manufacturer as the Indian carrier prepares to restart operations once the coroanvirus crisis stabilises, chief executive Arun Kumar Singh has disclosed.</p>-->
-<!--                                                <p>The carrier is in the process of returning its two 18-year-old Beechcraft Beech 1900Ds to their lessor, having already served notice of lease termination, Singh tells Cirium. He declined to name the lessor.</p>-->
-<!--                                                <p>Singh adds the lockdown has made it difficult to return the aircraft.</p>-->
-<!--                                                <p>The airline’s Beechcrafts – which, according to Cirium fleets data, formerly flew with a now-defunct subsidiary of Air New Zealand – are described by Singh as “very old and very tired ”.</p>-->
-<!--                                                <p>“We have taken this as an opportunity for newer aircraft,” he adds. “We are talking to an OEM, but nothing has been signed yet so I can’t disclose anything.”</p>-->
-<!--                                                <p>Pressed on whether he is talking to Airbus or Boeing, Singh says he is not talking with either of them, and that the type he is looking at is a “smaller commuter aircraft”.</p>-->
-<!--                                                <p>On 5 April, Air Deccan – which has history dating back to 2003, and was once a part of ill-fated Kingfisher Airlines – announced that it was suspending operations until further notice. It was the first Indian carrier to cease operations amid the coronavirus pandemic. All employees were put on “sabbatical” without pay, though Singh says they will be given “right of first refusal” to rejoin the company once it starts operations again.</p>-->
-<!--                                                <p>“We took a very early call in doing that,” he says, referring to management’s decision to shutter the airline.</p>-->
-<!--                                            </div>-->
-<!--                                            <div class="ArticleMedia col-xs-12">-->
-<!--                                                <div class="ArticleMedia_container col-xs-12">-->
-<!--                                                    <iframe width="800" height="540" frameborder="0" src="https://www.bbc.com/news/av/embed/p089st6l/52319575"></iframe>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                            <div class="col-xs-12">-->
-<!--                                                <p>“I sat down with shareholders and we knew which direction this was going to go. We sat down and took a conscious call and took a very quick decision that coronavirus was going to stay for the next three to six months.</p>-->
-<!--                                                <p>“The question we had to ask was could we sustain ourselves with no revenues coming in? If we could somehow subsidise the aviation business from my shareholder’s other businesses – but the problem is all other business have come to a halt. We can’t keep pumping in money when there is no light at the end of the tunnel. Look what happened to Virgin Australia. The situation compared to other Indian carriers is not anyway extra bad for us; it’s just we saw that coming quickly.”</p>-->
-<!--                                                <p>The airline got off to a rocky start in 2003, having to abandon its inaugural flight carrying Indian dignitaries due to an engine fire during taxi. Despite that, it managed to grow its fleet and route network, and in 2008 completed a merger with now-defunct Kingfisher Airlines.</p>-->
-<!--                                                <p>Under its new owner, Air Deccan was rechristened Kingfisher Red, but its high operating costs and low yields proved to be a drag on Kingfisher. In 2011 Kingfisher Airlines, which not long after went belly-up, decided to phase out Kingfisher Red.</p>-->
-<!--                                                <p>Air Deccan founder GR Gopinath, who has been dubbed “the man who got India’s middle class to fly”, managed to retain the airline’s name by registering for it soon after the rebranding, Forbes India reports.</p>-->
-<!--                                                <p>Air Deccan made a comeback in December 2017 when it was granted a flying permit from India’s civil aviation regulator to conduct flights under the country’s UDAN regional connectivity scheme, Business Standard reported at the time. The first three routes were from Mumbai to Nashik, Pune and Jalgaon, according to Forbes India.</p>-->
-<!--                                            </div>-->
-                                        </div>
-<!--                                        <div class="ArticleBody_container" id="comment-button">-->
-<!--                                            <button class="comment-button-text" onclick="unHide()">-->
-<!--                                                <i class="fas fa-comment"></i> <span>Click to comment</span>-->
-<!--                                            </button>-->
-<!--                                        </div>-->
                                         <section class="comment-wrapper clearfix">
                                             <div id="comment-form-container">
                                                 <form action="#" method="post">
@@ -401,101 +360,101 @@
                                             </div>
                                         </section>
                                     </div>
-                                    <div class="col-xs-1"></div>
-                                    <div class="col-xs-3">
-                                        <div class="left-content">
-                                            <div class="left-content-container">
-                                                <div id="ad">
-                                                    <div class="ad-content">
-                                                        <span class="ad-label">ADVERTISEMENT</span>
-                                                        <a href="#">
-                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-entertainment1/wp-content/uploads/sites/3/2020/01/zoxpress300x250.jpg">
-                                                        </a>
+                                        <div class="col-xs-1"></div>
+                                        <div class="col-xs-3">
+                                            <div class="left-content">
+                                                <div class="left-content-container">
+                                                    <div id="ad">
+                                                        <div class="ad-content">
+                                                            <span class="ad-label">ADVERTISEMENT</span>
+                                                            <a href="#">
+                                                                <img src="http://mvpthemes.com/zoxpress/zoxpress-entertainment1/wp-content/uploads/sites/3/2020/01/zoxpress300x250.jpg">
+                                                            </a>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="bot-trend col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                                                    <div class="widget-side-head col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                        Trending
-                                                    </div>
-                                                    <div class="widget-trend">
-                                                        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">1</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">The U.S. Spends $2,500 Per Person On Health Care Administrative Costs</a>
-                                                    </div>
-                                                    <div class="widget-trend">
-                                                        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">2</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">The U.S. Spends $2,500 Per Person On Health Care Administrative Costs</a>
-                                                    </div>
-                                                    <div class="widget-trend">
-                                                        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">3</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">The U.S. Spends $2,500 Per Person On Health Care Administrative Costs</a>
-                                                    </div>
-                                                    <div class="widget-trend">
-                                                        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">4</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">The U.S. Spends $2,500 Per Person On Health Care Administrative Costs</a>
-                                                    </div>
-                                                    <div class="widget-trend">
-                                                        <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">5</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">The U.S. Spends $2,500 Per Person On Health Care Administrative Costs</a>
+                                                    <div class="bot-trend col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                        <div class="widget-side-head col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                            Trending
+                                                        </div>
+                                                        <div class="widget-trend">
+                                                            <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">1</span>
+                                                            <a href="/post/<%- trending[0].PostID %>" class="col-xs-10 col-sm-10 col-md-10 col-lg-10"><%-trending[0].PostTitle%></a>
+                                                        </div>
+                                                        <div class="widget-trend">
+                                                            <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">2</span>
+                                                            <a href="/post/<%- trending[1].PostID %>" class="col-xs-10 col-sm-10 col-md-10 col-lg-10"><%-trending[1].PostTitle%></a>
+                                                        </div>
+                                                        <div class="widget-trend">
+                                                            <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">3</span>
+                                                            <a href="/post/<%- trending[2].PostID %>" class="col-xs-10 col-sm-10 col-md-10 col-lg-10"><%-trending[2].PostTitle%></a>
+                                                        </div>
+                                                        <div class="widget-trend">
+                                                            <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">4</span>
+                                                            <a href="/post/<%- trending[3].PostID %>" class="col-xs-10 col-sm-10 col-md-10 col-lg-10"><%-trending[3].PostTitle%></a>
+                                                        </div>
+                                                        <div class="widget-trend">
+                                                            <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">5</span>
+                                                            <a href="/post/<%- trending[4].PostID %>" class="col-xs-10 col-sm-10 col-md-10 col-   lg-10"><%-trending[4].PostTitle%></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="section background-color">
-                                <div class="container">
-                                    <div class="article-footer">
-                                        <div class="article-footer-head">
-                                            <div class="main-title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="section background-color">
+                                    <div class="container">
+                                        <div class="article-footer">
+                                            <div class="article-footer-head">
+                                                <div class="main-title col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                                 <span class="dnbc-main-title col-xs-6">
                                                     You also may like
                                                 </span>
-                                                <div class="col-xs-6">
-                                                    <a href="#"><h4>More</h4></a>
+                                                    <div class="col-xs-6">
+                                                        <a href="#"><h4>More</h4></a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3 padding">
-                                                <div class="padding">
-                                                    <a href="#">
-                                                        <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/politcian-768x432.jpg">
-                                                        <p class="third-new">Mexico’s President Is Considering Raffling Off The Presidential Jet</p>
-                                                    </a>
-                                                    <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3 padding">
+                                                    <div class="padding">
+                                                        <a href="#">
+                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/politcian-768x432.jpg">
+                                                            <p class="third-new">Mexico’s President Is Considering Raffling Off The Presidential Jet</p>
+                                                        </a>
+                                                        <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <div class="padding">
-                                                    <a href="#">
-                                                        <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/interview4-768x432.jpg">
-                                                        <p class="third-new">Greta Thunberg Joins Youth Activists On TIME Panel At Davos</p>
-                                                    </a>
-                                                    <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                    <div class="padding">
+                                                        <a href="#">
+                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/interview4-768x432.jpg">
+                                                            <p class="third-new">Greta Thunberg Joins Youth Activists On TIME Panel At Davos</p>
+                                                        </a>
+                                                        <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <div class="padding">
-                                                    <a href="#">
-                                                        <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/alaska-768x432.jpg">
-                                                        <p class="third-new">Alaska Native Elder Is First American Counted In Census</p>
-                                                    </a>
-                                                    <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                    <div class="padding">
+                                                        <a href="#">
+                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/alaska-768x432.jpg">
+                                                            <p class="third-new">Alaska Native Elder Is First American Counted In Census</p>
+                                                        </a>
+                                                        <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <div class="padding">
-                                                    <a href="#">
-                                                        <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/protest-768x432.jpg">
-                                                        <p class="third-new">New Report Finds Distrust In Capitalism, Government And Global Institutions</p>
-                                                    </a>
-                                                    <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                    <div class="padding">
+                                                        <a href="#">
+                                                            <img src="http://mvpthemes.com/zoxpress/zoxpress-network2/wp-content/uploads/sites/7/2020/01/protest-768x432.jpg">
+                                                            <p class="third-new">New Report Finds Distrust In Capitalism, Government And Global Institutions</p>
+                                                        </a>
+                                                        <h4>ZoxPress Staff <i class="far fa-clock"></i> January 26, 2020</h4>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
                         <footer>
                             <div class="container">
@@ -507,7 +466,7 @@
                                 <div class="footer-right left col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                     <ul class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <li><a href="/about-us"><%-abu[0].CategoryName %></a></li>
-                                        <li><a href="/contactus"><%-ctu[0].CategoryName %></a></li>
+                                        <li><a href="/contact-us"><%-ctu[0].CategoryName %></a></li>
                                         <li><a href="/advertisement"><%-ad[0].CategoryName %></a></li>
                                     </ul>
                                     <p class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">Copyright © 2020 DNBC International.</p>
