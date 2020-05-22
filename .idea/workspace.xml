@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dnbcglobalnews" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dnbcglobalnews/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,6 +85,7 @@
       <workItem from="1589811352090" duration="745000" />
       <workItem from="1590118777048" duration="594000" />
       <workItem from="1590147763090" duration="5000" />
+      <workItem from="1590147815657" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -119,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590118809985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix index.js">
+      <created>1590147827754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590147827754</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,14 +144,15 @@
     <MESSAGE value="add .idea/workspace.xml to gitignore" />
     <MESSAGE value="add more imgs" />
     <MESSAGE value="add more img &amp; fix index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more img &amp; fix index.js" />
+    <MESSAGE value="fix index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix index.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1590118808596">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1590147826394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1590118808596" />
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589811365182" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590147826394" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589071165968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
