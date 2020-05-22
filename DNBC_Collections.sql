@@ -1,4 +1,4 @@
-INSERT INTO DNBC_Collections(Link) values 
+﻿INSERT INTO DNBC_Collections(Link) values 
 ('imgs/PostID_01.webp'),('imgs/PostID_02.webp'),('imgs/PostID_03.webp'),('imgs/PostID_04.webp'),('imgs/PostID_05.webp'), 
 	('imgs/PostID_06.webp'),('imgs/PostID_07.webp'),('imgs/PostID_08.webp'),('https://www.bbc.com/news/av/embed/p089st6l/52319575'),
 	('imgs/PostID_09.jpg'),('imgs/PostID_10.jpeg'),('imgs/PostID_11.png'),
@@ -18,4 +18,5 @@ INSERT INTO DNBC_Collections(Link) values
 	('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534'),('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277');
 	
 	
-	
+	--Các link tương đối ở đây đã bị remove ra khỏi bảng Collections. 
+	--Các link này chỉ dùng được ở bảng Posts
