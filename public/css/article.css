@@ -58,7 +58,9 @@
     color: #0076bf;
     float: left;
 }
-
+.article__topic a:hover{
+    text-decoration: none;
+}
 @media (max-width: 639px) and (min-width: 0px){
     .ArticleHeader_container_bottom {
         margin: 0 20px;
@@ -100,14 +102,15 @@
     letter-spacing: 0.1rem;
     display: inline-block;
     float: left;
-    padding-left: 20px;
 }
-.ArticleHeader_date time{
-    text-transform: uppercase;
+.ArticleHeader_date .Attribution_content{
+    font-size: 12px;
 }
-.ArticleHeader_date p{
-    float: left;
-    padding-right: 5px;
+.ArticleHeader_date h4{
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 .ArticleHeader_date_container ul {
@@ -141,8 +144,8 @@
 .ArticleBody_container p{
     color: #313132;
     margin-top: 30px;
-    font-family: "freight-book", serif;;
-    font-size: 21px;
+    font-family: Arial;
+    font-size: 18px;
     line-height: 1.52;
     cursor: text;
     text-decoration: none;

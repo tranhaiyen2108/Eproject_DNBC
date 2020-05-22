@@ -15,7 +15,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="hot-new col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                                <a href="/post">
+                                                <a href="/post/<%-politic_lastest[0].PostID %>"/>
                                                     <div class="post-img">
                                                         <img src="<%- politic_lastest[0].Link %>">
                                                     </div>
@@ -72,22 +72,22 @@
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                                 <a href="#">
                                                     <div class="post-img">
+                                                        <img src="<%- world_lastest[3].Link %>">
+                                                    </div>
+                                                    <p class="third-new"><%- world_lastest[3].PostTitle %></p>
+                                                </a>
+                                                <h5>World</h5>
+                                                <h4><%- world_lastest[3].PostWriter %> <i class="far fa-clock"></i> <%- world_lastest[3].PostDateTime %></h4>
+                                            </div>
+                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                <a href="#">
+                                                    <div class="post-img">
                                                         <img src="<%- world_lastest[4].Link %>">
                                                     </div>
                                                     <p class="third-new"><%- world_lastest[4].PostTitle %></p>
                                                 </a>
                                                 <h5>World</h5>
                                                 <h4><%- world_lastest[4].PostWriter %> <i class="far fa-clock"></i> <%- world_lastest[4].PostDateTime %></h4>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <a href="#">
-                                                    <div class="post-img">
-                                                        <img src="<%- world_lastest[5].Link %>">
-                                                    </div>
-                                                    <p class="third-new"><%- world_lastest[5].PostTitle %></p>
-                                                </a>
-                                                <h5>World</h5>
-                                                <h4><%- world_lastest[5].PostWriter %> <i class="far fa-clock"></i> <%- world_lastest[5].PostDateTime %></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -125,6 +125,26 @@
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                                 <a href="#">
                                                     <div class="post-img">
+                                                        <img src="<%- business_lastest[2].Link %>">
+                                                    </div>
+                                                    <p class="third-new"><%- business_lastest[2].PostTitle %></p>
+                                                </a>
+                                                <h5>Business</h5>
+                                                <h4><%- business_lastest[2].PostWriter %> <i class="far fa-clock"></i> <%- business_lastest[2].PostDateTime %></h4>
+                                            </div>
+                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                <a href="#">
+                                                    <div class="post-img">
+                                                        <img src="<%- business_lastest[3].Link %>">
+                                                    </div>
+                                                    <p class="third-new"><%- business_lastest[3].PostTitle %></p>
+                                                </a>
+                                                <h5>Business</h5>
+                                                <h4><%- business_lastest[3].PostWriter %> <i class="far fa-clock"></i> <%- business_lastest[3].PostDateTime %></h4>
+                                            </div>
+                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                                                <a href="#">
+                                                    <div class="post-img">
                                                         <img src="<%- business_lastest[4].Link %>">
                                                     </div>
                                                     <p class="third-new"><%- business_lastest[4].PostTitle %></p>
@@ -141,26 +161,6 @@
                                                 </a>
                                                 <h5>Business</h5>
                                                 <h4><%- business_lastest[5].PostWriter %> <i class="far fa-clock"></i> <%- business_lastest[5].PostDateTime %></h4>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <a href="#">
-                                                    <div class="post-img">
-                                                        <img src="<%- business_lastest[7].Link %>">
-                                                    </div>
-                                                    <p class="third-new"><%- business_lastest[7].PostTitle %></p>
-                                                </a>
-                                                <h5>Business</h5>
-                                                <h4><%- business_lastest[7].PostWriter %> <i class="far fa-clock"></i> <%- business_lastest[7].PostDateTime %></h4>
-                                            </div>
-                                            <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                                <a href="#">
-                                                    <div class="post-img">
-                                                        <img src="<%- business_lastest[8].Link %>">
-                                                    </div>
-                                                    <p class="third-new"><%- business_lastest[8].PostTitle %></p>
-                                                </a>
-                                                <h5>Business</h5>
-                                                <h4><%- business_lastest[8].PostWriter %> <i class="far fa-clock"></i> <%- business_lastest[8].PostDateTime %></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -251,7 +251,7 @@
                                                             <h4><%- politic_lastest[8].PostWriter %> <i class="far fa-clock"></i> <%- politic_lastest[8].PostDateTime %></h4>
                                                         </div>
                                                     </div>
-                                                    <a href="#" class="more-post col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <a href="/categories/6" class="more-post col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                                         more posts
                                                     </a>
                                                 </div>
@@ -285,7 +285,7 @@
                                                     </div>
                                                     <div class="widget-trend">
                                                         <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2">5</span>
-                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-lg-10"><%-trending[4].PostTitle%></a>
+                                                        <a href="#" class="col-xs-10 col-sm-10 col-md-10 col-   lg-10"><%-trending[4].PostTitle%></a>
                                                     </div>
                                                 </div>
                                             </div>
