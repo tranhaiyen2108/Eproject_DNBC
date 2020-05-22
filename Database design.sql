@@ -1298,20 +1298,19 @@ INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
                 <p>“Because of the impacts of livestock production and the amount of land required to produce feedstock for animals, many people promote the idea of artificial meat,” he said.</p>
                 <p>“I believe we should be aware that these are extremely energy intensive processes, especially if they are developed on (a) large scale.”</p>
 			</div>' where PostID like 1020;
+select * from DNBC_Posts where PostID like 1015
 
-
-update DNBC_Posts set PostContent ='<div class="col-xs-12">
-	<p>A 43-year-old British man may undergo a lung transplant in Vietnam, where he is critically ill with Covid-19.The man, a Vietnam Airlines pilot, developed a fever and cough on 17 March, and was later admitted to Ho Chi Minh City Hospital for Tropical Diseases.</p>
-                                      <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
-									</div>
+update DNBC_Posts set PostContent ='<p><b>Apps, which allow people to move around after lockdown, have become an integral part of Chinese authorities’ management of citizens</b></p>
+<p>As millions of people in China emerge from weeks of lockdown, their freedom of movement is largely dependent on phone apps.</p>
+                                            <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
                                             <div class="ArticleMedia">
                                                 <div class="ArticleMedia_container">
                                                     <figure class="Image">
-                                                        <img src="../imgs/PostID_1029.jpg" width="803" alt="none">
+                                                        <img src="../imgs/PostID_1033.jpg" width="803" alt="none">
                                                     </figure>
                                                     <figcaption>
-                                                        <div class="Image_caption"><h5>A street vendor in Hanoi passes a sign alerting people how to fight coronavirus. </h5></div>
-                                                        <div class="Image_caption"><h6>SOURCE: Luong Thai Linh/EPA</h6></div>
+                                                        <div class="Image_caption"><h5>A worker in a protective outfit checks health QR codes of a man at the entrance of a shopping mall in Wuhan</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Roman Pilipey/EPA</h6></div>
                                                     </figcaption>
                                                 </div>
                                             </div>
@@ -1320,7 +1319,14 @@ update DNBC_Posts set PostContent ='<div class="col-xs-12">
                                                 <p>While Wham was contesting his charges in 2017, another youth activist, Yinzhou Cai, has been championing for the welfare of migrant workers in a different way.</p>
                                                 <p>Cai grew up in Geylang, a neighborhood known for its red light district.* Growing up, Cai had sex workers and migrant workers for neighbors and befriended them, often through badminton games. Then he realized he could no longer ignore the immense gulf between their disparate social classes.</p>
                                                 <p>“For playing badminton in the back alleys, we were raided by the police,” Cai wrote.</p>
-                                                <p>Cai watched as his neighborhood became increasingly regulated, such as being designated a liquor control zone, after a riot involving migrant workers some years ago in another part of Singapore resulted in fatalities.</p>
+											</div>
+												<div class="ArticleMedia col-xs-12">
+                                                    <div class="ArticleMedia_container col-xs-12">
+                                                        <iframe width="701" height="315" src="https://www.youtube.com/embed/kRNt8LQRWl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12">
+                                                <p>Moon had successfully portrayed the outbreak as an “opportunity for South Korea to restructure its economy – capitalising on industries like AI and biopharma”, she said, adding that voters had been impressed by international recognition of the administration’s coronavirus response.</p>
                                                 <p>Cai wanted to redefine Singaporeans’ relationships with migrant workers. So he started Geylang Adventures, an initiative that offers tours through the back alleys of his neighborhood, to shine a light on a different side of Geylang and thereby restore humanity to the migrant communities living there. He also founded BackAlley Barbers, which provides free haircuts to migrant workers.</p>
                                                 <p>Both Cai and Wham are champions for migrant workers, but their fates could not have been more different. In 2017, while Wham was on trial for his charges, Cai was honored on the national stage with the Singapore Youth Award, for how he has brought “distinction to the nation” through his “resilience, courage, leadership, service and ambition.”</p>
                                                 <p>What separates Cai from Wham? And where exactly is the line between acceptable activism and unlawful social movements? In a country where it is illegal to hold public demonstrations without a police permit – except at the designated Speakers Corner in Hong Lim Park – how can bottom-up movements play a part in shaping public opinion and public policy?</p>
@@ -1329,8 +1335,7 @@ update DNBC_Posts set PostContent ='<div class="col-xs-12">
                                                 <p>Yet, despite its harsh laws, the country is far from a politically stagnant society. Its people have shown a willingness to organize quickly when they feel the pinch, and have managed to prompt the government to respond in their favor. Singapore has its class of activists who have found ways to advocate within boundaries and avoid sanctions.</p>
                                                 <p>In September, Singaporean resident Zachary Tan started an online petition to ban electric scooters on pedestrian footpaths after a spate of injuries and fatal accidents. Tan, who had amassed 69,000 signatures in one month, shared his petition with the Land Transport Authority</p>
                                                 <p>The next day scores of food delivery riders who use e-scooters to go about their work, showed up at meeting halls across the island objecting to the ban, lamenting the threat to their livelihoods. Their distinctive green uniforms drew widespread media attention.</p>
-                                            </div>    
-												<div class="ArticleMedia">
+                                                <div class="ArticleMedia">
                                                     <div class="ArticleMedia_container">
                                                         <figure class="Image">
                                                             <img src="../imgs/PostID_25_1.jpg" width="803" alt="none">
@@ -1341,7 +1346,6 @@ update DNBC_Posts set PostContent ='<div class="col-xs-12">
                                                         </figcaption>
                                                     </div>
                                                 </div>
-												<div class="col-xs-12">
                                                 <p>In the latter, one complaint prompted action from the authority, while in the former, thousands of signatories on a petition barely moved the needle. On what basis does the government decide when to act according to public pressure? According to Tan, the government has a general policy of not governing by petitions.</p>
                                                 <p>“Where societal values and norms are involved where people do not change their views overnight, the government tends to act more cautiously,” he said.</p>
                                                 <p>“They recognize that even with big names canvassing for repeal, there is even more resistance to a dramatic change in the status quo. Most religions, especially Christianity and Islam, have relatively clear positions on homosexuality. The thinking is that the majority do not want the law repealed.”</p>
@@ -1352,6 +1356,11 @@ update DNBC_Posts set PostContent ='<div class="col-xs-12">
                                                     <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2019-02/2019_Edelman_Trust_Barometer_Global_Report_2.pdf">greater trust</a> in institutions than in many other countries, according to the 2019 Edelman Trust Barometer Rankings.</p>
                                                 <p>And while Singapore restricts public assembly and the free press, it does have mechanisms that allow public opinion to influence government. For instance, residents can write to the newspapers or directly to ministers and Members of Parliament (MPs), whose email addresses are a matter of public information.</p>
                                                 <p>The government also maintains weekly “Meet-the-People” sessions across all constituencies in Singapore, where MPs meet face-to-face with their constituencies to address any concerns they want to raise.</p>
-											</div>' where PostID like 1029;
-						
+							</div>' where PostID like 1033;
+
+		select * from DNBC_Posts where PostID like 1033				
+	select * from postclt where PostID not like 12 and CategoryID in (SELECT CategoryID from postclt where PostID like 12)
+	select PostTitle, PostWriter, PostDateTime from DNBC_Posts and select Link where PostID in (
+	select DISTINCT PostID from postclt where PostID not like 1029 and CategoryID in (SELECT CategoryID from postclt where PostID like 1029))
 	
+	select * from DNBC_Comments
