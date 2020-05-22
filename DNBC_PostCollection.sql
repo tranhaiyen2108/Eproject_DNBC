@@ -7,20 +7,13 @@
 	('REUTERS/Anushree Fadnavis','The logo is seen on the bonnet of a new Ford Aspire car during its launch in New Delhi, India, October 4, 2018. Picture taken October 4, 2018',6,6),
 	('REUTERS/Rebecca Cook','The GM logo is seen at the General Motors Warren Transmission Operations Plant in Warren, Michigan October 26, 2015',7,7),
 	('REUTERS/Alessandro Bianchi','Employees of Fiat SpA work on new car "Panda" at the Fiat plant in Pomigliano DArco, near Naples, Italy, December 14, 2011.',8,8),
-	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
-	('','',9,9),
 	('Harry Porters','The coronavirus outbreak has had a severe impact on demand for air travel',10,9),
 	('Wikimedia Commons','An Air Deccan Beecraft 1900D. The original incarnation of Air Deccan was India’s largest low-cost carrier.',11,10),
 	('Fact Set CNBC data','Oil future Crash',12,11),
-	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
 	('FactSet','West Texas Intermediate drop into negative territory',13,11),
 	('Michael Heiman','An offshore oil platform is seen with a tanker in the distance on April 20, 2020 in Huntington Beach, California.',14,12),
 	('Haidar Mohammed Ali','An Iraqi labourer works at an oil refinery in the southern town Nasiriyah.',15,13),
-	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
-	('Will Lester','Inland Valley Daily Bulletin',16,14),('','',17,1034),('','',17,1035),('','',17,1036),(' ',' ',17,1038),(' ',' ',17,1037),
-	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
-	('','',18,15),('','',18,1019),('','',18,1020);
-	INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
+	('Will Lester','Inland Valley Daily Bulletin',16,14),
 	('USA Labor Dept','Unemployment by States',19,16),
 	('CNBC','Florida is the slowest at processing unemployment claims',17,16),
 	('Bloomberg/Mark Kauzlarich','A pedestrian wearing a protective mask stands outside a JPMorgan Chase & Co. bank branch in New York, U.S., on Friday, April 10, 2020',20,17),
@@ -40,7 +33,7 @@
 	('KARIM JAAFAR/AFP via Getty Images','Petra Kvitova was on her way to Indian Wells when the tournament was canceled on March 8.',83,1009),
 	
 	('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',84,1009),
-	(' ',' ',85,1006),('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',86,1044),
+	('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',86,1044),
 	('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',86,1045),
 	('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',86,1046),
 	('WILL OLIVER/EPA-EFE/Shutterstock','The All England Club sent defending champion Simona Halep an email after canceling Wimbledon, explaining the decision.',86,1047),
@@ -50,7 +43,6 @@
 	('','Relatives, friends and the surf community gather on The Hague Beach to mourn the loss of five surfers.',88,1010),
 	('AP Photo/Wong Maye-E','A man covers his mouth with a fifty dollar bill at the Speakers Corner in Singapore',89,1011),
 	('AP Photo/Ng Han Guan','Supporters of the ruling People’s Action Party celebrate in Singapore, Sept. 12, 2015.',91,1011),
-	(' ',' ',90,1013),
 	('BBC','Diplomats are defending China handling of the coronavirus outbreak',92,1013),('Gurinder Osan/AP','Chinese army officers stand on China’s side of the border with India at Nathu La Pass, in northeastern Indian state of Sikkim.',94,1014),
 	('Diptendu Dutta/AFP/Getty Images','This 2008 image shows a Chinese soldier and an Indian soldier at the Nathu La border crossing',95,1014),
 	('Anadolu Agency/Getty Images','Imran Khan addresses Pakistan after the shooting down of an Indian fighter jet',96,1015),
@@ -87,12 +79,9 @@
 	('REUTERS/Daniele Mascolo','AC Milan Rafael Leao in action with Inter Milan Nicolo Barella during a Serie A match on Sep 21, 2019.',125,1045),
 	('REUTERS/Daniele Mascolo','Pione Sisto joined Celta Vigo in 2016.',126,1046),
 	('ARIM JAAFAR/AFP via Getty Images','Petra Kvitova was on her way to Indian Wells when the tournament was canceled on March 8.',127,1047),
-	('AFP/GABRIEL BOUYS','Andy Murrays last Grand Slam win was his 2016 Wimbledon victory',128,1048),
+	('AFP/GABRIEL BOUYS','Andy Murrays last Grand Slam win was his 2016 Wimbledon victory',128,1048);
 	
-	(' ',' ',129,16), (' ','',129,1016),(' ',' ',129,1017),(' ','',131,1015),
-	(' ','',131,1018),(' ',' ',131,1019),(' ',' ',131,1020);
 
 
 
-
-
+	

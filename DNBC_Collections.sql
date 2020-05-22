@@ -18,3 +18,4 @@ INSERT INTO DNBC_Collections(Link) values
 	('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534'),('https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000126277');
 	
 	
+	
