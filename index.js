@@ -63,6 +63,82 @@ app.get("/",function (req,res) {
         }
     });
 });
+app.get("/categories/:CategoryID",function (req,res) {
+    //headerfooter
+    var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 9;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 8;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 5;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 9;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 13;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 14;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 1002;";
+    //body
+    var id = req.params.CategoryID;
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = "+id+";";
+    sql_text += "SELECT * FROM postclt WHERE CategoryID = "+id+" ORDER BY PostDateTime DESC;";
+    sql_text += "SELECT TOP 5 * FROM postclt WHERE CategoryID = "+id+" ORDER BY PostDateTime DESC;";
+    db.query(sql_text,function (err,rows) {
+        if(err) res.send(err);
+        else {
+            res.render("categories",{
+                business: rows.recordsets[0],
+                politics: rows.recordsets[1],
+                sport: rows.recordsets[2],
+                tdiw: rows.recordsets[3],
+                business1: rows.recordsets[4],
+                politics1: rows.recordsets[5],
+                sport1: rows.recordsets[6],
+                abu: rows.recordsets[7],
+                ctu: rows.recordsets[8],
+                ad: rows.recordsets[9],
+
+                category: rows.recordsets[10],
+                post: rows.recordsets[11],
+                trending: rows.recordsets[12]
+            })
+        }
+    });
+});
+app.get("/post/:PostID",function (req,res) {
+    //headerfooter
+    var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 9;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 8;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 5;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 9;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 13;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 14;";
+    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 1002;";
+    //body
+    var id = req.params.PostID;
+    sql_text += "SELECT * FROM postclt WHERE PostID = "+id+";";
+    sql_text += "SELECT TOP 5 * FROM DNBC_Posts ORDER BY PostDateTime DESC;";
+    db.query(sql_text,function (err,rows) {
+        if(err) res.send(err);
+        else {
+            res.render("post",{
+                business: rows.recordsets[0],
+                politics: rows.recordsets[1],
+                sport: rows.recordsets[2],
+                tdiw: rows.recordsets[3],
+                business1: rows.recordsets[4],
+                politics1: rows.recordsets[5],
+                sport1: rows.recordsets[6],
+                abu: rows.recordsets[7],
+                ctu: rows.recordsets[8],
+                ad: rows.recordsets[9],
+
+                post: rows.recordsets[10],
+                trending: rows.recordsets[11]
+            })
+        }
+    });
+});
 app.get("/about-us",function (req,res) {
     //headerfooter
     var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
@@ -95,70 +171,7 @@ app.get("/about-us",function (req,res) {
         }
     });
 });
-app.get("/post",function (req,res) {
-    //headerfooter
-    var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 9;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 8;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 5;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 9;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 13;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 14;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 1002;";
-    db.query(sql_text,function (err,rows) {
-        if(err) res.send(err);
-        else {
-            res.render("post",{
-                business: rows.recordsets[0],
-                politics: rows.recordsets[1],
-                sport: rows.recordsets[2],
-                tdiw: rows.recordsets[3],
-                business1: rows.recordsets[4],
-                politics1: rows.recordsets[5],
-                sport1: rows.recordsets[6],
-                abu: rows.recordsets[7],
-                ctu: rows.recordsets[8],
-                ad: rows.recordsets[9],
-
-
-            })
-        }
-    });
-});
-app.get("/advertisement",function (req,res) {
-    //headerfooter
-    var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 9;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 8;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 5;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 9;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 13;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 14;";
-    sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 1002;";
-    db.query(sql_text,function (err,rows) {
-        if(err) res.send(err);
-        else {
-            res.render("advertisement",{
-                business: rows.recordsets[0],
-                politics: rows.recordsets[1],
-                sport: rows.recordsets[2],
-                tdiw: rows.recordsets[3],
-                business1: rows.recordsets[4],
-                politics1: rows.recordsets[5],
-                sport1: rows.recordsets[6],
-                abu: rows.recordsets[7],
-                ctu: rows.recordsets[8],
-                ad: rows.recordsets[9],
-
-            })
-        }
-    });
-});
-app.get("/contactus",function (req,res) {
+app.get("/contact-us",function (req,res) {
     //headerfooter
     var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
     sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
@@ -190,9 +203,9 @@ app.get("/contactus",function (req,res) {
         }
     });
 });
-app.get("/categories",function (req,res) {
+
+app.get("/advertisement",function (req,res) {
     //headerfooter
-    var id = req.params.CategoryID;
     var sql_text = "SELECT * FROM DNBC_Categories WHERE CategoryID = 1;";
     sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 5;";
     sql_text += "SELECT * FROM DNBC_Categories WHERE CategoryID = 9;";
@@ -206,7 +219,7 @@ app.get("/categories",function (req,res) {
     db.query(sql_text,function (err,rows) {
         if(err) res.send(err);
         else {
-            res.render("categories",{
+            res.render("advertisement",{
                 business: rows.recordsets[0],
                 politics: rows.recordsets[1],
                 sport: rows.recordsets[2],
@@ -217,7 +230,6 @@ app.get("/categories",function (req,res) {
                 abu: rows.recordsets[7],
                 ctu: rows.recordsets[8],
                 ad: rows.recordsets[9],
-
 
             })
         }
