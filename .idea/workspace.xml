@@ -82,6 +82,7 @@
       <workItem from="1589702893980" duration="142000" />
       <workItem from="1589778175747" duration="672000" />
       <workItem from="1589811352090" duration="745000" />
+      <workItem from="1590118777048" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589811367643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add more img &amp; fix index.js">
+      <created>1590118809985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590118809985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,13 +133,14 @@
     <MESSAGE value="change structure, keep files the same as before" />
     <MESSAGE value="add .idea/workspace.xml to gitignore" />
     <MESSAGE value="add more imgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more imgs" />
+    <MESSAGE value="add more img &amp; fix index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more img &amp; fix index.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1589811365182">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1590118808596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1589778437273" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1590118808596" />
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589811365182" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589071165968">
       <screen x="0" y="0" width="1536" height="824" />
