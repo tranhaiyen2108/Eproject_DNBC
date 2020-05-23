@@ -1298,55 +1298,69 @@ INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
                 <p>“Because of the impacts of livestock production and the amount of land required to produce feedstock for animals, many people promote the idea of artificial meat,” he said.</p>
                 <p>“I believe we should be aware that these are extremely energy intensive processes, especially if they are developed on (a) large scale.”</p>
 			</div>' where PostID like 1020;
+select * from DNBC_Posts where PostID like 1015
 
+update DNBC_Posts set PostContent ='<p><b>Apps, which allow people to move around after lockdown, have become an integral part of Chinese authorities’ management of citizens</b></p>
+<p>As millions of people in China emerge from weeks of lockdown, their freedom of movement is largely dependent on phone apps.</p>
+                                            <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
+                                            <div class="ArticleMedia">
+                                                <div class="ArticleMedia_container">
+                                                    <figure class="Image">
+                                                        <img src="../imgs/PostID_1033.jpg" width="803" alt="none">
+                                                    </figure>
+                                                    <figcaption>
+                                                        <div class="Image_caption"><h5>A worker in a protective outfit checks health QR codes of a man at the entrance of a shopping mall in Wuhan</h5></div>
+                                                        <div class="Image_caption"><h6>SOURCE: Roman Pilipey/EPA</h6></div>
+                                                    </figcaption>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <p>Wham started out as a social worker with an organization that advocates for the rights of migrant workers.</p>
+                                                <p>While Wham was contesting his charges in 2017, another youth activist, Yinzhou Cai, has been championing for the welfare of migrant workers in a different way.</p>
+                                                <p>Cai grew up in Geylang, a neighborhood known for its red light district.* Growing up, Cai had sex workers and migrant workers for neighbors and befriended them, often through badminton games. Then he realized he could no longer ignore the immense gulf between their disparate social classes.</p>
+                                                <p>“For playing badminton in the back alleys, we were raided by the police,” Cai wrote.</p>
+											</div>
+												<div class="ArticleMedia col-xs-12">
+                                                    <div class="ArticleMedia_container col-xs-12">
+                                                        <iframe width="701" height="315" src="https://www.youtube.com/embed/kRNt8LQRWl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+												<div class="col-xs-12">
+                                                <p>Moon had successfully portrayed the outbreak as an “opportunity for South Korea to restructure its economy – capitalising on industries like AI and biopharma”, she said, adding that voters had been impressed by international recognition of the administration’s coronavirus response.</p>
+                                                <p>Cai wanted to redefine Singaporeans’ relationships with migrant workers. So he started Geylang Adventures, an initiative that offers tours through the back alleys of his neighborhood, to shine a light on a different side of Geylang and thereby restore humanity to the migrant communities living there. He also founded BackAlley Barbers, which provides free haircuts to migrant workers.</p>
+                                                <p>Both Cai and Wham are champions for migrant workers, but their fates could not have been more different. In 2017, while Wham was on trial for his charges, Cai was honored on the national stage with the Singapore Youth Award, for how he has brought “distinction to the nation” through his “resilience, courage, leadership, service and ambition.”</p>
+                                                <p>What separates Cai from Wham? And where exactly is the line between acceptable activism and unlawful social movements? In a country where it is illegal to hold public demonstrations without a police permit – except at the designated Speakers Corner in Hong Lim Park – how can bottom-up movements play a part in shaping public opinion and public policy?</p>
+                                                <p>Think Singapore and one might bring to mind a developed city-state that is efficient but somewhat authoritarian. Globally, it is often known for its strict legislation. For instance, selling gum is illegal, littering can lead to hefty SG$2,000 fines, and vandals may be caned – as in the oft-cited case of American citizen Michael Fay.</p>
+                                                <p>Indeed, Singapore consistently finds itself on the bottom rungs of the Press Freedom Index – last year, it took the 151th spot out of 180 countries – and the authorities are infamous for wielding legal threats against journalists and publications.</p>
+                                                <p>Yet, despite its harsh laws, the country is far from a politically stagnant society. Its people have shown a willingness to organize quickly when they feel the pinch, and have managed to prompt the government to respond in their favor. Singapore has its class of activists who have found ways to advocate within boundaries and avoid sanctions.</p>
+                                                <p>In September, Singaporean resident Zachary Tan started an online petition to ban electric scooters on pedestrian footpaths after a spate of injuries and fatal accidents. Tan, who had amassed 69,000 signatures in one month, shared his petition with the Land Transport Authority</p>
+                                                <p>The next day scores of food delivery riders who use e-scooters to go about their work, showed up at meeting halls across the island objecting to the ban, lamenting the threat to their livelihoods. Their distinctive green uniforms drew widespread media attention.</p>
+                                                <div class="ArticleMedia">
+                                                    <div class="ArticleMedia_container">
+                                                        <figure class="Image">
+                                                            <img src="../imgs/PostID_25_1.jpg" width="803" alt="none">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <div class="Image_caption"><h5>Supporters of the ruling People’s Action Party celebrate in Singapore, Sept. 12, 2015.</h5></div>
+                                                            <div class="Image_caption"><h6>SOURCE: AP Photo/Ng Han Guan</h6></div>
+                                                        </figcaption>
+                                                    </div>
+                                                </div>
+                                                <p>In the latter, one complaint prompted action from the authority, while in the former, thousands of signatories on a petition barely moved the needle. On what basis does the government decide when to act according to public pressure? According to Tan, the government has a general policy of not governing by petitions.</p>
+                                                <p>“Where societal values and norms are involved where people do not change their views overnight, the government tends to act more cautiously,” he said.</p>
+                                                <p>“They recognize that even with big names canvassing for repeal, there is even more resistance to a dramatic change in the status quo. Most religions, especially Christianity and Islam, have relatively clear positions on homosexuality. The thinking is that the majority do not want the law repealed.”</p>
+                                                <p>Indeed, the Ready4Repeal movement had sparked a counterpetition that gathered more than twice the number of signatures on the petition for repeal. </p>
+                                                <p>Tan believes the government commissions secret polls to gauge public sentiment on certain issues when weighing policy decisions.</p>
+                                                <p>“When society remains deeply divided, the government will adopt a wait-and-see approach, preferring a clear majority on the way forward before it does anything,” he said. “It boils down to a basic thing about politics. Political parties seek to win elections; they have to be popular. They have to be able to carry the ground.”</p>
+                                                <p>Singapore’s draconian laws around public assembly may seem excessive. Yet its distinctive model appears to work for the country. The state is peaceful despite its diverse racial makeup. Strong rule of law ensures that the workforce never goes on strike and the country runs like clockwork to prevent any disruption to the economy. This trade-off is broadly accepted by the public in exchange for reliable public services, high levels of public safety, continued stability and prosperity, and significantly
+                                                    <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2019-02/2019_Edelman_Trust_Barometer_Global_Report_2.pdf">greater trust</a> in institutions than in many other countries, according to the 2019 Edelman Trust Barometer Rankings.</p>
+                                                <p>And while Singapore restricts public assembly and the free press, it does have mechanisms that allow public opinion to influence government. For instance, residents can write to the newspapers or directly to ministers and Members of Parliament (MPs), whose email addresses are a matter of public information.</p>
+                                                <p>The government also maintains weekly “Meet-the-People” sessions across all constituencies in Singapore, where MPs meet face-to-face with their constituencies to address any concerns they want to raise.</p>
+							</div>' where PostID like 1033;
 
-update DNBC_Posts set PostContent ='<p>Oil prices have tumbled as the coronavirus pandemic saps worldwide demand for crude, and storage is quickly filling. Monday’s drop was exacerbated by a futures contract that was expiring.</p>
-            <div class="ArticleMedia">
-                <div class="ArticleMedia_container">
-                    <figure class="Image">
-                        <img src="imgs/PostID_1017.jpg" alt="none">
-                    </figure>
-                    <figcaption>
-                        <div class="Image_caption"><h4>British Gas sent in the debt collectors to bully a former customer over a small electricity payment.</h4></div>
-                        <div class="Image_caption "><h6>Source: V. M., Dyfed.</h6></div>
-                    </figcaption>
-                </div>
-            </div>
-            <p>Britain’s energy suppliers are continuing to use debt collectors to chase unpaid bills after promising to help households during the coronavirus pandemic by offering payment plans to struggling customers.</p>
-            <p>On Monday, for the first time on record, West Texas Intermediate (WTI), the U.S. oil benchmark, plunged below zero and into negative territory. Before Monday, many thought this was impossible. Maybe, just maybe, it could drop to zero, effectively erasing all value. But negative territory seemed unimaginable, not least because it’s hard even to wrap one’s mind around it. Pay someone to take your oil?</p>
-            <p>Yet that’s exactly what happened. “It was a take-your-breath-away kind of scary moment,” said Rebecca Babin, managing director at CIBC Private Wealth Management. “It truly was like watching … a full speed train wreck. But you couldn’t stop watching.”</p>
-            <p>The coronavirus pandemic has sapped as much as a third of worldwide demand for oil, according to some estimates. Producers have continued to pump, but with air travel halted and people staying home there’s simply nowhere for this oil to go. Refiners certainly don’t want it. And worldwide storage — both onshore and offshore — is quickly filling up. Analysts warn that we could reach tank tops, or maximum capacity, in a matter of weeks.</p>
-            <p>Everything came to a head on Monday. WTI has a physical settlement, meaning that as the monthly contract reaches expiration, whoever holds the contract is due a physical barrel of oil. Traders, in an effort to profit from the differential, buy and sell contracts without any intention of holding them at expiration, while refiners and airlines are among those on the other side who actually want the oil.</p>
-            <p>The contract that plunged into negative territory was for May delivery. Demand isn’t expected to rebound any time soon. And with nowhere to put the oil, people were left scrambling and ultimately would do anything — in this case, even pay — to have it taken off their hands.</p>
-            <p>There are nuances, of course. For one, the May contract expired on Tuesday, meaning that trading volume was thin as it plunged into negative territory. By that point the contract for June delivery was much more actively traded and thus a better indication of where the Street viewed oil prices.</p>
-            <p>Negative prices themselves are also not completely without precedent. Natural gas, for instance, has traded below zero in the past, and in the physical market certain regional grades of crude were already trading in negative territory prior to Monday. And there were some traders who warned that, as storage filled, prices would continue to decline dramatically.</p>
-            <p>But it was still shocking, nonetheless, to watch the downward descent on Monday of the world’s most actively traded oil contract.</p>
-            <p>“This is an industry that I’ve been a part of for a long time now, and when it gets broken like that, or you get a really bad situation like that, it draws all kinds of unwanted attention and people getting hurt,” said Again Capital founding partner John Kilduff.</p>
-            <h3><b>A slow and then sudden unwind</b></h3>
-            <p>When the futures market opened at 6 p.m. ET on Sunday night, the WTI contract for May delivery traded at $17.73, or about 3% below its Friday settle price of $18.27. Oil was coming off its sixth straight day of losses, and its seventh negative week in eight. The nearly 20% decline for the week was especially notable since, only days before, OPEC and its oil-producing allies had agreed to a historic production cut that would take 9.7 million barrels per day — roughly 10% of global supply — offline. It wasn’t enough to assuage investor fears.</p>
-            <p>It turned out that $17.73 would be just a few cents shy of Monday’s high. By midnight eastern time WTI was trading in the $15 range. Selling continued in overnight trading, and at 8 a.m. prices had slipped to $11. Just after noon, prices dropped into the single digits.</p>
-            <p>“It was like watching a really bad traffic accident unfold right in front of you,” said Kilduff, who’s been in the energy industry for more than 25 years. “You knew there was going to be damage, even if it was thinly traded. … You knew somebody was on the other side of those trades, and you kind of got a little bit of a sick feeling.”</p>
-            <p>After prices entered the single digits, there would be no going back. At 1:51 p.m., WTI broke below $1, and at 2:08 p.m., less than a half hour before the settle, it fell into negative territory. Kilduff called it a “crossing the Rubicon moment.”</p>
-            <p>The selling didn’t stop there. Ultimately, the contract settled at negative $37.63.</p>
-            <p>That prices kept falling deeper into negative territory after crossing zero is what most surprised RBN Energy CEO Rusty Braziel.</p>
-            <p>“That’s what freaked everybody, was the fact that these guys were in such dire circumstances,” he said. “There was not a single soul that I have talked to that came anywhere close to predicting what happened.”</p>
-            <p>Braziel has been in the energy industry for decades, first as a trader and now as a consultant. While trading, he experienced his fair share of volatility — including the 1986 crash that sent oil prices tumbling below $10.</p>
-            <p>The heavy selling on Monday, rather than Tuesday when the contract was set to expire, was also notable, he said.</p>
-            <div class="ArticleMedia">
-                <div class="ArticleMedia_container">
-                   <iframe class="Video col-xs-10" loop preload="none" width=700 height=400 src="https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000132534" frameborder=0 scrolling=no allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
-                </div>
-            </div>
-            <p>By Tuesday’s opening bell the May contract was back in positive territory, and steadily climbed higher to settle at $10.01. But it was the lowest settle on record — apart from Monday’s plunge — since the contract’s inception in 1983. For context, the previous “lowest ever” title was held by the $10.42 settle on March 31, 1986.</p>
-            <p>“The fact that there wasn’t going to be enough storage and that things could get really hairy around expiration was not a surprise,” said Babin. “But to the degree that it happened, and the speed that it happened, it was actually kind of scary.”</p>
-            <h3><b>Trouble brewing</b></h3>
-            <p>Part of Monday’s historic fall was certainly technical, as the financial and physical worlds collided. The volume was thin, and the majority of professional traders and funds that hold these contracts had likely already rolled their positions into later contracts. On Monday the June contract held steady above $20.</p>
-            <p>Despite that, the drop into negative prices cannot be dismissed as merely a glitch. For one, it shows the depths of the imbalance between supply and demand wrought by the coronavirus outbreak. “To put a fine point on the horrible economic situation we’re in right now with this pandemic, it was Monday’s trading,” Kilduff said.</p>
-            <p>It also shines light on the fact that zero doesn’t necessarily provide a floor for prices. Losses can be limitless in futures.</p>
-            <p><a href="https://www.cnbc.com/quotes/?symbol=@LCO.1">Brent crude</a>, the international benchmark, has held up slightly better than WTI, since it prices in the North Sea — which affords it easier access to storage — as opposed to landlocked Cushing, Oklahoma, where WTI prices. “Slightly” is the operative word here, however, since Brent is hovering around a more than 20-year low. And WTI’s Friday settle price of $16.94 is hardly something to celebrate. At the beginning of the year it traded above $60. Less than six years ago it topped $100.</p>
-            <p>With prices this low, at a certain point producers will be forced to turn off the taps. A number of companies including
-                <a href="https://www.cnbc.com/quotes/?symbol=XOM">Exxon</a>, <a href="https://www.cnbc.com/quotes/?symbol=CVX">Chevron</a> and
-                <a href="https://www.cnbc.com/quotes/?symbol=COP">ConocoPhillips</a> have already announced <a href="https://www.cnbc.com/2020/04/07/exxon-cuts-capital-spending-by-30percent-but-ceo-says-its-committed-to-maintaining-dividend.html">production cuts</a>, and additional cuts are expected.</p>' where PostID like 1017;
-						
-						
-		select * from DNBC_Posts;
+		select * from DNBC_Posts where PostID like 1033				
+	select * from postclt where PostID not like 12 and CategoryID in (SELECT CategoryID from postclt where PostID like 12)
+	select PostTitle, PostWriter, PostDateTime from DNBC_Posts and select Link where PostID in (
+	select DISTINCT PostID from postclt where PostID not like 1029 and CategoryID in (SELECT CategoryID from postclt where PostID like 1029))
+	
+	select * from DNBC_Comments
