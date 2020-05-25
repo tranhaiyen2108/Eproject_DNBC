@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/trending.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/article.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/headerfooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/advertisement.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/advertisement.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/categories.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/categories.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/homepage.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +20,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +87,7 @@
       <workItem from="1590228570944" duration="253000" />
       <workItem from="1590280525963" duration="1282000" />
       <workItem from="1590281820017" duration="7604000" />
-      <workItem from="1590364174379" duration="4594000" />
+      <workItem from="1590364174379" duration="14897000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -135,5 +132,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1588945566075" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590401600442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590401600442" />
   </component>
 </project>

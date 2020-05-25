@@ -305,7 +305,7 @@ form .input{
 }
 .left-content-container{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0px;
     grid-template-columns: 100%;
     position: relative;
 }
@@ -451,7 +451,6 @@ form .input{
 }
 img {
     max-width: 100%;
-    color: transparent;
 }
 .lst-comment ul li .name {
     font: bold 14px Roboto;
@@ -497,4 +496,13 @@ img {
 }
 .more:hover{
     text-decoration: none;
+}
+.trendingsl{
+    position: fixed;
+    top:82px;
+    right: 120px;
+    width: 285px;
+}
+.stop-slide{
+    opacity: 0;
 }

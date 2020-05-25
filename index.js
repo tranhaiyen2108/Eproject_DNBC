@@ -22,7 +22,10 @@ mssql.connect(config,function (err) {
     if (err) console.log(err);
 });
 var db = new mssql.Request();
+var bodyParser = require("body-parser");
 
+app.use(bodyParser.json());//lay duoc du lieu dung form json
+app.use(bodyParser.urlencoded({extended:true}));
 // var menu_sql = "SELECT * FROM DNBC_Categories WHERE ParentID = 0;";
 // menu_sql += "SELECT * FROM DNBC_Categories WHERE ParentID = 1 OR ParentID = 5 OR ParentID = 9;";
 // db.query(menu_sql,function (err,rows) {
@@ -85,6 +88,7 @@ app.get("/post/:PostID",function (req,res) {
     sql_text += "SELECT * FROM postclt WHERE PostID = "+id+";";
     sql_text +="select * from postclt where PostID != "+id+" and CategoryID in (SELECT CategoryID from postclt where PostID = "+id+");"
     sql_text += "SELECT TOP 5 * FROM DNBC_Posts ORDER BY PostDateTime DESC;";
+    sql_text += "SELECT * FROM DNBC_Comments WHERE PostID = "+id+";";
     db.query(sql_text,function (err,rows) {
         if(err) res.send(err);
         else {
@@ -95,10 +99,23 @@ app.get("/post/:PostID",function (req,res) {
                 post: rows.recordsets[2],
                 mayLike:rows.recordsets[3],
                 trending: rows.recordsets[4],
+                comment: rows.recordsets[5],
             })
         }
     });
 });
+app.post("/comment",function (req,res) {
+    var id = req.body.PostID;
+    var username = req.body.UserName;
+    var email = req.body.UserEmail;
+    var comment = req.body.CommentContent;
+
+    var sql_text ="INSERT INTO DNBC_Comments(UserName,UserEmail,CommentContent,PostID) VALUES(N'"+username+"','"+email+"','"+comment+"','"+id+"')";
+    db.query(sql_text,function (err,rs) {
+        if (err) res.send(err.message);
+        else return res.redirect("/post/"+id+"");
+    })
+})
 app.get("/about-us",function (req,res) {
     var sql_text = "SELECT * FROM DNBC_Categories WHERE ParentID = 0;";
     sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1 OR ParentID = 5 OR ParentID = 9;";
