@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database design.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database design.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnbcglobalnews" beforeDir="false" afterPath="$PROJECT_DIR$/dnbcglobalnews" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +79,8 @@
       <workItem from="1590025530915" duration="12291000" />
       <workItem from="1590103130887" duration="11328000" />
       <workItem from="1590136270000" duration="5793000" />
+      <workItem from="1590290795547" duration="1556000" />
+      <workItem from="1590321282744" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>
@@ -89,7 +93,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

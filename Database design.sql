@@ -1298,67 +1298,65 @@ INSERT INTO DNBC_PostCollection(Source,Title,CollectionID,PostID) values
                 <p>“Because of the impacts of livestock production and the amount of land required to produce feedstock for animals, many people promote the idea of artificial meat,” he said.</p>
                 <p>“I believe we should be aware that these are extremely energy intensive processes, especially if they are developed on (a) large scale.”</p>
 			</div>' where PostID like 1020;
-select * from DNBC_Posts where PostID like 1015
+select * from DNBC_Posts where PostID like 1023
 
-update DNBC_Posts set PostContent ='<p><b>Apps, which allow people to move around after lockdown, have become an integral part of Chinese authorities’ management of citizens</b></p>
-<p>As millions of people in China emerge from weeks of lockdown, their freedom of movement is largely dependent on phone apps.</p>
-                                            <p>Wham was later charged with organizing a public assembly without a permit and for refusing to sign a statement he made at the police station. Last February, he was fined SG$3,200 (US$2,300) but chose to serve 16 days in jail instead.</p>
-                                            <div class="ArticleMedia">
-                                                <div class="ArticleMedia_container">
-                                                    <figure class="Image">
-                                                        <img src="../imgs/PostID_1033.jpg" width="803" alt="none">
-                                                    </figure>
-                                                    <figcaption>
-                                                        <div class="Image_caption"><h5>A worker in a protective outfit checks health QR codes of a man at the entrance of a shopping mall in Wuhan</h5></div>
-                                                        <div class="Image_caption"><h6>SOURCE: Roman Pilipey/EPA</h6></div>
-                                                    </figcaption>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12">
-                                                <p>Wham started out as a social worker with an organization that advocates for the rights of migrant workers.</p>
-                                                <p>While Wham was contesting his charges in 2017, another youth activist, Yinzhou Cai, has been championing for the welfare of migrant workers in a different way.</p>
-                                                <p>Cai grew up in Geylang, a neighborhood known for its red light district.* Growing up, Cai had sex workers and migrant workers for neighbors and befriended them, often through badminton games. Then he realized he could no longer ignore the immense gulf between their disparate social classes.</p>
-                                                <p>“For playing badminton in the back alleys, we were raided by the police,” Cai wrote.</p>
-											</div>
-												<div class="ArticleMedia col-xs-12">
-                                                    <div class="ArticleMedia_container col-xs-12">
-                                                        <iframe width="701" height="315" src="https://www.youtube.com/embed/kRNt8LQRWl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                    </div>
-                                                </div>
-												<div class="col-xs-12">
-                                                <p>Moon had successfully portrayed the outbreak as an “opportunity for South Korea to restructure its economy – capitalising on industries like AI and biopharma”, she said, adding that voters had been impressed by international recognition of the administration’s coronavirus response.</p>
-                                                <p>Cai wanted to redefine Singaporeans’ relationships with migrant workers. So he started Geylang Adventures, an initiative that offers tours through the back alleys of his neighborhood, to shine a light on a different side of Geylang and thereby restore humanity to the migrant communities living there. He also founded BackAlley Barbers, which provides free haircuts to migrant workers.</p>
-                                                <p>Both Cai and Wham are champions for migrant workers, but their fates could not have been more different. In 2017, while Wham was on trial for his charges, Cai was honored on the national stage with the Singapore Youth Award, for how he has brought “distinction to the nation” through his “resilience, courage, leadership, service and ambition.”</p>
-                                                <p>What separates Cai from Wham? And where exactly is the line between acceptable activism and unlawful social movements? In a country where it is illegal to hold public demonstrations without a police permit – except at the designated Speakers Corner in Hong Lim Park – how can bottom-up movements play a part in shaping public opinion and public policy?</p>
-                                                <p>Think Singapore and one might bring to mind a developed city-state that is efficient but somewhat authoritarian. Globally, it is often known for its strict legislation. For instance, selling gum is illegal, littering can lead to hefty SG$2,000 fines, and vandals may be caned – as in the oft-cited case of American citizen Michael Fay.</p>
-                                                <p>Indeed, Singapore consistently finds itself on the bottom rungs of the Press Freedom Index – last year, it took the 151th spot out of 180 countries – and the authorities are infamous for wielding legal threats against journalists and publications.</p>
-                                                <p>Yet, despite its harsh laws, the country is far from a politically stagnant society. Its people have shown a willingness to organize quickly when they feel the pinch, and have managed to prompt the government to respond in their favor. Singapore has its class of activists who have found ways to advocate within boundaries and avoid sanctions.</p>
-                                                <p>In September, Singaporean resident Zachary Tan started an online petition to ban electric scooters on pedestrian footpaths after a spate of injuries and fatal accidents. Tan, who had amassed 69,000 signatures in one month, shared his petition with the Land Transport Authority</p>
-                                                <p>The next day scores of food delivery riders who use e-scooters to go about their work, showed up at meeting halls across the island objecting to the ban, lamenting the threat to their livelihoods. Their distinctive green uniforms drew widespread media attention.</p>
-                                                <div class="ArticleMedia">
-                                                    <div class="ArticleMedia_container">
-                                                        <figure class="Image">
-                                                            <img src="../imgs/PostID_25_1.jpg" width="803" alt="none">
-                                                        </figure>
-                                                        <figcaption>
-                                                            <div class="Image_caption"><h5>Supporters of the ruling People’s Action Party celebrate in Singapore, Sept. 12, 2015.</h5></div>
-                                                            <div class="Image_caption"><h6>SOURCE: AP Photo/Ng Han Guan</h6></div>
-                                                        </figcaption>
-                                                    </div>
-                                                </div>
-                                                <p>In the latter, one complaint prompted action from the authority, while in the former, thousands of signatories on a petition barely moved the needle. On what basis does the government decide when to act according to public pressure? According to Tan, the government has a general policy of not governing by petitions.</p>
-                                                <p>“Where societal values and norms are involved where people do not change their views overnight, the government tends to act more cautiously,” he said.</p>
-                                                <p>“They recognize that even with big names canvassing for repeal, there is even more resistance to a dramatic change in the status quo. Most religions, especially Christianity and Islam, have relatively clear positions on homosexuality. The thinking is that the majority do not want the law repealed.”</p>
-                                                <p>Indeed, the Ready4Repeal movement had sparked a counterpetition that gathered more than twice the number of signatures on the petition for repeal. </p>
-                                                <p>Tan believes the government commissions secret polls to gauge public sentiment on certain issues when weighing policy decisions.</p>
-                                                <p>“When society remains deeply divided, the government will adopt a wait-and-see approach, preferring a clear majority on the way forward before it does anything,” he said. “It boils down to a basic thing about politics. Political parties seek to win elections; they have to be popular. They have to be able to carry the ground.”</p>
-                                                <p>Singapore’s draconian laws around public assembly may seem excessive. Yet its distinctive model appears to work for the country. The state is peaceful despite its diverse racial makeup. Strong rule of law ensures that the workforce never goes on strike and the country runs like clockwork to prevent any disruption to the economy. This trade-off is broadly accepted by the public in exchange for reliable public services, high levels of public safety, continued stability and prosperity, and significantly
-                                                    <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2019-02/2019_Edelman_Trust_Barometer_Global_Report_2.pdf">greater trust</a> in institutions than in many other countries, according to the 2019 Edelman Trust Barometer Rankings.</p>
-                                                <p>And while Singapore restricts public assembly and the free press, it does have mechanisms that allow public opinion to influence government. For instance, residents can write to the newspapers or directly to ministers and Members of Parliament (MPs), whose email addresses are a matter of public information.</p>
-                                                <p>The government also maintains weekly “Meet-the-People” sessions across all constituencies in Singapore, where MPs meet face-to-face with their constituencies to address any concerns they want to raise.</p>
-							</div>' where PostID like 1033;
+update DNBC_Posts set PostContent ='<p>Boris Johnson was hit by a growing revolt over his strategy for easing the Covid-19 lockdown last night as council leaders across the north of England joined unions in vowing to resist plans to reopen schools on 1 June.</p>
+                <p>Signs of disunity spread as a new opinion poll for the Observer showed approval ratings for the government over its handling of the crisis had plummeted since the prime minister dropped the “stay at home” message and eased restrictions a week ago.</p>
+                <div class="ArticleMedia">
+                    <div class="ArticleMedia_container">
+                        <figure class="Image">
+                            <img src="../imgs/PostID_1022.jpg" alt="none">
+                        </figure>
+                        <figcaption>
+                            <div class="Image_caption"><h5>Chancellor Rishi Sunak has said a levelling-up agenda must take priority over balancing the books</h5></div>
+                            <div class="Image_caption "><h6>Source: Frank Augstein/AP</h6></div>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                <p>That tension might have explained the stop-start nature of the club’s management. On the one hand, they would throw out £85 million for Harry Maguire, £45 million for Aaron Wan-Bissaka and £15 million on Daniel James in the summer, and suddenly rush to secure Bruno Fernandes in the winter transfer window when it looked like their position in the top half of the league was under threat.</p>
+                <p>But on the other, they would leave Jose Mourinho baffled as his reward for second place was Diogo Dalot, Lee Grant and Fred.</p>
+                <p>A lack of long term strategy might also have been betrayed out by the upkeep of Old Trafford. A string of journalists complained about the poor wifi provision to those in attendance on matchday. There were leaks in some parts of the roof, and the ground has an altogether more ‘classic’ look to it compared to the modern stadia used by Marseille, Tottenham Hotspur and West Ham. The size of the stadium means it remains one of the biggest in the world, but it is unable to properly accommodate supporters with disabilities, as an example of its problems. It does not need to be overhauled, but its appearance does not match the club reputation.</p>
+                <p>Old Trafford, like United, was ready for new owners. There was a palpable lack of ambition and of direction since Ed Woodward abandoned his own Galactico strategy. Instead, the club moved from one mistake to the next, each trying to correct the past.</p>
+                </div>
+                <div class="ArticleMedia col-xs-12">
+                    <div class="ArticleMedia_container col-xs-12">
+                        <iframe src="https://www.eurosport.co.uk/football/football-transfer-news-juventus-prepared-to-offer-several-players-for-arthur-euro-papers_vid1311516/embed-video.shtml" width="701.79" height="394" allowfullscreen frameborder=0></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <p>Saudi Arabian state owners would of course have been a miserable experience due to their wretched human rights abuses, but they presumably would have been more ambitious regarding on-the-pitch achievements.</p>
+                    <p>That no longer looks like a concern for either the fans, or a get-out plan for reluctant owners. Newcastle United appear to be selling to Saudi Arabia and Amanda Staveley, and unless the Glazers are willing to sell at a distressed price - which they don’t need to - there are few suitors liquid or brave enough to swoop in to buy the club now. However, coronavirus has given the family a rare chance to take advantage of their competition, should they wish to take the lead.</p>
+                    <div class="ArticleMedia">
+                        <div class="ArticleMedia_container">
+                            <figure class="Image">
+                                <img src="../imgs/PostID_1023.png" alt="none">
+                            </figure>
+                            <figcaption>
+                                <div class="Image_caption"><h5>Guardian graphic.</h5></div>
+                                <div class="Image_caption "><h6>Source: Opinium interviewed 2,007 UK adults from 13 to 14 May 2020</h6></div>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <p>United have around $200 million in a revolver facility - a business overdraft, essentially - that holds just a 2% interest rate. Their next debt maturity is in 2027, at which point if United cannot roll that over or repay it, it will mean the rest of the world has dropped into a cocked hat of ruin, so is largely not a concern for now. What it means is that other clubs will struggle for credit, while United already have it.</p>
+                    <p>Given Manchester City’s troubles with UEFA and an upcoming European ban, it means that United look increasingly likely to salvage a Champions League spot next season. That broadcast money is handy, but perhaps more importantly it means that United’s sponsorship deals avoid an obligatory cut for their lack of European involvement. The club have always been relatively financially strong, but it now looks as if their competition are going to be hit far harder, beyond just local rivals City.</p>
+                    <p>Liverpool are well run, of course, but John Henry runs a tight ship, as proven by their initial uptake of the government furlough scheme. Stan Kroenke’s pursuit of pay cuts at Arsenal suggests they too will hunker down as best they can. Chelsea are organised and disciplined now, without the largesse of Roman Abramovich to help them dominate. Across the continent, Barcelona are in potentially dire straits. This means that the Glazers can strike out to their advantage.</p>
+                    <div class="ArticleMedia">
+                        <div class="ArticleMedia_container">
+                            <figure class="Image">
+                                <img src="../imgs/PostID_18_1.jpg" alt="none">
+                            </figure>
+                            <figcaption>
+                                <div class="Image_caption"><h5>Jadon Sancho with Borussia Dortmund</h5></div>
+                                <div class="Image_caption "><h6>Source: Getty Images</h6></div>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <p>While others might withdraw from signing Jadon Sancho, Jack Grealish or James Maddison, perhaps only Real Madrid have the confidence in their transfer strategy for the next one or two transfer windows. United will need more than just another attacking midfielder, but tying Paul Pogba down to a new contract, with Juventus unlikely to splash out during Italy’s desperate time, he could even be re-energised by a successful team around him.</p>
+                    <p>It is not simple, and there are other transfers needed and problems to negotiate, but the Glazers are now stuck with United whether they like it or not. Thanks to the horrors of coronavirus, they now have a chance to turn the situation to their advantage.</p>
+                </div>' where PostID like 1023;
 
-		select * from DNBC_Posts where PostID like 1033				
+		select * from DNBC_Posts where PostID like 18				
 	select * from postclt where PostID not like 12 and CategoryID in (SELECT CategoryID from postclt where PostID like 12)
 	select PostTitle, PostWriter, PostDateTime from DNBC_Posts and select Link where PostID in (
 	select DISTINCT PostID from postclt where PostID not like 1029 and CategoryID in (SELECT CategoryID from postclt where PostID like 1029))
