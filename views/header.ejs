@@ -30,49 +30,49 @@
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
-                                    <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-link">
+                                    <a href="/categories/<%- menu[2].CategoryID %>" class="menu-link">
                                         <span class="menu-icon menu-icon1" id="menu-icon1"><i class="fas fa-globe"></i></span>
 
-                                        <span class="menu-text" id="menu-text1"><%-tdiw[0].CategoryName %></span>
+                                        <span class="menu-text" id="menu-text1"><%-menu[2].CategoryName %></span>
 
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-business-time"></i></span>
-                                        <span class="menu-text"><%-business[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[0].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal2" onclick="openSubmenu2()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open2" onclick="closeSubmenu2()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu2">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-business1[0].CategoryID%>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[0].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[0].CategoryName %>
+                                                     <%-submenu[0].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-business1[1].CategoryID%>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[1].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[1].CategoryName %>
+                                                    <%-submenu[1].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%- business1[2].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[2].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[2].CategoryName %>
+                                                     <%-submenu[2].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -82,29 +82,29 @@
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-handshake"></i></span>
-                                        <span class="menu-text"><%-politics[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[1].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal3" onclick="openSubmenu3()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open3" onclick="closeSubmenu3()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu3">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-politics1[0].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[3].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-politics1[0].CategoryName %>
+                                                      <%-submenu[3].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-politics1[1].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[4].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-politics1[1].CategoryName %>
+                                                   <%-submenu[4].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -114,29 +114,29 @@
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-futbol"></i></span>
-                                        <span class="menu-text"> <%-sport[0].CategoryName %></span>
+                                        <span class="menu-text"> <%-menu[3].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal4" onclick="openSubmenu4()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open4" onclick="closeSubmenu4()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu4">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-sport1[0].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[5].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-sport1[0].CategoryName %>
+                                                     <%-submenu[5].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-sport1[1].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[6].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-sport1[1].CategoryName %>
+                                                     <%-submenu[6].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -146,19 +146,19 @@
                                 <li class="menu-item1 menu-item-submenu">
                                         <a href="/about-us" class="menu-link">
                                             <span class="menu-icon menu-icon1"><i class="fas fa-address-card"></i></span>
-                                            <span class="menu-text"><%-abu[0].CategoryName %></span>
+                                            <span class="menu-text"><%-menu[4].CategoryName %></span>
                                         </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                         <a href="/contact-us" class="menu-link">
                                             <span class="menu-icon menu-icon1"><i class="fas fa-id-card-alt"></i></span>
-                                            <span class="menu-text"><%-ctu[0].CategoryName %></span>
+                                            <span class="menu-text"><%-menu[5].CategoryName %></span>
                                         </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                         <a href="/advertisement" class="menu-link">
                                             <span class="menu-icon menu-icon1"><i class="fas fa-ad"></i></span>
-                                            <span class="menu-text"><%-ad[0].CategoryName %></span>
+                                            <span class="menu-text"><%-menu[6].CategoryName %></span>
                                         </a>
                                 </li>
                             </ul>
@@ -183,29 +183,29 @@
                         </div>
                         <ul class="menu_1 col-lg-9">
                             <li class="dropdown parent-menu">
-                                <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-item"><%-tdiw[0].CategoryName %></a>
+                                <a href="/categories/<%- menu[2].CategoryID %>" class="menu-item"><%-menu[2].CategoryName %></a>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-business[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[0].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-business1[0].CategoryID%>"><%-business1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-business1[1].CategoryID%>"><%-business1[1].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-business1[2].CategoryID%>"><%-business1[2].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[0].CategoryID %>"><%-submenu[0].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[1].CategoryID %>"><%-submenu[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[2].CategoryID %>"><%-submenu[2].CategoryName %></a></li>
                                 </ul>
 
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-politics[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[1].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-politics1[0].CategoryID %>"><%-politics1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-politics1[1].CategoryID %>"><%-politics1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[3].CategoryID %>"><%-submenu[3].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[4].CategoryID %>"><%-submenu[4].CategoryName %></a></li>
                                 </ul>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-sport[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[3].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-sport1[0].CategoryID %>"><%-sport1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-sport1[1].CategoryID %>"><%-sport1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[5].CategoryID %>"><%-submenu[5].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[6].CategoryID %>"><%-submenu[6].CategoryName %></a></li>
                                 </ul>
                             </li>
                         </ul>
