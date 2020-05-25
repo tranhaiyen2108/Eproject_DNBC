@@ -57,49 +57,49 @@
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
-                                    <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-link">
+                                    <a href="/categories/<%- menu[2].CategoryID %>" class="menu-link">
                                         <span class="menu-icon menu-icon1" id="menu-icon1"><i class="fas fa-globe"></i></span>
 
-                                        <span class="menu-text" id="menu-text1"><%-tdiw[0].CategoryName %></span>
+                                        <span class="menu-text" id="menu-text1"><%-menu[2].CategoryName %></span>
 
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-business-time"></i></span>
-                                        <span class="menu-text"><%-business[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[0].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal2" onclick="openSubmenu2()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open2" onclick="closeSubmenu2()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu2">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-business1[0].CategoryID%>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[0].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[0].CategoryName %>
+                                                     <%-submenu[0].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-business1[1].CategoryID%>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[1].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[1].CategoryName %>
+                                                    <%-submenu[1].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%- business1[2].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[2].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                       <%-business1[2].CategoryName %>
+                                                     <%-submenu[2].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -109,29 +109,29 @@
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-handshake"></i></span>
-                                        <span class="menu-text"><%-politics[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[1].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal3" onclick="openSubmenu3()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open3" onclick="closeSubmenu3()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu3">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-politics1[0].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[3].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-politics1[0].CategoryName %>
+                                                      <%-submenu[3].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-politics1[1].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[4].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-politics1[1].CategoryName %>
+                                                   <%-submenu[4].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -141,29 +141,29 @@
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="javascript:;" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-futbol"></i></span>
-                                        <span class="menu-text"> <%-sport[0].CategoryName %></span>
+                                        <span class="menu-text"> <%-menu[3].CategoryName %></span>
                                         <i class="fas fa-chevron-right menu-arrow menu-arrow-normal" id="menu-arrow-normal4" onclick="openSubmenu4()"></i>
                                         <i class="fas fa-chevron-down menu-arrow menu-arrow-open" id="menu-arrow-open4" onclick="closeSubmenu4()"></i>
                                     </a>
                                     <div class="menu-submenu" id="menu-submenu4">
                                         <ul class="menu-subnav">
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-sport1[0].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[5].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-sport1[0].CategoryName %>
+                                                     <%-submenu[5].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="menu-item1 menu-item-submenu">
-                                                <a href="/categories/<%-sport1[1].CategoryID %>" class="menu-link menu-toggle">
+                                                <a href="/categories/<%- submenu[6].CategoryID %>" class="menu-link menu-toggle">
                                                     <span class="menu-bullet">
                                                         -
                                                     </span>
                                                     <span class="menu-text">
-                                                        <%-sport1[1].CategoryName %>
+                                                     <%-submenu[6].CategoryName %>
                                                     </span>
                                                 </a>
                                             </li>
@@ -173,19 +173,19 @@
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="/about-us" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-address-card"></i></span>
-                                        <span class="menu-text"><%-abu[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[4].CategoryName %></span>
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="/contact-us" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-id-card-alt"></i></span>
-                                        <span class="menu-text"><%-ctu[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[5].CategoryName %></span>
                                     </a>
                                 </li>
                                 <li class="menu-item1 menu-item-submenu">
                                     <a href="/advertisement" class="menu-link">
                                         <span class="menu-icon menu-icon1"><i class="fas fa-ad"></i></span>
-                                        <span class="menu-text"><%-ad[0].CategoryName %></span>
+                                        <span class="menu-text"><%-menu[6].CategoryName %></span>
                                     </a>
                                 </li>
                             </ul>
@@ -210,29 +210,29 @@
                         </div>
                         <ul class="menu_1 col-lg-9">
                             <li class="dropdown parent-menu">
-                                <a href="/categories/<%- tdiw[0].CategoryID %>" class="menu-item"><%-tdiw[0].CategoryName %></a>
+                                <a href="/categories/<%- menu[2].CategoryID %>" class="menu-item"><%-menu[2].CategoryName %></a>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-business[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[0].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-business1[0].CategoryID%>"><%-business1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-business1[1].CategoryID%>"><%-business1[1].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-business1[2].CategoryID%>"><%-business1[2].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[0].CategoryID %>"><%-submenu[0].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[1].CategoryID %>"><%-submenu[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[2].CategoryID %>"><%-submenu[2].CategoryName %></a></li>
                                 </ul>
 
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-politics[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[1].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-politics1[0].CategoryID %>"><%-politics1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-politics1[1].CategoryID %>"><%-politics1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[3].CategoryID %>"><%-submenu[3].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[4].CategoryID %>"><%-submenu[4].CategoryName %></a></li>
                                 </ul>
                             </li>
                             <li class="dropdown parent-menu">
-                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-sport[0].CategoryName %></a>
+                                <a href="javascript:;"  data-toggle="dropdown" class="menu-item"><%-menu[3].CategoryName %></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                                    <li><a href="/categories/<%-sport1[0].CategoryID %>"><%-sport1[0].CategoryName %></a></li>
-                                    <li><a href="/categories/<%-sport1[1].CategoryID %>"><%-sport1[1].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[5].CategoryID %>"><%-submenu[5].CategoryName %></a></li>
+                                    <li><a href="/categories/<%- submenu[6].CategoryID %>"><%-submenu[6].CategoryName %></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -412,13 +412,15 @@
                                                     You also may like
                                                 </span>
                                                 <div class="col-xs-6">
-                                                    <a href="#"><h4>More</h4></a>
+                                                    <a href="/categories/<%-post[0].CategoryID%>" class="more"><h4>More</h4></a>
                                                 </div>
                                             </div>
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3 padding">
                                                 <div class="padding">
                                                     <a href="/post/<%-mayLike[0].PostID %>">
-                                                        <img src="../<%- mayLike[0].Link %>">
+                                                        <div class="post-img">
+                                                            <img src="../<%- mayLike[0].Link %>">
+                                                        </div>
                                                         <p class="third-new"><%- mayLike[0].PostTitle%></p>
                                                     </a>
                                                     <h4><%- mayLike[0].PostWriter%> <i class="far fa-clock"></i> <%- mayLike[0].PostDateTime%></h4>
@@ -427,7 +429,9 @@
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                                 <div class="padding">
                                                     <a href="/post/<%-mayLike[2].PostID %>">
-                                                        <img src="../<%- mayLike[2].Link %>">
+                                                        <div class="post-img">
+                                                            <img src="../<%- mayLike[2].Link %>">
+                                                        </div>
                                                         <p class="third-new"><%- mayLike[2].PostTitle%></p>
                                                     </a>
                                                     <h4><%- mayLike[2].PostWriter%> <i class="far fa-clock"></i> <%- mayLike[2].PostDateTime%></h4>
@@ -436,7 +440,9 @@
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                                 <div class="padding">
                                                     <a href="/post/<%-mayLike[4].PostID %>">
-                                                        <img src="../<%- mayLike[4].Link %>">
+                                                        <div class="post-img">
+                                                            <img src="../<%- mayLike[4].Link %>">
+                                                        </div>
                                                         <p class="third-new"><%- mayLike[4].PostTitle%></p>
                                                     </a>
                                                     <h4><%- mayLike[4].PostWriter%> <i class="far fa-clock"></i> <%- mayLike[4].PostDateTime%></h4>
@@ -445,7 +451,9 @@
                                             <div class="hot-new col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                                 <div class="padding">
                                                     <a href="/post/<%-mayLike[1].PostID %>">
-                                                        <img src="../<%- mayLike[1].Link %>">
+                                                        <div class="post-img">
+                                                            <img src="../<%- mayLike[1].Link %>">
+                                                        </div>
                                                         <p class="third-new"><%- mayLike[1].PostTitle%></p>
                                                     </a>
                                                     <h4><%- mayLike[1].PostWriter%> <i class="far fa-clock"></i> <%- mayLike[1].PostDateTime%></h4>
@@ -456,45 +464,45 @@
                                 </div>
                             </div>
                         <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
-                        <footer>
-                            <div class="container">
-                                <div class="footer-left col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                    <div class="logo-footer">
-                                        <a href="/"><img src="../imgs/dnbc.png" width="180" height="60"></a>
+                            <footer>
+                                <div class="container">
+                                    <div class="footer-left col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                        <div class="logo-footer">
+                                            <a href="/"><img src="../imgs/dnbc.png" width="180" height="60"></a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <ul class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                            <li><a href="/about-us"><%-menu[4].CategoryName %></a></li>
+                                            <li><a href="/contact-us"><%-menu[5].CategoryName %></a></li>
+                                            <li><a href="/advertisement"><%-menu[6].CategoryName %></a></li>
+                                        </ul>
+                                        <p class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">Copyright © 2020 DNBC International.</p>
+                                    </div>
+                                    <div class="footer-right1 col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                        <a href="#" class="download">
+                                            <img src="https://www-growth.scdn.co/static/badges/apple/int.png">
+                                        </a>
+                                        <a href="#" class="download">
+                                            <img src="https://www-growth.scdn.co/static/badges/google/int.png">
+                                        </a>
+                                        <a href="#" class="download">
+                                            <img src="https://www-growth.scdn.co/static/badges/microsoft-windows/int.png">
+                                        </a>
+                                    </div>
+                                    <div class="footer-right2 col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                                        <a href="#" class="social-network ftat">
+                                            <i class="fab fa-facebook fa-1x"></i>
+                                        </a>
+                                        <a href="#" class="social-network ftat">
+                                            <i class="fab fa-twitter-square fa-1x"></i>
+                                        </a>
+                                        <a href="#" class="social-network">
+                                            <i class="fab fa-instagram fa-1x"></i>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="footer-right left col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <ul class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <li><a href="/about-us"><%-abu[0].CategoryName %></a></li>
-                                        <li><a href="/contact-us"><%-ctu[0].CategoryName %></a></li>
-                                        <li><a href="/advertisement"><%-ad[0].CategoryName %></a></li>
-                                    </ul>
-                                    <p class="left col-xs-12 col-sm-12 col-md-12 col-lg-12">Copyright © 2020 DNBC International.</p>
-                                </div>
-                                <div class="footer-right1 col-xs-12 col-sm-12 col-md-5 col-lg-5">
-                                    <a href="#" class="download">
-                                        <img src="https://www-growth.scdn.co/static/badges/apple/int.png">
-                                    </a>
-                                    <a href="#" class="download">
-                                        <img src="https://www-growth.scdn.co/static/badges/google/int.png">
-                                    </a>
-                                    <a href="#" class="download">
-                                        <img src="https://www-growth.scdn.co/static/badges/microsoft-windows/int.png">
-                                    </a>
-                                </div>
-                                <div class="footer-right2 col-xs-12 col-sm-12 col-md-1 col-lg-1">
-                                    <a href="#" class="social-network ftat">
-                                        <i class="fab fa-facebook fa-1x"></i>
-                                    </a>
-                                    <a href="#" class="social-network ftat">
-                                        <i class="fab fa-twitter-square fa-1x"></i>
-                                    </a>
-                                    <a href="#" class="social-network">
-                                        <i class="fab fa-instagram fa-1x"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </footer>
+                            </footer>
                     </div>
                 </div>
         <div id="close-nav" class="close-nav" onclick="closeNav()"></div>

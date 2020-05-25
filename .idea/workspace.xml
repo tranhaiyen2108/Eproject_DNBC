@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="82f6cc0e-74ba-4cdc-8569-cc370c65fce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/article.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/headerfooter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/advertisement.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/advertisement.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categories.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/categories.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/homepage.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +87,10 @@
       <workItem from="1590025530915" duration="12291000" />
       <workItem from="1590103130887" duration="11328000" />
       <workItem from="1590136270000" duration="5793000" />
+      <workItem from="1590228570944" duration="253000" />
+      <workItem from="1590280525963" duration="1282000" />
+      <workItem from="1590281820017" duration="7604000" />
+      <workItem from="1590364174379" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="change structure, keep files the same as before">
       <created>1588945549104</created>

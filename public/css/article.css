@@ -495,3 +495,6 @@ img {
 .padding{
     padding: 0 10px 0 10px;
 }
+.more:hover{
+    text-decoration: none;
+}

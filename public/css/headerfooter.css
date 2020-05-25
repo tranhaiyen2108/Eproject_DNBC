@@ -145,6 +145,9 @@
 .parent-menu ul li a{
     text-align: center;
 }
+.parent-menu ul li{
+    width: 100%!important;
+}
 .menu_1 ul li a{
     width: 100%;
     line-height: 40px;
