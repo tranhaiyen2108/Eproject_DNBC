@@ -381,7 +381,7 @@ p{
     width: 400px;
 }
 .sec3 .sec-tt .gr-btn button a{
-    color: red;
+    color: whitesmoke;
 }
 .sec3 .tt-03 span{
     display: block;
@@ -450,7 +450,7 @@ p{
     width: 100%;
 }
 .slide-sec3 .slide-element .name h5{
-    color: blue;
+    color: whitesmoke;
     margin: -10px auto;
     font-weight: 700;
     font-size: 1.125em;
