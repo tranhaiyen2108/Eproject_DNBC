@@ -167,3 +167,14 @@ app.get("/advertisement",function (req,res) {
         }
     });
 });
+app.post("/adinf",function (req,res) {
+    var name = req.body.Name;
+    var email = req.body.Email;
+    var phone = req.body.Phone;
+    var sql_text ="INSERT INTO DNBC_AdInformation(Name,Email,Phone) VALUES(N'"+name+"','"+email+"','"+phone+"')";
+    db.query(sql_text,function (err,rs) {
+        if (err) res.send(err.message);
+        else return res.redirect("/advertisement");
+    })
+
+})
