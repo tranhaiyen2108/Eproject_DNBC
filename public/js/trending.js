@@ -1,7 +1,8 @@
 $(document).ready(function() {
     $(window).scroll(function(event) {
         var pos_body = $('html,body').scrollTop();
-        if(pos_body>5000){
+        var pos_content = $('html,.ArticlePage_container').height();
+        if(pos_body>pos_content-1000){
             $('.trendingsl').addClass('stop-slide');
         }
         else {
