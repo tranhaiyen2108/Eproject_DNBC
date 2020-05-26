@@ -502,6 +502,7 @@ img {
     top:82px;
     right: 120px;
     width: 285px;
+    z-index: 1;
 }
 .stop-slide{
     opacity: 0;
