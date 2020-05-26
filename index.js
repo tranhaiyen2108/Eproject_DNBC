@@ -142,7 +142,18 @@ app.get("/contact-us",function (req,res) {
         }
     });
 });
+app.post("/contact",function (req,res) {
+    var name = req.body.Name;
+    var email = req.body.Email;
+    var phone = req.body.Phone;
+    var question = req.body.Question;
+    var sql_text ="INSERT INTO DNBC_Contact(Name,Email,Phone,Question) VALUES(N'"+name+"','"+email+"','"+phone+"',N'"+question+"')";
+    db.query(sql_text,function (err,rs) {
+        if (err) res.send(err.message);
+        else return res.redirect("/contact-us");
+    })
 
+})
 app.get("/advertisement",function (req,res) {
     var sql_text = "SELECT * FROM DNBC_Categories WHERE ParentID = 0;";
     sql_text += "SELECT * FROM DNBC_Categories WHERE ParentID = 1 OR ParentID = 5 OR ParentID = 9;";
